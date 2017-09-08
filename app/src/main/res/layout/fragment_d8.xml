@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_d8"
+        android:text="လြန္ခဲ့သည့္ ႏွစ္အတြင္းတြင္ သင္၏ အိမ္ေထာင္ဖက္မွာ မိမိကိုယ္တိုင္ သို႔မဟုတ္ မိသားစုကို ေထာက္ပံ့ရန္အတြက္ အလုပ္လုပ္ခဲ့ပါ သလား။ "/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_d8"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_d8">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d8_1"
+            android:text="လုပ္ခဲ့ပါသည္။ → D10 ကို သြားပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d8_2"
+            android:text="ေျဖဆိုသူ၏ သား၊သမီးပိုင္" />
+    </RadioGroup>
+</RelativeLayout>
+    </ScrollView>

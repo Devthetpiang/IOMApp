@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_b3"
+        android:text="အိမ္သားေတြႏွင့္ စကားေျပာေသာအခါ မည္သည့္ ဘာသာစကားကို အသံုးျပဳပါလဲ။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_b3"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_b3">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b3_1"
+            android:text="ဗမာ" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b3_2"
+            android:text="မြန္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b3_3"
+            android:text="ကရင္ (စေကာ)" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b3_4"
+            android:text="ကရင္ (ပိုး)" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b3_5"
+            android:text="ပအို႔" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b3_6"
+            android:text="အျခား" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_b3_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_b3"
+        android:layout_toRightOf="@+id/rg_b3"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

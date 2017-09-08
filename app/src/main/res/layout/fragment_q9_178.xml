@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_q9"
+        android:text="Q9.  ေက်းရြာ/ ရပ္ကြက္ထဲတြင္ လွ်ပ္စစ္မီးရႏိုင္ပါသလား။ (ဘကၳရီအိုး သို႔မဟုတ္ ဆိုလာပါဝါျဖစ္ပါက ထည့္သြင္းမစဥ္းစားပါႏွင့္။)"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_q9"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_q9">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q9_1"
+            android:text="ရႏိုင္ပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q9_2"
+            android:text="မရႏိုင္ပါ။  Q11 သို႔သြားပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

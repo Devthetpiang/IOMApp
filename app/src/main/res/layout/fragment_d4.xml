@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_d4"
+        android:text="သင္မႏွစ္က လုပ္ခဲ့သည့္ အဓိက အလုပ္အကိုင္ကို ေျပာျပပါ။
+[code မေရးခင္ အလုပ္အကိုင္ကို အရင္ေရးပါ _______________________]"/>
+
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_d4"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_d4">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_0"
+            android:text="တစ္ခါမွ အလုပ္မလုပ္ဘူးပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_1"
+            android:text="စိုက္ပ်ိဳးေရး (ကိုယ္ပိုင္စိုက္ပ်ိဳးေရး)" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_2"
+            android:text="ငါး/ ပုစြန္ေမြးျမဴျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_3"
+            android:text="စိုက္ပ်ိဳးေရးတြင္ ေန႔စားလုပ္ကုိင္ျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_4"
+            android:text="စိုက္ပ်ိဳးေရးမဟုတ္ေသာ အလုပ္တြင္ ေန႔စားလုပ္ကိုင္ျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_5"
+            android:text="လခစား (အစိုးရ၊ တပ္မေတာ္၊ ပုဂၢလိက)" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_6"
+            android:text="ကိုယ္ပိုင္ ေစ်းေရာင္းျခင္း (ဗန္းရြက္ဗ်က္ထိုး သို႔မဟုတ္ အိမ္ေရွ႕တြင္ ဆိုင္ခင္းျခင္း)" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_7"
+            android:text="အေရာင္းဝန္ထမ္း (ေန႔စား)" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_8"
+            android:text="ဆိုင္ သို႔မဟုတ္ လုပ္ငန္း ပိုင္ရွင္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_9"
+            android:text="ဝင္ေငြမရေသာ မိသားစုအလုပ္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d4_10"
+            android:text="အျခား" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_d4_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_d4"
+        android:layout_toRightOf="@+id/rg_d4"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

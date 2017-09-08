@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:layout_margin="8dp"
+    android:id="@+id/cv_item"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tv_e6"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E6. လက္ရွိေနရပ္"/>
+
+        <com.xavey.proto.control.ProtoSpinner
+            android:id="@+id/sp_e6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/e6"/>
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_e6_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sp_e6"
+            android:layout_below="@+id/sp_e6"
+            android:hint="ေဖာ္ျပပါ" />
+</LinearLayout>
+</android.support.v7.widget.CardView>

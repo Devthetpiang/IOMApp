@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_sc"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sc_c"
+        android:text="C. သင္ႏွင့္ အတူေနေသာ ေျမး(မ်ား)၏ မိခင္သည္ မည္သည့္ေဒသတြင္ ေနပါသလဲ။ (အေျဖတစ္ခုကို ေရြးခ်ယ္ပါ။ အေျဖတစ္ခုထက္ပို၍ ေျဖဆိုရန္ရွိပါက နမူနာအျဖစ္ေရြးခ်ယ္ရမည့္ အေရအတြက္ျပည့္ရန္ လိုအပ္ေနသည့္ စာရင္းထဲမွ ပထမဦးဆံုး အေျဖကိုသာ ေရြးခ်ယ္ပါ။ မေသခ်ာပါက ႀကီးၾကပ္သူကို ေမးပါ။)"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rg_sc_c">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_c_1"
+            android:text="ႏိုင္ငံျခားတြင္ ေနထိုင္သည္။ (category 1) -> D သို႔သြားပါ။"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_c_2"
+            android:text="အျခားၿမိဳ႕နယ္တြင္ ေနထိုင္သည္။ (category 2) -> D သို႔သြားပါ။"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_c_3"
+            android:text="အိမ္တြင္ အတူမေနေသာ္လည္း ၿမိဳ႕နယ္တစ္ခုထဲတြင္ ေနထိုင္သည္။ -> ဆက္လက္လုပ္ေဆာင္၍ မရပါ။ အျခားေျဖဆိုသူမ်ားကို ရွာေဖြပါ။"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_c_4"
+            android:text="အိမ္တြင္ အတူတကြေနထိုင္သည္။ (category 3) -> E သို႔သြားပါ။"/>
+    </RadioGroup>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_b8"
+        android:text="သင့္အိမ္ေထာင္ဖက္၏ အျမင့္ဆံုးပညာအရည္အခ်င္းကို ေဖာ္ျပပါ။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_b8"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_b8">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b8_1"
+            android:text="ေက်ာင္းမေနဘူးပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b8_2"
+            android:text="မူလတန္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b8_3"
+            android:text="မူလတန္းေအာင္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b8_4"
+            android:text="အလယ္တန္း သို႔မဟုတ္ အလယ္တန္းေအာင္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b8_5"
+            android:text="အလယ္တန္းအထက္" />
+
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

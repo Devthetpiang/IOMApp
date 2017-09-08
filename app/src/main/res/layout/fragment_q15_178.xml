@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_q15"
+        android:text="Q15. ေအာက္ပါ ပညာေရးအဆင့္မ်ားအတြက္ သင့္၏ ေက်းရြာ/ရပ္ကြက္တြင္ ေက်ာင္း ဘယ္ႏွေက်ာင္းေလာက္ ရွိပါသလဲ။ [မရွိပါက သုည 0 ေရးပါ။]"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/q_q15"
+        android:rowCount="16"
+        android:columnCount="2"
+        >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text=""/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="ေက်ာင္း"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="Q15a. မူႀကိဳ/ ေန႔ကေလးထိန္းေက်ာင္း"/>
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_q15a"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="Q15b. မူလတန္းေက်ာင္း"/>
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_q15b"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="Q15c. မူလတန္းလြန္ေက်ာင္း"/>
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_q15c"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="Q15d. အလယ္တန္းေက်ာင္း"/>
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_q15d"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="0"
+            android:inputType="number"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Q15e. အထက္တန္းေက်ာင္း"/>
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_q15e"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:text="0"
+            android:inputType="number"/>
+    </GridLayout>
+
+
+</RelativeLayout>
+</ScrollView>

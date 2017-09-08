@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c6"
+        android:text="သင့္အိမ္အတြက္ ေရကို မည္သည္မွ အဓိက ရရွိပါသလဲ။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_c6"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_c6">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c6_1"
+            android:text="ေရပိုက္သြယ္တန္းထားသည္။႕" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c6_2"
+            android:text="အိမ္ဝင္းအတြင္းတြင္ အကာပါေသာ ေရတြင္း သို႔မဟုတ္ စိမ့္စမ္းရွိသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c6_3"
+            android:text="အိမ္ဝင္းအတြင္းတြင္ အကာမပါေသာ ေရတြင္း သို႔မဟုတ္ စိမ့္စမ္းရွိသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c6_4"
+            android:text="အိမ္ဝင္းအျပင္တြင္ ေရတြင္း သို႔မဟုတ္ စိမ့္စမ္းရွိသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c6_5"
+            android:text="မိုးေရ" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c6_6"
+            android:text="ေရကန္၊ ျမစ္၊ ေခ်ာင္း " />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

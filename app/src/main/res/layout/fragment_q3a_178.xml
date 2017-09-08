@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/q_q3a"
+            android:text="Q3a ေက်းရြာ/ ရပ္ကြက္ထဲတြင္ တိုင္းရင္းသား လူမ်ိဳးစု ဘယ္ႏွစု ေနထိုင္ပါသလဲ။"/>
+
+        <com.xavey.proto.control.ProtoEditText
+            android:id="@+id/et_q3a"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/q_q3a"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="number" />
+    </RelativeLayout>
+</ScrollView>

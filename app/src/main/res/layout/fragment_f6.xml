@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_f6"
+        android:text="ၿခံဳငံုသံုးသပ္လွ်င္ အတူေနေျမး(မ်ား)အား ေစာင့္ေရွာက္ေနစဥ္အေတာအတြင္း အဘိုးအဘြားမ်ားအေနျဖင့္ ရရွိေသာ အက်ိဳး ေက်းဇူးမ်ားမွာ ဆိုးက်ိဳးထက္ ေကာင္းက်ိဳးပိုမ်ားသည္ဟု ထင္ပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_f6"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_f6">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f6_1"
+            android:text="ထင္ပါသည္။ ဆိုးက်ိဳးထက္ ေကာင္းက်ိဳးက ပိုမ်ားသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f6_2"
+            android:text="မထင္ပါ။ ေကာင္းက်ိဳးထက္ ဆိုးက်ိဳးပိုမ်ားသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f6_3"
+            android:text="ေကာင္းက်ိဳးရွိသေလာက္ ဆိုးက်ိဳးလဲရွိသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f6_4"
+            android:text="မေသခ်ာပါ၊ မေျပာတတ္ပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f6_5"
+            android:text="တစ္နာရီထက္ နည္းသည္။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

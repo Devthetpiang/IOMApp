@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_sc"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sc_d"
+        android:text="D. အတူေနေသာေျမး(မ်ား)၏ မိခင္မွာ ႏိုင္ငံျခား/ အျခားၿမိဳ႕နယ္တြင္ ေနထိုင္သည္မွာ အနည္းဆံုး သံုးလၾကာပါၿပီလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rg_sc_d">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_d_1"
+            android:text="ၾကာပါၿပီ-> ေျဖဆိုသူအား ေမးခြန္းလႊာကို ဆက္လက္ေမးျမန္းပါ။"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_d_2"
+            android:text="မၾကာေသးပါ။ ->ဆက္လက္လုပ္ေဆာင္၍ မရပါ။ အျခားေျဖဆိုသူမ်ားကို ရွာေဖြပါ။"/>
+    </RadioGroup>
+
+</LinearLayout>
+</ScrollView>

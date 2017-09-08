@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_q19"
+        android:text="Q19. သင္၏ တစ္သီးပုဂၢလ ေလ့လာမႈအျမင္အားျဖင့္ လူငယ္မ်ား ထိုင္းႏိုင္ငံသုိ႔ ေရႊ႕ေျပာင္းသြားလာျခင္းသည္ ၂၀၁၀ ႏွင့္ ႏိႈင္းယွဥ္ၾကည့္လွ်င္ တိုးပြားလာပါသလား၊ ေလ်ာ့က်သြားပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_q19"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_q19">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q19_1"
+            android:text="တိုးပြားလာပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q19_2"
+            android:text="ေလ်ာ့က်သြားပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q19_3"
+            android:text="မေျပာင္းလဲပါ။" />
+    </RadioGroup>
+    </RelativeLayout>
+</ScrollView>

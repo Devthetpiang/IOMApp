@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_b11"
+        android:text="သင္သို႔မဟုတ္ သင့္အိမ္ေထာင္ဖက္သည္ အစိုးရဌာန သို႔မဟုတ္ အစိုးရမဟုတ္ေသာ အဖြဲ႕အစည္း တစ္ခုခုမွ ေငြေၾကး ေထာက္ပံ့မႈ ရရွိပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_b11"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_b11">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b11_1"
+            android:text="ရရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b11_2"
+            android:text="မရရွိပါ။" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_b11_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rg_b11"
+        android:layout_toRightOf="@+id/rg_b11"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

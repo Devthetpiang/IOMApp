@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c10"
+        android:text="သင္၏ အိမ္တြင္ လိုင္းဖုန္းရွိပါသလား သို႔မဟုတ္ အိမ္သားတစ္ဦးဦးထံတြင္ မိုဘိုင္းဖုန္း ရွိပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_c10"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_c10">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c10_1"
+            android:text="လိုင္းဖုန္းရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c10_2"
+            android:text="မိုဘိုင္းဖုန္းရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c10_3"
+            android:text="လိုင္းဖုန္းေရာ မိုဘိုင္းဖုန္းေရာ ရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c10_4"
+            android:text="မရွိပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

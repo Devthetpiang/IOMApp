@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c4"
+        android:text="မည္သည့္ပစၥည္းကို အဓိကသံုးၿပီး ၾကမ္းခင္းကို ျပဳလုပ္ထားပါသလဲ။
+(အေျဖတစ္ခုထက္ပိုေရြးခြင့္ျပဳသည္ - သက္ဆိုင္ေသာ အေျဖမ်ားအားလံုးကို ဝိုင္းပါ။)"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_c4"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_c4">
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c4_1"
+            android:text="ေျမႀကီး/ သဲ/ ရႊံ႕" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c4_2"
+            android:text="ဝါးျပား/ သက္ကယ္/ ထန္းသား" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c4_3"
+            android:text="သစ္သား" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c4_4"
+            android:text="သစ္ေခ်ာသား" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c4_5"
+            android:text="ဘိလပ္ေျမ/ ေက်ာက္/ အုတ္/ ေၾကြျပား" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c4_6"
+            android:text="အျခား" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_c4_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_c4"
+        android:layout_toRightOf="@+id/rg_c4"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

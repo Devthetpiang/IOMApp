@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_b5"
+        android:text="သင္စာကို ေကာင္းမြန္စြာ ေရးတတ္ဖတ္တတ္ပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_b5"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_b5">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b5_1"
+            android:text="ေကာင္းမြန္စြာ ေရးတတ္၊ ဖတ္တတ္ပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b5_2"
+            android:text="ေကာင္းမြန္စြာ ဖတ္တတ္ေသာ္လည္း ေရးရာတြင္ အခက္အခဲရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b5_3"
+            android:text="မေရးတတ္၊ မဖတ္တတ္ပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

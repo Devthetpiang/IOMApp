@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Proto</string>
+
+    <string name="api_error_unauthorized">unauthorized</string>
+    <string name="api_error_notfound">notfound</string>
+    <string name="api_error_servererror">servererror</string>
+    <string name="api_error_offline">offline</string>
+    <string name="api_error_offline_message">Network connection error</string>
+    <string name="api_error_generic_message">Something went wrong!</string>
+
+    <string name="api_endpoint">http://128.199.169.167:3000/</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_title">Xavey</string>
+
+    <string name="form_id_175">175</string>
+    <string name="form_title_175">Myanmar Grandparent Caring for Grandchildren</string>
+
+    <string name="form_id_178">178</string>
+    <string name="form_title_178">Myanmar Grandparent Questionnaire for Community Leaders</string>
+
+    <string name="org_id">31</string>
+    <string name="org_title">International Organization for Migration</string>
+
+    <string name="page_question_e1">E1</string>
+    <string name="page_question_e2">E2</string>
+    <string name="page_question_e3">E3</string>
+    <string name="page_question_e4">E4</string>
+
+    <string name="qt_sex_female">female</string>
+    <string name="qt_sex_male">male</string>
+    <string name="qt_gen_yes">yes</string>
+    <string name="qt_gen_no">no</string>
+    <string name="qt_gen_yes_much">yes, much</string>
+    <string name="qt_gen_some">some</string>
+    <string name="qt_gen_not_at_all">not at all</string>
+
+    <string name="dynamic_e">ေမးျမန္းသူ: ေမးခြန္း B12 ကို ၾကည့္ပါ။ သား၊သမီးအားလံုး (ေသြးရင္း၊ ေမြးစားထားေသာ၊ အိမ္ေထာင္ဖက္ပါ) စုစုေပါင္းကို မွတ္သားပါ။
+ေမးခြန္း B12 တြင္ သင္သည္ ကၽြႏု္ပ္အား သား၊သမီး %s ဦး ရွိသည္ဟု ေျပာျပခဲ့ပါသည္။
+သား၊သမီး အႀကီးဆံုးမွ အငယ္ဆံုးအထိ နာမည္မ်ားကို ေျပာျပပါ။ (ေမးျမန္းသူ : အသက္အစဥ္လိုက္ စာရင္းထဲထည့္ပါ။)</string>
+
+    <string name="dynamic_g1">ေမးျမန္းသူ: Section A မွ အိ္မ္ေထာင္စု စာရင္းကို ၾကည့္ၿပီး အတူေန ေျမးအေရအတြက္ကို စစ္ေဆးပါ၊ ေသခ်ာေအာင္ ျပဳလုပ္ပါ။
+အတူေနေျမး(မ်ား) %s ဦး ရွိသည္ဟု ေျပာခဲ့ပါသည္။ မွန္ပါသလား။</string>
+
+    <string name="dynamic_line1">No.1 %s</string>
+    <string name="dynamic_line2">No.2 %s</string>
+    <string name="dynamic_line3">No.3 %s</string>
+    <string name="dynamic_line4">No.4 %s</string>
+    <string name="dynamic_line5">No.5 %s</string>
+    <string name="dynamic_line6">No.6 %s</string>
+    <string name="dynamic_line7">No.7 %s</string>
+    <string name="dynamic_line8">No.8 %s</string>
+    <string name="dynamic_line9">No.9 %s</string>
+    <string name="dynamic_line10">No.10 %s</string>
+    <string name="dynamic_line11">No.11 %s</string>
+    <string name="dynamic_line12">No.12 %s</string>
+    <string name="dynamic_line13">No.13 %s</string>
+</resources>

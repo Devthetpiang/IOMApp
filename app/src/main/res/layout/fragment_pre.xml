@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pre_state"
+        android:text="ျပည္နယ္"/>
+
+    <com.xavey.proto.control.ProtoSpinner
+        android:id="@+id/sp_pre_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_pre_state"
+        android:layout_toRightOf="@+id/tv_pre_state"
+        android:entries="@array/state" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pre_township"
+        android:layout_below="@+id/tv_pre_state"
+        android:text="ၿမိဳ႕နယ္"/>
+
+    <com.xavey.proto.control.ProtoSpinner
+        android:id="@+id/sp_pre_township"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_pre_township"
+        android:layout_toRightOf="@+id/tv_pre_township" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pre_village"
+        android:layout_below="@+id/tv_pre_township"
+        android:text="ရြာ/ ရပ္ကြက္ အမည္"/>
+
+    <com.xavey.proto.control.ProtoSpinner
+        android:id="@+id/sp_pre_village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_pre_village"
+        android:layout_toRightOf="@+id/tv_pre_village" />
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pre_type"
+        android:layout_below="@+id/tv_pre_village"
+        android:text="ေဒသ အမ်ိဳးအစား"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rg_pre_type"
+        android:layout_alignBottom="@+id/tv_pre_type"
+        android:layout_toEndOf="@+id/tv_pre_type"
+        android:layout_toRightOf="@+id/tv_pre_type">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_pre_type_1"
+            android:text="ေက်းရြာ"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_pre_type_2"
+            android:text="ၿမိဳ႕"/>
+    </RadioGroup>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pre_respondent"
+        android:layout_below="@+id/tv_pre_type"
+        android:text="ေျဖဆိုသူအမည္"/>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_pre_respondent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_pre_respondent"
+        android:layout_toRightOf="@+id/tv_pre_respondent"
+        android:hint="Respondent name" />
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pre_designated"
+        android:layout_below="@+id/tv_pre_respondent"
+        android:text="အကယ္၍ ဇနီးေမာင္ႏွံ ႏွစ္ဦးလံုးကို ေမးျမန္းခဲ့လွ်င္ ေျဖဆိုသူေနရာတြင္ မည္သူ႔ကို ထည့္သြင္းရမည္ကို သတ္မွတ္ပါ။"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rg_pre_designated"
+        android:layout_alignBottom="@+id/tv_pre_designated"
+        android:layout_toEndOf="@+id/tv_pre_designated"
+        android:layout_toRightOf="@+id/tv_pre_designated">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_pre_designated_1"
+            android:text="ဇနီး"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_pre_designated_2"
+            android:text="ခင္ပြန္း"/>
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

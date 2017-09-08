@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_b10"
+        android:text="သင္သည္ လက္ရွိတြင္ က်န္းမာေရး အာမခံ အမ်ိဳးအစား တစ္မ်ိဳးမိ်ဳးရရွိပါသလား။ သို႔"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_b10"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_b10">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b10_1"
+            android:text="ရရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b10_2"
+            android:text="မရရွိပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b10_3"
+            android:text="မေသခ်ာပါ။" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_b10_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rg_b10"
+        android:layout_toRightOf="@+id/rg_b10"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

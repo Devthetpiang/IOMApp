@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_i5"
+        android:text="I5. ေရခ်ိဳးျခင္း သို႔မဟုတ္ အက်ၤ ီဝတ္ျခင္း သို႔မဟုတ္ ေန႔စဥ္လႈပ္ရွားမႈမ်ားတြင္ သင္သည္ ပံုမွန္ အကူအညီ ယူရပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_i5"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_i5">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i5_1"
+            android:text="ယူရပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i5_2"
+            android:text="မယူရပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

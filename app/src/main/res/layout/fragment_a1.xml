@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="သင္၏ အိိမ္တြင္ အတူေနထိုင္ေသာ အေယာက္စီတိုင္း၏ အခ်က္အလက္မ်ားကို သိလိုပါတယ္။ သင္ကိုယ္တိုင္ မွစတင္၍ အတူပံုမွန္ေနထိုင္ေသာ အေယာက္စီတိုင္းကို စာရင္းျပဳစုျခင္းျဖင့္ စတင္ရေအာင္။
+
+ေမးျမန္းသူ : ၁) ေျဖဆိုသူႏွင့္ အတူေနေသာ အိမ္သားတိုင္းကို စာရင္းျပဳစုၿပီး ေျဖဆိုသူႏွင့္ ေဆြမ်ိဳးေတာ္စပ္ပံုကို အျခားအေသးစိတ္ ေမးခြန္းမေမးခင္ ေမးျမန္းပါ။
+၂) ေျဖဆိုသူအား ပထမဦးဆံုး စာရင္းသြင္းၿပီး အိမ္ေထာင္ဖက္(ရွိပါက) ဒုတိယေနရာတြင္ စာရင္းသြင္းပါ။ အိမ္သား ၁၀ ဦး ထက္ ပိုပါက ဒုတိယေမးခြန္းတြင္ ဆက္လက္ျဖည့္သြင္းပါ။
+၃) အိမ္ေထာင္စု စာရင္းျပဳစုၿပီးပါက အိမ္တြင္အတူေနေသာ ေျမးငယ္ေလးမ်ား၏ အမည္ႏွင့္ မ်ဥ္းနံပါတ္မ်ားကို စာရင္းျပဳစုပါ။ ထိုမွသာ အေျဖထည့္သြင္းရာတြင္ ျပန္လည္ၾကည့္ရႈႏိုင္မည္ျဖစ္သည္။
+"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_1"
+            android:text="@string/dynamic_line1"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_2"
+            android:text="@string/dynamic_line2"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_3"
+            android:text="@string/dynamic_line3"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_4"
+            android:text="@string/dynamic_line4"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_4"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_5"
+            android:text="@string/dynamic_line5"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_5"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_6"
+            android:text="@string/dynamic_line6"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_6"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_7"
+            android:text="@string/dynamic_line7"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_7"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_8"
+            android:text="@string/dynamic_line8"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_8"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_9"
+            android:text="@string/dynamic_line9"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_9"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_a1_10"
+            android:text="@string/dynamic_line10"/>
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_a1_10"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+</ScrollView>
+
+

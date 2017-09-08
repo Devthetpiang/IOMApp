@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_j3"
+        android:text="J3. ရွိေနေသာသူမွာ ေျဖမ်ားကို ကူညီေျဖဆိုေပးပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_j3"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_j3">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_j3_1"
+            android:text="မၾကာခဏ ကူညီေျဖဆိုေပးပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_j3_2"
+            android:text="အခ်ိဳ႕ေသာအေျဖမ်ားကို ကူညီေျဖဆိုေပးပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_j3_3"
+            android:text="ကူညီေျဖဆိုျခင္း လံုးဝမျပဳလုပ္ပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

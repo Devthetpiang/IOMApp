@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    android:layout_margin="8dp"
+    android:id="@+id/cv_item"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tv_house_hold_financially"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(…) သည္ မိသားစုအတြက္ ေငြေၾကးေထာက္ပံ့မႈမ်ားျပဳလုပ္ပါသလား။"/>
+        <com.xavey.proto.control.ProtoSpinner
+            android:id="@+id/sp_a1_f"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:tag="A1_F"
+            android:entries="@array/do_dont"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

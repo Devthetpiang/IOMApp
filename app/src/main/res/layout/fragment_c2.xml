@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c2"
+        android:text="မည္သည့္ ပစၥည္းကို အဓိကသံုးၿပီး အိမ္နံရံကို ျပဳလုပ္ထားပါလဲ။
+(အေျဖတစ္ခုထက္ပိုေရြးခြင့္ျပဳသည္ - သက္ဆိုင္ေသာ အေျဖမ်ားအားလံုးကို ဝိုင္းပါ။)"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_c2"
+        android:paddingLeft="20dp"
+        android:orientation="vertical"
+        android:id="@+id/rg_c2">
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c2_1"
+            android:text="သစ္သား" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c2_2"
+            android:text="ဝါး" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c2_3"
+            android:text="အုတ္/ကြန္ကရစ္/ထံုးေက်ာက္" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c2_4"
+            android:text="သက္ကယ္/ ေကာက္ရိုး/ ဓနိ/ သစ္ရြက္" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c2_8"
+            android:text="အျခား" />
+    </LinearLayout>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_c2_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_c2"
+        android:layout_toRightOf="@+id/rg_c2"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

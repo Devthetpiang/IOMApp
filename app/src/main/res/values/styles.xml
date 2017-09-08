@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textViewStyle">@style/myTextView</item>
+        <item name="android:editTextStyle">@style/myEditText</item>
+        <item name="android:radioButtonStyle">@style/myRadioButton</item>
+        <item name="android:checkboxStyle">@style/myCheckBox</item>
+        <item name="android:spinnerStyle">@style/mySpinner</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="myTextView" parent="android:Widget.TextView">
+        <item name="android:textSize">25dp</item>
+    </style>
+    <style name="myEditText" parent="android:Widget.EditText">
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="myRadioButton" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="myCheckBox" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="mySpinner" parent="android:Widget.Spinner">
+        <item name="android:textSize">25dp</item>
+    </style>
+
+</resources>

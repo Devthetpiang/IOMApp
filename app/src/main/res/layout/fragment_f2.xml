@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_f2"
+        android:text="လြန္ခဲ့ေသာလအတြင္းတြင္ သင္ႏွင့္အတူေနေသာ ေျမး(မ်ား)ကို ရက္ေပါင္းမည္မွ် ေစာင့္ေရွာက္မႈ ေပးခဲ့ရပါသလဲ။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_f2"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_f2">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f2_1"
+            android:text="ေန႔တိုင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f2_2"
+            android:text="ရက္အမ်ားစု သို႔ေသာ္ ေန႔တိုင္းမဟုတ္ပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f2_3"
+            android:text="တစ္ပတ္လွ်င္ ရက္အနည္းငယ္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f2_4"
+            android:text="တစ္ပတ္ တစ္ခါ" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f2_5"
+            android:text="ရံဖန္ရံခါ" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_f2_6"
+            android:text="လံုးဝ မေစာင့္ေရွာက္ပါ။ → Section G သို႔ သြားပါ။" />
+
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

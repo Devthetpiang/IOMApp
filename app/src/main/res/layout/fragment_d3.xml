@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_d3"
+        android:text="သင္အလုပ္မလုပ္ရသည့္ အဓိက အေၾကာင္းအရာကို ေျပာျပပါ။
+[ေမးျမန္းသူအတြက္ ညႊန္ၾကားခ်က္: လက္ရွိတြင္ အိမ္ေထာင္ရွိပါက ယခုေမးခြန္းေမးၿပီးလွ်င္ D6 ကို သြားပါ။ အိမ္ေထာင္မရွိပါက Section E ကို သြားပါ။]"/>
+
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_d3"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_d3">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_1"
+            android:text="ေျမး(မ်ား)ကို ေစာင့္ေရွာက္သည့္ တာဝန္ယူေနရျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_2"
+            android:text="က်န္းမာေရး အားနည္းျခင္း/ အလုပ္လုပ္ရန္ အင္အားမရွိျခင္း သို႔မဟုတ္ အသက္အရြယ္အိုမင္းျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_3"
+            android:text="အၿငိမ္းစားယူထားျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_4"
+            android:text="လုပ္ရန္ အလုပ္မရွိျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_5"
+            android:text="အိမ္ေထာင္ဖက္မွာ အလုပ္လုပ္ေနေသာေၾကာင့္ အလုပ္လုပ္ရန္ မလိုအပ္ျခင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_6"
+            android:text="သင္ႏွင့္ သင္၏ အိမ္ေထာင္ဖက္မွာ အျခား ေထာက္ပံ့မႈ ရရွိေနေသာေၾကာင့္ အလုပ္လုပ္ရန္ မလုိအပ္ပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d3_7"
+            android:text="အျခား" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_d3_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_d3"
+        android:layout_toRightOf="@+id/rg_d3"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_q21"
+        android:text="Q21. လူငယ္မ်ား ျပင္ပသို႔ေရႊ႕ေျပာင္းသြားလာျခင္းႏွင့္ ပတ္သတ္၍ ေက်းရြာ/ရပ္ကြက္တြင္ ေနထိုင္သူမ်ားမွ မည္ကဲ့သို႔ ျမင္ပါသလဲ။ “အေကာင္းျမင္သည္၊ အဆိုးျမင္သည္၊ အေကာင္းျမင္သလို အဆိုးလဲျမင္သည္” ထဲမွ တစ္ခုေရြးေပးပါ။"/>
+
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_q21"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_q21">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q21_1"
+            android:text="အေကာင္းျမင္သည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q21_2"
+            android:text="အဆိုးျမင္သည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_q21_3"
+            android:text="အေကာင္းျမင္သလို အဆိုးလဲျမင္သည္။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

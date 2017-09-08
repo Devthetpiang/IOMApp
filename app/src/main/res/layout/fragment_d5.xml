@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_d5"
+        android:text="လြန္ခဲ့ေသာ ၁၂ လအတြင္း ေျမး(မ်ား)အား ေစာင့္ေရွာက္မႈသည္ သင္အလုပ္ လုပ္ကိုင္မႈ အေပၚတြင္ အက်ိဳးသက္ေရာက္မႈ ရွိပါသလား။ "/>
+
+    <RadioGroup
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_d5"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_d5">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d5_1"
+            android:text="ရွိပါသည္။ အလုပ္လုပ္ရသည့္ အခ်ိန္ တိုးလာပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d5_2"
+            android:text="ရွိပါသည္။ အလုပ္လုပ္ရသည့္ အခ်ိန္ ေလ်ာ့သြားပါသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d5_3"
+            android:text="မရွိပါ။ အလုပ္အေပၚတြင္ မည္သည့္သက္ေရာက္မႈမ်ား မရွိပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d5_4"
+            android:text="မရွိပါ။ ေျမးငယ္မ်ားကို မေစာင့္ေရွာက္ပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d5_5"
+            android:text="အျခား" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_d5_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_d5"
+        android:layout_toRightOf="@+id/rg_d5"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

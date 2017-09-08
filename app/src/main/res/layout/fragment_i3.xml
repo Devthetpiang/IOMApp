@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_i3"
+        android:text="I3. ေအာက္ပါတို႔မွ လူအမ်ား၏ ခံစားမႈႏွင့္ ပတ္သက္သည့္ စာေၾကာင္းမ်ား ျဖစ္ၾကသည္။ လြန္ခဲ့သည့္ လအတြင္းတြင္ သင္သည္ အႀကိမ္မည္မွ်ခံစားရပါလဲ: လံုးဝမခံစားရပါ၊ အခ်ိန္ေတာ္ေတာ္မ်ားမ်ား၊ သို႔မဟုတ္ မၾကာခဏ။"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/q_i3"
+        android:rowCount="16"
+        android:columnCount="5"
+        >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text=""/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="လံုးဝ မခံစားရပါ/ ခံစားရခဲသည္"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="အခ်ိန္ ေတာ္ေတာ္ မ်ားမ်ား"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="မၾကာခဏ"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="မသိပါ"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="1. ေပ်ာ္ပါသည္။"/>
+        <RadioGroup
+            android:id="@+id/rg_i3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="2. တည္တည္ၿငိမ္ၿငိမ္နွင့္ ေအးေအးခ်မ္းခ်မ္း ရွိပါသည္။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="3. ဝမ္းနည္းၿပီး စိတ္ဓာတ္က်သည္။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="4. စိတ္ဆိုးၿပီး စိတ္အတတ္အက်မ်ား ပါသည္။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="5. အထီးက်န္သည္။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i3_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i3_5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </GridLayout>
+
+
+</RelativeLayout>
+</ScrollView>

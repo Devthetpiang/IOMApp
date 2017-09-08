@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c7"
+        android:text="သင့္အိမ္တြင္ လွ်ပ္စစ္မီးရရွိႏိုင္ပါသလား။
+(အေျဖတစ္ခုထက္ပိုေရြးခြင့္ျပဳသည္ - သက္ဆိုင္ေသာ အေျဖမ်ားအားလံုးကို ဝိုင္းပါ။)"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_c7"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_c7">
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_1"
+            android:text="မရရွိပါ။" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_2"
+            android:text="ဓာတ္အားလိုင္းရွိပါသည္။" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_3"
+            android:text="ကိုယ္ပိုင္ မီးစက္" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_4"
+            android:text="မွ်သံုးေသာ မီးစက္ (ရပ္ရြာစုေပါင္းသံုးေသာ မီးစက္)" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_5"
+            android:text="ဘက္ထရီ" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_6"
+            android:text="ဆိုလာပါဝါ (ေနေရာင္ျခည္စြမ္းအင္သံုး လွ်ပ္စစ္)" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c7_7"
+            android:text="အျခား" />
+    </RadioGroup>
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_c7_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rg_c7"
+        android:layout_toRightOf="@+id/rg_c7"
+        android:hint="ေဖာ္ျပပါ" />
+</RelativeLayout>
+</ScrollView>

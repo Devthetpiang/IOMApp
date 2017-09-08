@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c9"
+        android:text="သင္တြင္ သုိ႔မဟုတ္ သင္၏ အိမ္သားမ်ားတြင္ ေအာက္ပါတို႔ထဲမွ တစ္ခုခုရွိပါသလား။"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/q_c9"
+        android:rowCount="16"
+        android:columnCount="3"
+        >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text=""/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="ရွိပါသည္။"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="မရွိပါ။"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="ေရဒီယို"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="1"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="တီဗီ"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="2"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="ဗီဒီယို/ ဒီဗီဒီစက္"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="3"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="လွ်ပ္စစ္ပန္ကာ"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="4"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="ေရခဲေသတၱာ"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="5"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="ကြန္ျပဴတာ"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="6"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="အင္တာနက္"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="7"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="ဆိုင္မွ ဝယ္ယူထားေသာ ပရိေဘာဂမ်ား"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="8"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_8_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_8_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="အဝတ္ေလွ်ာ္စက္"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="9"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:text="ထမင္းေပါင္းအိုး သို႔မဟုတ္ လွ်ပ္စစ္ေပါင္းအိုး"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="10"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_10_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_10_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:text="စက္ဘီး"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="11"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_11_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_11_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:text="ေမာ္ေတာ္ဆိုင္ကယ္"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="12"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_12_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_12_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="13"
+            android:layout_column="0"
+            android:text="ေထာ္လာဂ်ီ"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="13"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_13_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_13_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="14"
+            android:layout_column="0"
+            android:text="ကား/ထရပ္ကား"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="14"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_14_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_14_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="15"
+            android:layout_column="0"
+            android:text="အဲကြန္း (ေလေအးေပးစက္)"/>
+
+        <RadioGroup
+            android:id="@+id/rg_c9_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="15"
+            android:layout_columnSpan="2"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_15_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_c9_15_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </GridLayout>
+
+
+</RelativeLayout>
+</ScrollView>

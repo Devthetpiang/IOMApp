@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_i1"
+        android:text="I1.  သင့္၏ လက္ရွိက်န္းမာေရး အေျခအေနကို သင္မည္ကဲ့သို႔ အမွတ္ေပးမည္နည္း။ အလြန္ေကာင္း၊ ေကာင္း၊ အသင့္အတင့္၊ မေကာင္း၊ အလြန္မေကာင္း ထဲမွ မည္သည္ကို ေရြးမည္နည္း။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_i1"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_i1">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i1_1"
+            android:text="အလြန္ေကာင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i1_2"
+            android:text="ေကာင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i1_3"
+            android:text="အသင့္အတင့္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i1_4"
+            android:text="မေကာင္း" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_i1_5"
+            android:text="အလြန္မေကာင္း" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

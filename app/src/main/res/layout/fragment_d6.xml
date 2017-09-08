@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_d6"
+        android:text="ေမးျမန္းသူမ်ားအတြက္ ညႊန္ၾကားခ်က္ : ေျဖဆိုသူ အိမ္ေထာင္ရွိ၊မရွိကို ၾကည့္ပါ။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_d6"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_d6">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d6_1"
+            android:text="အိမ္ေထာင္ရွိသည္။ → D7 သို႔သြားပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_d6_2"
+            android:text="အိမ္ေထာင္မရွိပါ။  → Section E သို႔ သြားပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

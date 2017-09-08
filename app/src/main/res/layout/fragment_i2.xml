@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_i2"
+        android:text="I2. ေအာက္ပါ ေမးခြန္းမ်ားကို ေမး၍ အေျဖကို ဇယားထဲတြင္ ဝိုင္းပ"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/q_i2"
+        android:rowCount="16"
+        android:columnCount="5"
+        >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text=""/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="မခက္ခဲပါ။"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="အနည္းငယ္ ခက္ခဲသည္။"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="အလြန္ ခက္ခဲသည္။"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="လံုးဝ မလုပ္ႏိုင္ပါ။"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="a. အျမင္အာရံု အခက္အခဲ (မ်က္မွန္တပ္လွ်င္ေတာင္) ရွိပါသလား။"/>
+        <RadioGroup
+            android:id="@+id/rg_i2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="b. အၾကားအာရံု အခက္အခဲရွိပါသလား။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="c. လမ္းေလွ်ာက္ရန္ သို႔မဟုတ္ ေလွကားတက္ရန္ အခက္အခဲရွိပါသလား။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="d. ေရခ်ိဳးရန္ သို႔မဟုတ္ အက်ၤ ီဝတ္ရန္ အခက္အခဲ ရွိပါသလား။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="e. မွတ္ဥာဏ္ႏွင့္ ပတ္သက္ၿပီး အခက္အခဲရွိပါသလား။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_i2_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_i2_5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </GridLayout>
+
+
+</RelativeLayout>
+</ScrollView>

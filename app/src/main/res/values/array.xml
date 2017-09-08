@@ -1,0 +1,3465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="question_titles">
+        <item>SC_A</item>
+        <item>SC_B</item>
+        <item>SC_C</item>
+        <item>SC_D</item>
+        <item>SC_E</item>
+        <item>PRE</item>
+        <item>A1</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4</item>
+        <item>B5</item>
+        <item>B6</item>
+        <item>B7</item>
+        <item>B8</item>
+        <item>B9</item>
+        <item>B10</item>
+        <item>B11</item>
+        <item>B12</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>C4</item>
+        <item>C5</item>
+        <item>C6</item>
+        <item>C7</item>
+        <item>C8</item>
+        <item>C9</item>
+        <item>C10</item>
+        <item>C11</item>
+        <item>C12</item>
+        <item>C13</item>
+        <item>C14</item>
+        <item>C15</item>
+        <item>D1</item>
+        <item>D2</item>
+        <item>D3</item>
+        <item>D4</item>
+        <item>D5</item>
+        <item>D6</item>
+        <item>D7</item>
+        <item>D8</item>
+        <item>D9</item>
+        <item>D10</item>
+        <item>D11</item>
+        <item>E</item>
+        <item>F1</item>
+        <item>F2</item>
+        <item>F3</item>
+        <item>F4</item>
+        <item>F5</item>
+        <item>F6</item>
+        <item>F7</item>
+        <item>F8</item>
+        <item>F9</item>
+        <item>G1</item>
+        <item>G2</item>
+        <item>G3</item>
+        <item>G4</item>
+        <item>H1</item>
+        <item>H2-H16</item>
+        <item>I1</item>
+        <item>I2</item>
+        <item>I3</item>
+        <item>I4</item>
+        <item>I5</item>
+        <item>I6</item>
+        <item>I7</item>
+        <item>I8</item>
+        <item>I9</item>
+        <item>I10</item>
+        <item>I11</item>
+        <item>I12</item>
+        <item>I13</item>
+        <item>J1</item>
+        <item>J2</item>
+        <item>J3</item>
+        <item>J4</item>
+        <item>J5</item>
+        <item>SUBMIT</item>
+    </string-array>
+
+    <string-array name="id_index">
+        <item>_</item>
+        <item>SC_A</item>
+        <item>SC_B</item>
+        <item>SC_C</item>
+        <item>SC_D</item>
+        <item>SC_E</item>
+        <item>PRE_STATE</item>
+        <item>PRE_TOWNSHIP</item>
+        <item>PRE_VILLAGE</item>
+        <item>PRE_TYPE</item>
+        <item>PRE_RESPONDENT</item>
+        <item>PRE_DESIGNATED</item>
+        <item>A1_1_A1_B</item>
+        <item>A1_1_A1_C</item>
+        <item>A1_1_A1_D</item>
+        <item>A1_1_A1_E</item>
+        <item>A1_1_A1_F</item>
+        <item>A1_1_A1_G</item>
+        <item>A1_2_A1_B</item>
+        <item>A1_2_A1_C</item>
+        <item>A1_2_A1_D</item>
+        <item>A1_2_A1_E</item>
+        <item>A1_2_A1_F</item>
+        <item>A1_2_A1_G</item>
+        <item>A1_3_A1_B</item>
+        <item>A1_3_A1_C</item>
+        <item>A1_3_A1_D</item>
+        <item>A1_3_A1_E</item>
+        <item>A1_3_A1_F</item>
+        <item>A1_3_A1_G</item>
+        <item>A1_4_A1_B</item>
+        <item>A1_4_A1_C</item>
+        <item>A1_4_A1_D</item>
+        <item>A1_4_A1_E</item>
+        <item>A1_4_A1_F</item>
+        <item>A1_4_A1_G</item>
+        <item>A1_5_A1_B</item>
+        <item>A1_5_A1_C</item>
+        <item>A1_5_A1_D</item>
+        <item>A1_5_A1_E</item>
+        <item>A1_5_A1_F</item>
+        <item>A1_5_A1_G</item>
+        <item>A1_6_A1_B</item>
+        <item>A1_6_A1_C</item>
+        <item>A1_6_A1_D</item>
+        <item>A1_6_A1_E</item>
+        <item>A1_6_A1_F</item>
+        <item>A1_6_A1_G</item>
+        <item>A1_7_A1_B</item>
+        <item>A1_7_A1_C</item>
+        <item>A1_7_A1_D</item>
+        <item>A1_7_A1_E</item>
+        <item>A1_7_A1_F</item>
+        <item>A1_7_A1_G</item>
+        <item>A1_8_A1_B</item>
+        <item>A1_8_A1_C</item>
+        <item>A1_8_A1_D</item>
+        <item>A1_8_A1_E</item>
+        <item>A1_8_A1_F</item>
+        <item>A1_8_A1_G</item>
+        <item>A1_9_A1_B</item>
+        <item>A1_9_A1_C</item>
+        <item>A1_9_A1_D</item>
+        <item>A1_9_A1_E</item>
+        <item>A1_9_A1_F</item>
+        <item>A1_9_A1_G</item>
+        <item>A1_10_A1_B</item>
+        <item>A1_10_A1_C</item>
+        <item>A1_10_A1_D</item>
+        <item>A1_10_A1_E</item>
+        <item>A1_10_A1_F</item>
+        <item>A1_10_A1_G</item>
+        <item>B1</item>
+        <item>B10</item>
+        <item>B10_OTHER</item>
+        <item>B11</item>
+        <item>B11_OTHER</item>
+        <item>B12_1_1</item>
+        <item>B12_1_2</item>
+        <item>B12_2_1</item>
+        <item>B12_2_2</item>
+        <item>B12_3_1</item>
+        <item>B12_3_2</item>
+        <item>B1_OTHER</item>
+        <item>B2</item>
+        <item>B2_OTHER</item>
+        <item>B3</item>
+        <item>B3_OTHER</item>
+        <item>B4</item>
+        <item>B5</item>
+        <item>B6</item>
+        <item>B7</item>
+        <item>B8</item>
+        <item>B9</item>
+        <item>C1</item>
+        <item>C10</item>
+        <item>C11</item>
+        <item>C12</item>
+        <item>C13</item>
+        <item>C14</item>
+        <item>C15</item>
+        <item>C1_OTHER</item>
+        <item>C2_1</item>
+        <item>C2_2</item>
+        <item>C2_3</item>
+        <item>C2_4</item>
+        <item>C2_5</item>
+        <item>C2_OTHER</item>
+        <item>C3_1</item>
+        <item>C3_2</item>
+        <item>C3_3</item>
+        <item>C3_4</item>
+        <item>C3_5</item>
+        <item>C3_OTHER</item>
+        <item>C4_1</item>
+        <item>C4_2</item>
+        <item>C4_3</item>
+        <item>C4_4</item>
+        <item>C4_5</item>
+        <item>C4_6</item>
+        <item>C4_OTHER</item>
+        <item>C5_1</item>
+        <item>C5_2</item>
+        <item>C5_3</item>
+        <item>C5_4</item>
+        <item>C5_5</item>
+        <item>C5_6</item>
+        <item>C6</item>
+        <item>C7_1</item>
+        <item>C7_2</item>
+        <item>C7_3</item>
+        <item>C7_4</item>
+        <item>C7_5</item>
+        <item>C7_6</item>
+        <item>C7_7</item>
+        <item>C7_OTHER</item>
+        <item>C8</item>
+        <item>C8_2_0</item>
+        <item>C8_OTHER</item>
+        <item>C9_1</item>
+        <item>C9_2</item>
+        <item>C9_3</item>
+        <item>C9_4</item>
+        <item>C9_5</item>
+        <item>C9_6</item>
+        <item>C9_7</item>
+        <item>C9_8</item>
+        <item>C9_9</item>
+        <item>C9_10</item>
+        <item>C9_11</item>
+        <item>C9_12</item>
+        <item>C9_13</item>
+        <item>C9_14</item>
+        <item>C9_15</item>
+        <item>D1</item>
+        <item>D1_OTHER</item>
+        <item>D2</item>
+        <item>D3</item>
+        <item>D3_OTHER</item>
+        <item>D4</item>
+        <item>D4_OTHER</item>
+        <item>D5</item>
+        <item>D5_OTHER</item>
+        <item>D6</item>
+        <item>D7</item>
+        <item>D7_OTHER</item>
+        <item>D8</item>
+        <item>D9</item>
+        <item>D9_OTHER</item>
+        <item>D10</item>
+        <item>D10_OTHER</item>
+        <item>D11</item>
+        <item>D11_OTHER</item>
+        <item>E_1_E2</item>
+        <item>E_1_E3</item>
+        <item>E_1_E4</item>
+        <item>E_1_E5</item>
+        <item>E_1_E6</item>
+        <item>E_1_E6_OTHER</item>
+        <item>E_1_E7</item>
+        <item>E_1_E8</item>
+        <item>E_1_E9</item>
+        <item>E_1_E10</item>
+        <item>E_1_E11</item>
+        <item>E_1_E12</item>
+        <item>E_1_E13</item>
+        <item>E_1_E14</item>
+        <item>E_1_E15</item>
+        <item>E_1_E15_OTHER</item>
+        <item>E_1_E16</item>
+        <item>E_1_E17</item>
+        <item>E_1_E18</item>
+        <item>E_1_E19</item>
+        <item>E_1_E20</item>
+        <item>E_2_E2</item>
+        <item>E_2_E3</item>
+        <item>E_2_E4</item>
+        <item>E_2_E5</item>
+        <item>E_2_E6</item>
+        <item>E_2_E6_OTHER</item>
+        <item>E_2_E7</item>
+        <item>E_2_E8</item>
+        <item>E_2_E9</item>
+        <item>E_2_E10</item>
+        <item>E_2_E11</item>
+        <item>E_2_E12</item>
+        <item>E_2_E13</item>
+        <item>E_2_E14</item>
+        <item>E_2_E15</item>
+        <item>E_2_E15_OTHER</item>
+        <item>E_2_E16</item>
+        <item>E_2_E17</item>
+        <item>E_2_E18</item>
+        <item>E_2_E19</item>
+        <item>E_2_E20</item>
+        <item>E_3_E2</item>
+        <item>E_3_E3</item>
+        <item>E_3_E4</item>
+        <item>E_3_E5</item>
+        <item>E_3_E6</item>
+        <item>E_3_E6_OTHER</item>
+        <item>E_3_E7</item>
+        <item>E_3_E8</item>
+        <item>E_3_E9</item>
+        <item>E_3_E10</item>
+        <item>E_3_E11</item>
+        <item>E_3_E12</item>
+        <item>E_3_E13</item>
+        <item>E_3_E14</item>
+        <item>E_3_E15</item>
+        <item>E_3_E15_OTHER</item>
+        <item>E_3_E16</item>
+        <item>E_3_E17</item>
+        <item>E_3_E18</item>
+        <item>E_3_E19</item>
+        <item>E_3_E20</item>
+        <item>E_4_E2</item>
+        <item>E_4_E3</item>
+        <item>E_4_E4</item>
+        <item>E_4_E5</item>
+        <item>E_4_E6</item>
+        <item>E_4_E6_OTHER</item>
+        <item>E_4_E7</item>
+        <item>E_4_E8</item>
+        <item>E_4_E9</item>
+        <item>E_4_E10</item>
+        <item>E_4_E11</item>
+        <item>E_4_E12</item>
+        <item>E_4_E13</item>
+        <item>E_4_E14</item>
+        <item>E_4_E15</item>
+        <item>E_4_E15_OTHER</item>
+        <item>E_4_E16</item>
+        <item>E_4_E17</item>
+        <item>E_4_E18</item>
+        <item>E_4_E19</item>
+        <item>E_4_E20</item>
+        <item>E_5_E2</item>
+        <item>E_5_E3</item>
+        <item>E_5_E4</item>
+        <item>E_5_E5</item>
+        <item>E_5_E6</item>
+        <item>E_5_E6_OTHER</item>
+        <item>E_5_E7</item>
+        <item>E_5_E8</item>
+        <item>E_5_E9</item>
+        <item>E_5_E10</item>
+        <item>E_5_E11</item>
+        <item>E_5_E12</item>
+        <item>E_5_E13</item>
+        <item>E_5_E14</item>
+        <item>E_5_E15</item>
+        <item>E_5_E15_OTHER</item>
+        <item>E_5_E16</item>
+        <item>E_5_E17</item>
+        <item>E_5_E18</item>
+        <item>E_5_E19</item>
+        <item>E_5_E20</item>
+        <item>E_6_E2</item>
+        <item>E_6_E3</item>
+        <item>E_6_E4</item>
+        <item>E_6_E5</item>
+        <item>E_6_E6</item>
+        <item>E_6_E6_OTHER</item>
+        <item>E_6_E7</item>
+        <item>E_6_E8</item>
+        <item>E_6_E9</item>
+        <item>E_6_E10</item>
+        <item>E_6_E11</item>
+        <item>E_6_E12</item>
+        <item>E_6_E13</item>
+        <item>E_6_E14</item>
+        <item>E_6_E15</item>
+        <item>E_6_E15_OTHER</item>
+        <item>E_6_E16</item>
+        <item>E_6_E17</item>
+        <item>E_6_E18</item>
+        <item>E_6_E19</item>
+        <item>E_6_E20</item>
+        <item>E_7_E2</item>
+        <item>E_7_E3</item>
+        <item>E_7_E4</item>
+        <item>E_7_E5</item>
+        <item>E_7_E6</item>
+        <item>E_7_E6_OTHER</item>
+        <item>E_7_E7</item>
+        <item>E_7_E8</item>
+        <item>E_7_E9</item>
+        <item>E_7_E10</item>
+        <item>E_7_E11</item>
+        <item>E_7_E12</item>
+        <item>E_7_E13</item>
+        <item>E_7_E14</item>
+        <item>E_7_E15</item>
+        <item>E_7_E15_OTHER</item>
+        <item>E_7_E16</item>
+        <item>E_7_E17</item>
+        <item>E_7_E18</item>
+        <item>E_7_E19</item>
+        <item>E_7_E20</item>
+        <item>E_8_E2</item>
+        <item>E_8_E3</item>
+        <item>E_8_E4</item>
+        <item>E_8_E5</item>
+        <item>E_8_E6</item>
+        <item>E_8_E6_OTHER</item>
+        <item>E_8_E7</item>
+        <item>E_8_E8</item>
+        <item>E_8_E9</item>
+        <item>E_8_E10</item>
+        <item>E_8_E11</item>
+        <item>E_8_E12</item>
+        <item>E_8_E13</item>
+        <item>E_8_E14</item>
+        <item>E_8_E15</item>
+        <item>E_8_E15_OTHER</item>
+        <item>E_8_E16</item>
+        <item>E_8_E17</item>
+        <item>E_8_E18</item>
+        <item>E_8_E19</item>
+        <item>E_8_E20</item>
+        <item>E_9_E2</item>
+        <item>E_9_E3</item>
+        <item>E_9_E4</item>
+        <item>E_9_E5</item>
+        <item>E_9_E6</item>
+        <item>E_9_E6_OTHER</item>
+        <item>E_9_E7</item>
+        <item>E_9_E8</item>
+        <item>E_9_E9</item>
+        <item>E_9_E10</item>
+        <item>E_9_E11</item>
+        <item>E_9_E12</item>
+        <item>E_9_E13</item>
+        <item>E_9_E14</item>
+        <item>E_9_E15</item>
+        <item>E_9_E15_OTHER</item>
+        <item>E_9_E16</item>
+        <item>E_9_E17</item>
+        <item>E_9_E18</item>
+        <item>E_9_E19</item>
+        <item>E_9_E20</item>
+        <item>E_10_E2</item>
+        <item>E_10_E3</item>
+        <item>E_10_E4</item>
+        <item>E_10_E5</item>
+        <item>E_10_E6</item>
+        <item>E_10_E6_OTHER</item>
+        <item>E_10_E7</item>
+        <item>E_10_E8</item>
+        <item>E_10_E9</item>
+        <item>E_10_E10</item>
+        <item>E_10_E11</item>
+        <item>E_10_E12</item>
+        <item>E_10_E13</item>
+        <item>E_10_E14</item>
+        <item>E_10_E15</item>
+        <item>E_10_E15_OTHER</item>
+        <item>E_10_E16</item>
+        <item>E_10_E17</item>
+        <item>E_10_E18</item>
+        <item>E_10_E19</item>
+        <item>E_10_E20</item>
+        <item>E_11_E2</item>
+        <item>E_11_E3</item>
+        <item>E_11_E4</item>
+        <item>E_11_E5</item>
+        <item>E_11_E6</item>
+        <item>E_11_E6_OTHER</item>
+        <item>E_11_E7</item>
+        <item>E_11_E8</item>
+        <item>E_11_E9</item>
+        <item>E_11_E10</item>
+        <item>E_11_E11</item>
+        <item>E_11_E12</item>
+        <item>E_11_E13</item>
+        <item>E_11_E14</item>
+        <item>E_11_E15</item>
+        <item>E_11_E15_OTHER</item>
+        <item>E_11_E16</item>
+        <item>E_11_E17</item>
+        <item>E_11_E18</item>
+        <item>E_11_E19</item>
+        <item>E_11_E20</item>
+        <item>E_12_E2</item>
+        <item>E_12_E3</item>
+        <item>E_12_E4</item>
+        <item>E_12_E5</item>
+        <item>E_12_E6</item>
+        <item>E_12_E6_OTHER</item>
+        <item>E_12_E7</item>
+        <item>E_12_E8</item>
+        <item>E_12_E9</item>
+        <item>E_12_E10</item>
+        <item>E_12_E11</item>
+        <item>E_12_E12</item>
+        <item>E_12_E13</item>
+        <item>E_12_E14</item>
+        <item>E_12_E15</item>
+        <item>E_12_E15_OTHER</item>
+        <item>E_12_E16</item>
+        <item>E_12_E17</item>
+        <item>E_12_E18</item>
+        <item>E_12_E19</item>
+        <item>E_12_E20</item>
+        <item>E_13_E2</item>
+        <item>E_13_E3</item>
+        <item>E_13_E4</item>
+        <item>E_13_E5</item>
+        <item>E_13_E6</item>
+        <item>E_13_E6_OTHER</item>
+        <item>E_13_E7</item>
+        <item>E_13_E8</item>
+        <item>E_13_E9</item>
+        <item>E_13_E10</item>
+        <item>E_13_E11</item>
+        <item>E_13_E12</item>
+        <item>E_13_E13</item>
+        <item>E_13_E14</item>
+        <item>E_13_E15</item>
+        <item>E_13_E15_OTHER</item>
+        <item>E_13_E16</item>
+        <item>E_13_E17</item>
+        <item>E_13_E18</item>
+        <item>E_13_E19</item>
+        <item>E_13_E20</item>
+        <item>F1</item>
+        <item>F2</item>
+        <item>F3</item>
+        <item>F4_1</item>
+        <item>F4_2</item>
+        <item>F4_3</item>
+        <item>F4_4</item>
+        <item>F4_5</item>
+        <item>F4_6</item>
+        <item>F4_7</item>
+        <item>F4_8</item>
+        <item>F4_9</item>
+        <item>F4_10</item>
+        <item>F5_1</item>
+        <item>F5_2</item>
+        <item>F5_3</item>
+        <item>F5_4</item>
+        <item>F5_5</item>
+        <item>F5_6</item>
+        <item>F6</item>
+        <item>F7</item>
+        <item>F8_1</item>
+        <item>F8_2</item>
+        <item>F8_3</item>
+        <item>F8_4</item>
+        <item>F8_5</item>
+        <item>F9</item>
+        <item>G1</item>
+        <item>G2_1</item>
+        <item>G2_2</item>
+        <item>G3</item>
+        <item>G4_1_G4_A</item>
+        <item>G4_1_G4_A1</item>
+        <item>G4_1_G4_A2</item>
+        <item>G4_1_G4_B</item>
+        <item>G4_1_G4_C</item>
+        <item>G4_1_G4_D</item>
+        <item>G4_1_G4_E</item>
+        <item>G4_1_G4_F</item>
+        <item>G4_1_G4_G</item>
+        <item>G4_1_G4_H</item>
+        <item>G4_1_G4_I</item>
+        <item>G4_1_G4_J</item>
+        <item>G4_1_G4_K</item>
+        <item>G4_1_G4_L</item>
+        <item>G4_1_G4_M_A</item>
+        <item>G4_1_G4_M_B</item>
+        <item>G4_1_G4_M_C</item>
+        <item>G4_1_G4_M_D</item>
+        <item>G4_1_G4_N</item>
+        <item>G4_1_G4_O</item>
+        <item>G4_1_G4_P</item>
+        <item>G4_1_G4_Q</item>
+        <item>G4_1_G4_R</item>
+        <item>G4_1_G4_S_A</item>
+        <item>G4_1_G4_S_B</item>
+        <item>G4_1_G4_S_C</item>
+        <item>G4_2_G4_A</item>
+        <item>G4_2_G4_A1</item>
+        <item>G4_2_G4_A2</item>
+        <item>G4_2_G4_B</item>
+        <item>G4_2_G4_C</item>
+        <item>G4_2_G4_D</item>
+        <item>G4_2_G4_E</item>
+        <item>G4_2_G4_F</item>
+        <item>G4_2_G4_G</item>
+        <item>G4_2_G4_H</item>
+        <item>G4_2_G4_I</item>
+        <item>G4_2_G4_J</item>
+        <item>G4_2_G4_K</item>
+        <item>G4_2_G4_L</item>
+        <item>G4_2_G4_M_A</item>
+        <item>G4_2_G4_M_B</item>
+        <item>G4_2_G4_M_C</item>
+        <item>G4_2_G4_M_D</item>
+        <item>G4_2_G4_N</item>
+        <item>G4_2_G4_O</item>
+        <item>G4_2_G4_P</item>
+        <item>G4_2_G4_Q</item>
+        <item>G4_2_G4_R</item>
+        <item>G4_2_G4_S_A</item>
+        <item>G4_2_G4_S_B</item>
+        <item>G4_2_G4_S_C</item>
+        <item>G4_3_G4_A</item>
+        <item>G4_3_G4_A1</item>
+        <item>G4_3_G4_A2</item>
+        <item>G4_3_G4_B</item>
+        <item>G4_3_G4_C</item>
+        <item>G4_3_G4_D</item>
+        <item>G4_3_G4_E</item>
+        <item>G4_3_G4_F</item>
+        <item>G4_3_G4_G</item>
+        <item>G4_3_G4_H</item>
+        <item>G4_3_G4_I</item>
+        <item>G4_3_G4_J</item>
+        <item>G4_3_G4_K</item>
+        <item>G4_3_G4_L</item>
+        <item>G4_3_G4_M_A</item>
+        <item>G4_3_G4_M_B</item>
+        <item>G4_3_G4_M_C</item>
+        <item>G4_3_G4_M_D</item>
+        <item>G4_3_G4_N</item>
+        <item>G4_3_G4_O</item>
+        <item>G4_3_G4_P</item>
+        <item>G4_3_G4_Q</item>
+        <item>G4_3_G4_R</item>
+        <item>G4_3_G4_S_A</item>
+        <item>G4_3_G4_S_B</item>
+        <item>G4_3_G4_S_C</item>
+        <item>G4_4_G4_A</item>
+        <item>G4_4_G4_A1</item>
+        <item>G4_4_G4_A2</item>
+        <item>G4_4_G4_B</item>
+        <item>G4_4_G4_C</item>
+        <item>G4_4_G4_D</item>
+        <item>G4_4_G4_E</item>
+        <item>G4_4_G4_F</item>
+        <item>G4_4_G4_G</item>
+        <item>G4_4_G4_H</item>
+        <item>G4_4_G4_I</item>
+        <item>G4_4_G4_J</item>
+        <item>G4_4_G4_K</item>
+        <item>G4_4_G4_L</item>
+        <item>G4_4_G4_M_A</item>
+        <item>G4_4_G4_M_B</item>
+        <item>G4_4_G4_M_C</item>
+        <item>G4_4_G4_M_D</item>
+        <item>G4_4_G4_N</item>
+        <item>G4_4_G4_O</item>
+        <item>G4_4_G4_P</item>
+        <item>G4_4_G4_Q</item>
+        <item>G4_4_G4_R</item>
+        <item>G4_4_G4_S_A</item>
+        <item>G4_4_G4_S_B</item>
+        <item>G4_4_G4_S_C</item>
+        <item>G4_5_G4_A</item>
+        <item>G4_5_G4_A1</item>
+        <item>G4_5_G4_A2</item>
+        <item>G4_5_G4_B</item>
+        <item>G4_5_G4_C</item>
+        <item>G4_5_G4_D</item>
+        <item>G4_5_G4_E</item>
+        <item>G4_5_G4_F</item>
+        <item>G4_5_G4_G</item>
+        <item>G4_5_G4_H</item>
+        <item>G4_5_G4_I</item>
+        <item>G4_5_G4_J</item>
+        <item>G4_5_G4_K</item>
+        <item>G4_5_G4_L</item>
+        <item>G4_5_G4_M_A</item>
+        <item>G4_5_G4_M_B</item>
+        <item>G4_5_G4_M_C</item>
+        <item>G4_5_G4_M_D</item>
+        <item>G4_5_G4_N</item>
+        <item>G4_5_G4_O</item>
+        <item>G4_5_G4_P</item>
+        <item>G4_5_G4_Q</item>
+        <item>G4_5_G4_R</item>
+        <item>G4_5_G4_S_A</item>
+        <item>G4_5_G4_S_B</item>
+        <item>G4_5_G4_S_C</item>
+        <item>G4_6_G4_A</item>
+        <item>G4_6_G4_A1</item>
+        <item>G4_6_G4_A2</item>
+        <item>G4_6_G4_B</item>
+        <item>G4_6_G4_C</item>
+        <item>G4_6_G4_D</item>
+        <item>G4_6_G4_E</item>
+        <item>G4_6_G4_F</item>
+        <item>G4_6_G4_G</item>
+        <item>G4_6_G4_H</item>
+        <item>G4_6_G4_I</item>
+        <item>G4_6_G4_J</item>
+        <item>G4_6_G4_K</item>
+        <item>G4_6_G4_L</item>
+        <item>G4_6_G4_M_A</item>
+        <item>G4_6_G4_M_B</item>
+        <item>G4_6_G4_M_C</item>
+        <item>G4_6_G4_M_D</item>
+        <item>G4_6_G4_N</item>
+        <item>G4_6_G4_O</item>
+        <item>G4_6_G4_P</item>
+        <item>G4_6_G4_Q</item>
+        <item>G4_6_G4_R</item>
+        <item>G4_6_G4_S_A</item>
+        <item>G4_6_G4_S_B</item>
+        <item>G4_6_G4_S_C</item>
+        <item>H1</item>
+        <item>H2H16_1_H2</item>
+        <item>H2H16_1_H3</item>
+        <item>H2H16_1_H4</item>
+        <item>H2H16_1_H5</item>
+        <item>H2H16_1_H6</item>
+        <item>H2H16_1_H7</item>
+        <item>H2H16_1_H9</item>
+        <item>H2H16_1_H10</item>
+        <item>H2H16_1_H11</item>
+        <item>H2H16_1_H12</item>
+        <item>H2H16_1_H13</item>
+        <item>H2H16_1_H14</item>
+        <item>H2H16_1_H15</item>
+        <item>H2H16_1_H16</item>
+        <item>H2H16_2_H2</item>
+        <item>H2H16_2_H3</item>
+        <item>H2H16_2_H4</item>
+        <item>H2H16_2_H5</item>
+        <item>H2H16_2_H6</item>
+        <item>H2H16_2_H7</item>
+        <item>H2H16_2_H9</item>
+        <item>H2H16_2_H10</item>
+        <item>H2H16_2_H11</item>
+        <item>H2H16_2_H12</item>
+        <item>H2H16_2_H13</item>
+        <item>H2H16_2_H14</item>
+        <item>H2H16_2_H15</item>
+        <item>H2H16_2_H16</item>
+        <item>H2H16_3_H2</item>
+        <item>H2H16_3_H3</item>
+        <item>H2H16_3_H4</item>
+        <item>H2H16_3_H5</item>
+        <item>H2H16_3_H6</item>
+        <item>H2H16_3_H7</item>
+        <item>H2H16_3_H9</item>
+        <item>H2H16_3_H10</item>
+        <item>H2H16_3_H11</item>
+        <item>H2H16_3_H12</item>
+        <item>H2H16_3_H13</item>
+        <item>H2H16_3_H14</item>
+        <item>H2H16_3_H15</item>
+        <item>H2H16_3_H16</item>
+        <item>I1</item>
+        <item>I2_1</item>
+        <item>I2_2</item>
+        <item>I2_3</item>
+        <item>I2_4</item>
+        <item>I2_5</item>
+        <item>I3_1</item>
+        <item>I3_2</item>
+        <item>I3_3</item>
+        <item>I3_4</item>
+        <item>I3_5</item>
+        <item>I4_1</item>
+        <item>I4_2</item>
+        <item>I4_3</item>
+        <item>I4_4</item>
+        <item>I4_5</item>
+        <item>I4_6</item>
+        <item>I4_7</item>
+        <item>I4_8</item>
+        <item>I4_9</item>
+        <item>I4_10</item>
+        <item>I4_11</item>
+        <item>I4_12</item>
+        <item>I4_13</item>
+        <item>I4_14</item>
+        <item>I4_15</item>
+        <item>I5</item>
+        <item>I6</item>
+        <item>I7</item>
+        <item>I7_OTHER</item>
+        <item>I8_1</item>
+        <item>I8_2</item>
+        <item>I8_3</item>
+        <item>I8_4</item>
+        <item>I8_5</item>
+        <item>I8_6</item>
+        <item>I8_OTHER</item>
+        <item>I9</item>
+        <item>I10</item>
+        <item>I11</item>
+        <item>I12</item>
+        <item>I12_OTHER</item>
+        <item>I13_1</item>
+        <item>I13_2</item>
+        <item>I13_3</item>
+        <item>I13_4</item>
+        <item>I13_5</item>
+        <item>I13_6</item>
+        <item>I13_OTHER</item>
+        <item>J1</item>
+        <item>J2_1</item>
+        <item>J2_2</item>
+        <item>J2_3</item>
+        <item>J2_4</item>
+        <item>J3</item>
+        <item>J4</item>
+        <item>J5</item>
+    </string-array>
+    <string-array name="question_titles_178">
+        <item>PRE</item>
+        <item>Q1</item>
+        <item>Q2</item>
+        <item>Q3A</item>
+        <item>Q3B</item>
+        <item>Q4</item>
+        <item>Q5</item>
+        <item>Q6</item>
+        <item>Q7</item>
+        <item>Q8</item>
+        <item>Q9</item>
+        <item>Q10</item>
+        <item>Q11</item>
+        <item>Q12</item>
+        <item>Q13</item>
+        <item>Q14</item>
+        <item>Q15</item>
+        <item>Q16</item>
+        <item>Q17</item>
+        <item>Q18</item>
+        <item>Q19</item>
+        <item>Q20</item>
+        <item>Q21</item>
+        <item>SUBMIT</item>
+    </string-array>
+
+    <string-array name="id_index_178">
+        <item>_</item>
+        <item>PRE_STATE</item>
+        <item>PRE_TOWNSHIP</item>
+        <item>PRE_VILLAGE</item>
+        <item>PRE_TYPE</item>
+        <item>PRE_RESPONDENT</item>
+        <item>PRE_RESPONDENT_TITLE</item>
+        <item>Q1</item>
+        <item>Q2</item>
+        <item>Q3A</item>
+        <item>Q3B1</item>
+        <item>Q3B2</item>
+        <item>Q3B3</item>
+        <item>Q4A</item>
+        <item>Q4A_OTHER</item>
+        <item>Q4B</item>
+        <item>Q4B_OTHER</item>
+        <item>Q4C</item>
+        <item>Q4C_OTHER</item>
+        <item>Q5A</item>
+        <item>Q5B</item>
+        <item>Q6</item>
+        <item>Q7</item>
+        <item>Q8</item>
+        <item>Q8_OTHER</item>
+        <item>Q9</item>
+        <item>Q10</item>
+        <item>Q10_OTHER</item>
+        <item>Q11</item>
+        <item>Q11_OTHER</item>
+        <item>Q12</item>
+        <item>Q13</item>
+        <item>Q14A</item>
+        <item>Q14B</item>
+        <item>Q14C</item>
+        <item>Q14D</item>
+        <item>Q14E</item>
+        <item>Q14F</item>
+        <item>Q14G</item>
+        <item>Q14H</item>
+        <item>Q15A</item>
+        <item>Q15B</item>
+        <item>Q15C</item>
+        <item>Q15D</item>
+        <item>Q15E</item>
+        <item>Q16_1</item>
+        <item>Q16_2</item>
+        <item>Q16_3</item>
+        <item>Q16_4</item>
+        <item>Q16_OTHER</item>
+        <item>Q17A</item>
+        <item>Q17B</item>
+        <item>Q17C</item>
+        <item>Q17D</item>
+        <item>Q17E</item>
+        <item>Q17F</item>
+        <item>Q18A</item>
+        <item>Q18B</item>
+        <item>Q18C</item>
+        <item>Q18D</item>
+        <item>Q18E</item>
+        <item>Q18F</item>
+        <item>Q18G</item>
+        <item>Q19</item>
+        <item>Q20</item>
+        <item>Q21</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Nick name or initial</item>
+        <item>Relationship to R</item>
+        <item>Sex</item>
+        <item>Completed age</item>
+        <item>Does he/she support household financially?</item>
+        <item>Dose he/she help much with household chores?</item>
+    </string-array>
+
+    <string-array name="E_Titles">
+        <item>E2</item>
+        <item>E3</item>
+        <item>E4</item>
+        <item>E5</item>
+        <item>E6</item>
+        <item>E7</item>
+        <item>E8</item>
+        <item>E9</item>
+        <item>E10</item>
+        <item>E11</item>
+        <item>E12</item>
+        <item>E13</item>
+        <item>E14</item>
+        <item>E15</item>
+        <item>E16</item>
+        <item>E17</item>
+        <item>E18</item>
+        <item>E19</item>
+        <item>E20</item>
+    </string-array>
+
+    <string-array name="H_Titles">
+        <item>H2</item>
+        <item>H3</item>
+        <item>H4</item>
+        <item>H5</item>
+        <item>H6</item>
+        <item>H7</item>
+        <item>H8</item>
+        <item>H9</item>
+        <item>H10</item>
+        <item>H11</item>
+        <item>H12</item>
+        <item>H13</item>
+        <item>H14</item>
+        <item>H15</item>
+        <item>H16</item>
+    </string-array>
+
+    <string-array name="G4_Titles">
+        <item>G4A</item>
+        <item>G4A1</item>
+        <item>G4A2</item>
+        <item>G4B</item>
+        <item>G4C</item>
+        <item>G4D</item>
+        <item>G4E</item>
+        <item>G4F</item>
+        <item>G4G</item>
+        <item>G4H</item>
+        <item>G4I</item>
+        <item>G4J</item>
+        <item>G4K</item>
+        <item>G4L</item>
+        <item>G4M</item>
+        <item>G4MA</item>
+        <item>G4MB</item>
+        <item>G4MC</item>
+        <item>G4MD</item>
+        <item>G4N</item>
+        <item>G4O</item>
+        <item>G4P</item>
+        <item>G4Q</item>
+        <item>G4R</item>
+        <item>G4S</item>
+        <item>G4SA</item>
+        <item>G4SB</item>
+        <item>G4SC</item>
+    </string-array>
+
+    <string-array name="relationship">
+        <item>--select one--</item>
+        <item>ကိုယ္တိုင္</item>
+        <item>အိမ္ေထာင္ဖက္</item>
+        <item>ေျဖဆိုသူ၏ ကေလး (ေမြးစားကေလး အပါအဝင္)</item>
+        <item>ေျဖဆိုသူ၏ အိမ္ေထာင္ဖက္ပါ သားသမီး (ေျဖဆိုသူ၏ ေသြးရင္း သားသမီး မဟုတ္ပါ။)</item>
+        <item>ေခၽြးမ၊ သားမက္</item>
+        <item>ေျမး</item>
+        <item>တူ/တူမ</item>
+        <item>မိဘ</item>
+        <item>ေယာကၡမ</item>
+        <item>အဘိုး/အဘြား</item>
+        <item>ေမာင္ႏွမ/ေယာက္မ/ခယ္မ/ခဲအို/မရီး/ မတ္</item>
+        <item>အျခား ေဆြမ်ိဳး</item>
+        <item>ေဆြမ်ိဳးမေတာ္စပ္သူ</item>
+    </string-array>
+
+    <string-array name="marital_status">
+        <item>--select one--</item>
+        <item>လူပ်ိဳ/ အပ်ိဳ</item>
+        <item>အိမ္ေထာင္ရွိ – အိမ္ေထာင္ဖက္ႏွင့္ အတူေန</item>
+        <item>အိမ္ေထာင္ရွိ – အိမ္ေထာင္ဖက္ႏွင့္ အတူမေန</item>
+        <item>ကြဲကြာေန/ ကြာရွင္းထား</item>
+        <item>မုဆိုးဖို/ မုဆိုးမ</item>
+    </string-array>
+    <string-array name="education">
+        <item>--select one--</item>
+        <item>အတန္းပညာမရွိပါ</item>
+        <item>မူလတန္း</item>
+        <item>မူလတန္းေအာင္</item>
+        <item>အလယ္တန္း သို႔မဟုတ္ အလယ္တန္းေအာင္</item>
+        <item>အလယ္တန္း အထက္</item>
+    </string-array>
+    <string-array name="main_occupation">
+        <item>--select one--</item>
+        <item>တစ္ခါမွ အလုပ္မလုပ္ဘူးပါ။</item>
+        <item>စိုက္ပ်ိဳးေရး (ကိုယ္ပိုင္စိုက္ပ်ိဳးေရး)</item>
+        <item>ငါး/ ပုစြန္ေမြးျမဴေရး</item>
+        <item>စိုက္ပ်ိဳးေရးတြင္ ေန႔စားလုပ္ကုိင္ျခင္း</item>
+        <item>စိုက္ပ်ိဳးေရးမဟုတ္ေသာ အလုပ္တြင္ ေန႔စားလုပ္ကိုင္ျခင္း</item>
+        <item>လခစား (အစိုးရ၊ တပ္မေတာ္၊ ပုဂၢလိက)</item>
+        <item>ကိုယ္ပိုင္ ေစ်းေရာင္းျခင္း (ဗန္းရြက္ဗ်က္ထိုး သို႔မဟုတ္ အိမ္ေရွ႕တြင္ဆိုင္ခင္းျခင္း)</item>
+        <item>အေရာင္းဝန္ထမ္း (ေန႔စား)</item>
+        <item>ဆိုင္ သို႔မဟုတ္ လုပ္ငန္း ပိုင္ရွင္</item>
+        <item>ဝင္ေငြမရေသာ မိသားစုအလုပ္</item>
+        <item>အျခား(ေဖာ္ျပပါ)</item>
+    </string-array>
+    <string-array name="year_gift_money">
+        <item>--select one--</item>
+        <item>less than 5000</item>
+        <item>5000 -10,000</item>
+        <item>10,001-50,000</item>
+        <item>50,001-100,000</item>
+        <item>100,001-200,000</item>
+        <item>200,001-500,000</item>
+        <item>500,001-1,000,000</item>
+        <item>1,000,001+</item>
+    </string-array>
+    <string-array name="help_your_work">
+        <item>--select one--</item>
+        <item>မၾကာခဏ ကူညီပါသည္။</item>
+        <item>ကူညီပါသည္၊ မၾကာခဏ မဟုတ္ပါ။</item>
+        <item>မကူညီပါ။</item>
+        <item>အကူအညီ မလိုအပ္ပါ။</item>
+        <item>သက္ဆိုင္မႈမရွိပါ။ (အလုပ္မရွိပါ။)</item>
+    </string-array>
+    <string-array name="help_money_gift">
+        <item>--select one--</item>
+        <item>ေပးပါသည္။</item>
+        <item>မေပးပါ။</item>
+    </string-array>
+    <string-array name="do_dont">
+        <item>--select one--</item>
+        <item>ျပဳလုပ္ပါသည္</item>
+        <item>မျပဳလုပ္ပါ။</item>
+    </string-array>
+    <string-array name="help_not_help">
+        <item>--select one--</item>
+        <item>အမ်ားႀကီး ကူညီပါ သည္။</item>
+        <item>တစ္ခ်ိဳ႕ကိစၥမ်ားအား ကူညီေပးပါသည္။</item>
+        <item>လံုးဝမကူညီပါ။</item>
+    </string-array>
+    <string-array name="sex">
+        <item>--select one--</item>
+        <item>က</item>
+        <item>မ</item>
+    </string-array>
+    
+    <string-array name="e11">
+        <item>--select one--</item>
+        <item>ေန႔တိုင္း/ ေန႔တိုင္းနီးပါး</item>
+        <item>ရက္အနည္း ငယ္တိုင္း</item>
+        <item>အပတ္တိုင္း/ အပတ္တိုင္းနီးပါး</item>
+        <item>လစဥ္/ လတိုင္းနီးပါး</item>
+        <item>တစ္ႏွစ္လွ်င္ အႀကိမ္ အနည္းငယ္</item>
+        <item>တစ္ႀကိမ္</item>
+        <item>လံုးဝ ဖုန္းမေျပာ ျဖစ္ပါ။</item>
+    </string-array>
+    <string-array name="e10">
+        <item>--select one--</item>
+        <item>ေန႔တိုင္း/ ေန႔တိုင္းနီးပါး</item>
+        <item>ရက္အနည္း ငယ္တိုင္း</item>
+        <item>အပတ္တိုင္း/ အပတ္တိုင္းနီးပါး</item>
+        <item>လစဥ္/ လတိုင္းနီးပါး</item>
+        <item>တစ္ႏွစ္လွ်င္ အႀကိမ္ အနည္းငယ္</item>
+        <item>တစ္ႀကိမ္</item>
+        <item>လံုးဝ ျပန္မလာပါ။</item>
+    </string-array>
+    <string-array name="e9">
+        <item>--select one--</item>
+        <item>မထင္ပါ။</item>
+        <item>ထင္ပါသည္၊ ျပန္လာလိုက္ ျပန္သြားလိုက္ ျပဳလုပ္သည္။</item>
+        <item>ထင္ပါသည္၊ ေနာက္ ႏွစ္ အနည္းငယ္ အၾကာတြင္ ျပန္လာမည္။</item>
+        <item>မေသခ်ာပါ/ မသိပါ။</item>
+    </string-array>
+    <string-array name="e8">
+        <item>--select one--</item>
+        <item>မေနပါ။</item>
+        <item>တစ္ၿမိဳ႕နယ္ထဲ တြင္ ေနသည္။</item>
+        <item>တစ္ခရိုင္ထဲ တြင္ ေနသည္။</item>
+        <item>တစ္ျပည္နယ္ ထဲတြင္ ေနသည္။</item>
+        <item>အျခား ျပည္နယ္/ ေဒသတြင္ ေနသည္။</item>
+        <item>ထိုင္းႏိုင္ငံ</item>
+        <item>မသိပါ</item>
+    </string-array>
+    <string-array name="e6">
+        <item>--select one--</item>
+        <item>အတူေန</item>
+        <item>တြဲလ်က္ေဆာက္ထား ေသာအိမ္/ ေဘးအိမ္</item>
+        <item>တစ္ရြာထဲ/ တစ္ရပ္ကြက္ထဲ</item>
+        <item>တစ္ၿမိဳ႕နယ္ထဲ</item>
+        <item>တစ္ျပည္နယ္ထဲ</item>
+        <item>အျခား ျပည္နယ္/ ေဒသ</item>
+        <item>ထိုင္းႏိုင္ငံ</item>
+        <item>အျခား ႏိုင္ငံ (ေဖာ္ျပပါ)</item>
+        <item>မသိပါ</item>
+    </string-array>
+    <string-array name="e4">
+        <item>--select one--</item>
+        <item>ေသြးရင္း</item>
+        <item>ေမြးစား</item>
+        <item>အိမ္ ေထာင္ဖက္ပါ သား၊သမီး</item>
+    </string-array>
+    <string-array name="e3">
+        <item>--select one--</item>
+        <item>သား</item>
+        <item>သမီး</item>
+    </string-array>
+    <string-array name="g4d">
+        <item>--select one--</item>
+        <item>အိမ္ေထာင္ရွိသည္ – အတူတကြ ေနသည္။</item>
+        <item>အိမ္ေထာင္ရွိသည္ – အတူမေနပါ</item>
+        <item>ကြာရွင္းထားသည္/ ကြဲေနသည္</item>
+        <item>မုဆိုးဖို/ မုဆိုးမ</item>
+    </string-array>
+    <string-array name="g4ef">
+        <item>--select one--</item>
+        <item>အိမ္တြင္ အတူတကြေနသည္။</item>
+        <item>ကပ္လ်က္အိမ္တြင္ ေနသည္။</item>
+        <item>ရြာ/ ရပ္ကြက္ တစ္ခု ထဲတြင္ ေနသည္။</item>
+        <item>ၿမိဳ႕နယ္ တစ္ခုထဲတြင္ ေနသည္။</item>
+        <item>ျပည္နယ္ တစ္ခုထဲတြင္ ေနသည္။</item>
+        <item>အျခား ျပည္နယ္/ ေဒသ</item>
+        <item>ထိုင္း ႏိုင္ငံ</item>
+        <item>အျခား ႏိုင္ငံ</item>
+        <item>ဆံုးပါးသြားၿပီျဖစ္သည္။</item>
+        <item>မသိပါ။</item>
+    </string-array>
+    <string-array name="g4g">
+        <item>--select one--</item>
+        <item>ေတာက္ေလွ်ာက္ေနပါသည္။</item>
+        <item>အခ်ိဳ႕အခ်ိန္မ်ားတြင္သာ ေနပါသည္။</item>
+    </string-array>
+    <string-array name="g4h">
+        <item>--select one--</item>
+        <item>ေမြးၿပီး မၾကာခင္ကတည္းက</item>
+        <item>တစ္ႏွစ္ေအာက္</item>
+        <item>တစ္ႏွစ္ခန္႔</item>
+        <item>ႏွစ္ႏွစ္မွ ေလးႏွစ္အထိ</item>
+        <item>ငါးႏွစ္ သို႔မဟုတ္ ငါးႏွစ္ထက္ပို၍</item>
+    </string-array>
+    <string-array name="g4i">
+        <item>--select one--</item>
+        <item>တက္ဖူးပါသည္။</item>
+        <item>မတက္ဘူးပါ။</item>
+    </string-array>
+    <string-array name="g4j">
+        <item>--select one--</item>
+        <item>တက္ေနပါသည္။</item>
+        <item>မတက္ပါ။ – ေက်ာင္းၿပီးသြားၿပီ ျဖစ္သည္။</item>
+        <item>မတက္ပါ။ – ေက်ာင္းထြက္ထားသည္။</item>
+    </string-array>
+    <string-array name="g4k">
+        <item>--select one--</item>
+        <item>ေက်ာင္းမေနဘူးပါ။</item>
+        <item>မူလတန္း</item>
+        <item>မူလတန္းေအာင္</item>
+        <item>အလယ္တန္း သို႔မဟုတ္ အလယ္တန္းေအာင္</item>
+        <item>အလယ္တန္းအထက္</item>
+    </string-array>
+    <string-array name="g4l">
+        <item>--select one--</item>
+        <item>ေျမး၏ မိခင္</item>
+        <item>ေျမး၏ ဖခင္</item>
+        <item>ေျဖဆိုသူ</item>
+        <item>ေျဖဆိုသူ၏ အိမ္ေထာင္ဖက္</item>
+        <item>ေျမး၏ ေမာင္ႏွမ</item>
+        <item>အျခားမိသားစုဝင္မ်ား</item>
+        <item>အိမ္အကူ၊ ကေလးထိန္း</item>
+        <item>သူငယ္ခ်င္း/ အိမ္နီးနားခ်င္း</item>
+        <item>ေျမးမွာ မိမိဘာသာ ေစာင့္ေရွာက္ သည္။</item>
+        <item>အျခား</item>
+    </string-array>
+    <string-array name="g4mabcd">
+        <item>--select one--</item>
+        <item>ပံုမွန္/ မၾကာခဏ</item>
+        <item>တခါတရံ</item>
+        <item>မရွိသေလာက္/ ဘယ္ေတာ့မွ</item>
+    </string-array>
+    <string-array name="g4n">
+        <item>--select one--</item>
+        <item>ေျမး၏ မိဘမ်ားက အားလံုး သို႔မဟုတ္ အမ်ားစုကို ေထာက္ပံ့ေပးသည္။</item>
+        <item>သင္ႏွင့္ သင့္အိမ္ေထာင္ဖက္မွ အားလံုး သို႔မဟုတ္ အမ်ားစုကို ေထာက္ပံ့ေပး ပါသည္။</item>
+        <item>ေျမး၏ မိဘမ်ားႏွင့္ အဘိုးအဘြားမ်ားမွ ေဝမွ်ေထာက္ပံ့ေပးသည္။</item>
+        <item>အျခား (ေဖာ္ျပပါ)</item>
+    </string-array>
+    <string-array name="g4o">
+        <item>--select one--</item>
+        <item>ေျမး၏ မိဘမ်ားက အားလံုး သို႔မဟုတ္ အမ်ားစုကို ေထာက္ပံ့ ေပးသည္။</item>
+        <item>သင္ႏွင့္ သင့္အိမ္ေထာင္ဖက္မွ အားလံုး သို႔မဟုတ္ အမ်ားစုကို ေထာက္ပံ့ေပးပါ သည္။</item>
+        <item>ေျမး၏ မိဘမ်ားႏွင့္ အဘိုးအဘြားမ်ားမွ ေဝမွ်ေထာက္ပံ့ေပးသည္။</item>
+        <item>အျခား (ေဖာ္ျပပါ)</item>
+        <item>သက္ဆိုင္မႈ မရွိပါ (ေက်ာင္း မေနပါ)</item>
+    </string-array>
+    <string-array name="g4p">
+        <item>--select one--</item>
+        <item>တစ္ႏွစ္ ထက္မပို</item>
+        <item>ႏွစ္အနည္းငယ္</item>
+        <item>ငါးႏွစ္ သို႔မဟုတ္ ငါးႏွစ္ထက္ပို၍</item>
+        <item>သတ္မွတ္ထားျခင္းမရွိပါ</item>
+        <item>မေသခ်ာပါ။</item>
+    </string-array>
+    <string-array name="g4q">
+        <item>--select one--</item>
+        <item>သိပ္မရင္းႏွီးပါ။</item>
+        <item>အတိုင္းအတာ တစ္ခုအထိ ရင္းႏွီး သည္။</item>
+        <item>အလြန္ ရင္းႏွီးသည္။</item>
+    </string-array>
+    <string-array name="g4r">
+        <item>--select one--</item>
+        <item>မရွိပါ။</item>
+        <item>အတိုင္းအတာ တစ္ခုအထိရွိပါသည္။</item>
+        <item>အလြန္ရွိပါသည္။</item>
+        <item>မေသခ်ာပါ။</item>
+        <item>သိရန္ ငယ္လြန္းေသးသည္။</item>
+    </string-array>
+    <string-array name="g4sabc">
+        <item>--select one--</item>
+        <item>ပံုမွန္/ မၾကာခဏ</item>
+        <item>တခါတရံ</item>
+        <item>မရွိသေလာက္/ ဘယ္ေတာ့မွ</item>
+        <item>အလြန္ငယ္ေသးသည္</item>
+    </string-array>
+    <string-array name="h5">
+        <item>--select one--</item>
+        <item>အတူေနပါသည္။</item>
+        <item>ထြက္ခြာသြားၿပီး ျဖစ္ပါသည္။</item>
+    </string-array>
+    <string-array name="h6">
+        <item>--select one--</item>
+        <item>ေမြးဖြားၿပီးျဖစ္ပါသည္။</item>
+        <item>အခ်ိဳ႕မွာ ေမြးၿပီးျဖစ္သည္၊ အခ်ိဳ႕မွာ မေမြးေသးပါ။</item>
+        <item>ထြက္ခြာသြားၿပီးမွ ေျမးငယ္(မ်ား) ေမြးဖြားပါသည္။</item>
+    </string-array>
+    <string-array name="h9">
+        <item>--select one--</item>
+        <item>ေနပါသည္။</item>
+        <item>မေနပါ။</item>
+        <item>အခ်ိဳ႕ေနပါသည္၊ အခ်ိဳ႕မေနပါ။</item>
+    </string-array>
+    <string-array name="h10">
+        <item>--select one--</item>
+        <item>ေမွ်ာ္လင့္ထားပါသည္။</item>
+        <item>မေမွ်ာ္လင့္ထားပါ။</item>
+    </string-array>
+    <string-array name="h11">
+        <item>--select one--</item>
+        <item>ေဆြးေႏြးဖူးပါသည္။</item>
+        <item>မေဆြးေႏြးဖူးပါ။</item>
+    </string-array>
+    <string-array name="h12">
+        <item>--select one--</item>
+        <item>သင္ႏွင့္/သို႔မဟုတ္ သင့္အိမ္ေထာင္ဖက္</item>
+        <item>(အမည္) ကိုယ္တိုင္</item>
+        <item>(နာမည္) ႏွင့္ သင္ ႏွင့္/သို႔မဟုတ္ အိမ္ေထာင္ဖက္အတူတကြ</item>
+        <item>သူတို႔မွာ ကၽြႏု္ပ္တို႔ႏွင့္အတူ ေနထိုင္ေနၿပီးျဖစ္သည့္ အတြက္ ဆံုးျဖတ္ခ်က္ခ်ျခင္းမရွိပါ။</item>
+        <item>အျခား (ေဖာ္ျပပါ)</item>
+    </string-array>
+    <string-array name="h13">
+        <item>--select one--</item>
+        <item>ေျမး(မ်ား)၏ ေကာင္းမြန္စြာေနထိုင္ေရးအတြက္</item>
+        <item>ပိုမိုေကာင္းမြန္ေသာ ဘဝရရွိႏိုင္ရန္အတြက္ အရြယ္ေရာက္ သား၊ သမီးမ်ားအား လြတ္လပ္စြာ အလုပ္လုပ္ေစျခင္း</item>
+        <item>အထက္ပါအေၾကာင္းႏွစ္ခုလံုးပါဝင္ၿပီး မိသားစု ေကာင္းမြန္စြာ ေနထိုင္ေရးအတြက္ျဖစ္သည္။</item>
+        <item>အျခား(ေဖာ္ျပပါ)</item>
+    </string-array>
+    <string-array name="h14">
+        <item>--select one--</item>
+        <item>အပတ္စဥ္/ အပတ္စဥ္နီးပါး</item>
+        <item>လစဥ္/ လစဥ္နီးပါး</item>
+        <item>တစ္ႏွစ္လွ်င္ အႀကိမ္အနည္းငယ္</item>
+        <item>တစ္ႏွစ္တစ္ႀကိမ္</item>
+        <item>ႏွစ္အနည္းငယ္တိုင္း</item>
+        <item>ျပန္လာမလည္ေသးပါ</item>
+    </string-array>
+    <string-array name="h15">
+        <item>--select one--</item>
+        <item>ေန႔တိုင္း</item>
+        <item>အနည္းဆံုးတစ္ပတ္တစ္ႀကိ္မ္</item>
+        <item>အနည္းဆံုး လတိုင္း</item>
+        <item>တစ္ႏွစ္လွ်င္ အႀကိမ္ အနည္းငယ္</item>
+        <item>အနည္းဆံုး တစ္ႏွစ္တစ္ႀကိမ္</item>
+        <item>တစ္ႏွစ္တစ္ႀကိမ္ထက္နည္းသည္ သို႔မဟုတ္ လံုးဝ မဆက္သြယ္ပါ။</item>
+    </string-array>
+    <string-array name="h16">
+        <item>--select one--</item>
+        <item>ပိုက္ဆံျပန္ပို႔ပါသည္။</item>
+        <item>မပို႔ပါ။ သို႔ေသာ္ မိသားစုကို ေယဘုယ်အားျဖင့္ ပိုက္ဆံပို႔ပါသည္။</item>
+        <item>ပိုက္ဆံလံုးဝ မပို႔ေပးပါ။</item>
+    </string-array>
+
+    <string-array name="state">
+        <item>--select one--</item>
+        <item>ကရင္</item>
+        <item>မြန္</item>
+    </string-array>
+
+    <string-array name="township_1">
+        <item>--select one--</item>
+        <item>ဘားအံ</item>
+        <item>လႈိင္းဘြဲ</item>
+        <item>ေကာ့ကရိတ္</item>
+        <item>ၾကာအင္းဆိပ္ႀကီး</item>
+    </string-array>
+
+    <string-array name="township_2">
+        <item>--select one--</item>
+        <item>ေခ်ာင္းဆံု</item>
+        <item>ေရး</item>
+        <item>သထံု</item>
+        <item>ဘီးလင္း</item>
+    </string-array>
+    <string-array name="village_1_1">
+        <item>--select one--</item>
+        <item>မူးကဝါ</item>
+        <item>ေကာ့တ႐ုတ္ရ</item>
+        <item>ေကာ့ရမ္းေသာ္</item>
+        <item>ေကာ့ဒန္းမယ္</item>
+        <item>ခေလာက္နိုင္</item>
+        <item>မူးရာ</item>
+        <item>ေကာ့လွိုက္ကြၽန္း</item>
+        <item>ဝါးဆူး</item>
+        <item>ေကာ့မတလိန္</item>
+        <item>ေကာ့ဒန္းမယ္</item>
+        <item>ေကာ့ကဒစ္</item>
+        <item>ေကာ့လွိုက္</item>
+        <item>ထန္းတပင္</item>
+        <item>ေကာ့ကြ</item>
+        <item>ေကာ့ဒြန္း</item>
+        <item>ေကာ့ဝမ္း</item>
+        <item>ေကာ့ထမၼလိန္းေလး</item>
+        <item>ေကာ့သံခါ</item>
+        <item>ဆင္ကုန္း</item>
+        <item>ေကာ့ဒိုက္ျပင္</item>
+        <item>ေကာ့စိုင္ဒီ/ေကာ့ဒိုင္းဒီး</item>
+        <item>ေကာ့ကူး</item>
+        <item>တံတားဦး</item>
+        <item>ဒုံသို႔</item>
+        <item>ေကာ့ခနိပ္</item>
+        <item>ထီထားပလို</item>
+        <item>ပိုင္ရမ္း</item>
+        <item>ေကာ့ထမၼလိန္း</item>
+        <item>တဝန္တာ</item>
+        <item>ေကာ့သလို</item>
+        <item>ေပ်ာ္ရာကုန္း</item>
+        <item>ဇင္ၿပဳံး</item>
+        <item>ေနာင္ကုန္း</item>
+        <item>ကြၽန္းတပင္</item>
+        <item>ေကာ့ကေလြ</item>
+        <item>ေတာႀကီး</item>
+        <item>ေကာ့နိုင္ခလုံ</item>
+        <item>ေကာ့က်ိဳက္</item>
+        <item>ေကာ့ကေလာက္</item>
+        <item>ကမာမို႔</item>
+        <item>​ေကာ့သင္း</item>
+        <item>ေကာ့လမု</item>
+        <item>က်ဳံဖဲ</item>
+        <item>ကတြန္းတာ</item>
+        <item>ေက်ာင္းကုန္း</item>
+        <item>ေကာ့ဂြန္း (ဖဲကတာ)</item>
+        <item>ခရဲ</item>
+        <item>ေတာင္သူကုန္း</item>
+        <item>က်ိဳက္ေကလာသ</item>
+        <item>ေကာ့လာပလ</item>
+        <item>ၿခံကေလး</item>
+        <item>က်ဳံမေနာ</item>
+        <item>ေကာ့ေရ</item>
+        <item>က်ဳံေစာက္ (႐ြာႀကီး)</item>
+        <item>က်ဳံေကာက္</item>
+        <item>တံတားဦး</item>
+        <item>ပိန္းနဲကုန္း</item>
+        <item>႐ြာသစ္</item>
+        <item>က်ားကေလး</item>
+        <item>ေက်ာင္း႐ြာ</item>
+        <item>ေကာ့ဂြန္း</item>
+        <item>ေတာင္ကေလး</item>
+        <item>ေတာင္ေအာက္</item>
+        <item>အနန္းပင္ကုန္း</item>
+        <item>ဥသွ်စ္ကုန္း</item>
+        <item>ေ႐ႊနီ</item>
+        <item>ေကာ့ရင္း (အထက္)</item>
+        <item>ေတာင္ကေလး</item>
+        <item>ေကာ့ရင္းကေလး</item>
+        <item>ေကာ့ရင္းေက်ာင္း</item>
+        <item>ကမား</item>
+        <item>အေညာကုန္း</item>
+        <item>မရင္းကုန္း</item>
+        <item>အင္းရွည္</item>
+        <item>စိမ့္ပိုင္း</item>
+        <item>တံတားဦး</item>
+        <item>ေကာ့သင္းရႉး</item>
+        <item>ရပ္ဖိေသာက္</item>
+        <item>အလယ္</item>
+        <item>ေကာ့ဒူး</item>
+        <item>လွိုင္ကား</item>
+        <item>ေကာ့ဒိုင္း</item>
+        <item>ေကာ့စိန္ဘန္ (အထက္)</item>
+        <item>ေကာ့ခမိတ္</item>
+        <item>ေကာ့သာေခါင္</item>
+        <item>ခ်မ္းသာ (႐ြာသစ္)</item>
+        <item>သေျပကုန္း</item>
+        <item>သရက္ကုန္း</item>
+        <item>တံတားဦး</item>
+        <item>ေတာင္ကေလး (ဘုရားကုန္း)</item>
+        <item>ေကာ့ေပါက္</item>
+        <item>လာလမလိန္း</item>
+        <item>နန္းအီပုန္း</item>
+        <item>မူးတခြီး</item>
+        <item>ေကာ့သိန္းခီ</item>
+        <item>သေကာ့ထ</item>
+        <item>အီလင္း</item>
+        <item>ေကာ့ယာ</item>
+        <item>ေကာ့သၾကား</item>
+        <item>ေကာ့ကလန္စိန္</item>
+        <item>ေကာ့ကမာ</item>
+        <item>တမံဦး</item>
+        <item>ေကာ့မရီး  (ဘုရားကုန္း)</item>
+        <item>ေကာ့ဖါးေထာ္</item>
+        <item>ေကာ့စကလို</item>
+        <item>ေက်ာက္တလုံး</item>
+        <item>ေမာ္ကူး</item>
+        <item>ေကာ့တာ</item>
+        <item>ေကာ့ကဒါ</item>
+        <item>ေကာ့ဆံအိမ္</item>
+        <item>ဘုရားႀကိဳင္</item>
+        <item>ေရေအး</item>
+        <item>တလန္</item>
+        <item>သရက္ကုန္း</item>
+        <item>႐ြာသစ္</item>
+        <item>ေကာ့မေလာက္</item>
+        <item>ေကာ့ကိုက္</item>
+        <item>ေကာ့ဝါးဆူး</item>
+        <item>ျဖတ္လိုင္း</item>
+        <item>ေနာင္သုံ</item>
+        <item>ေကာ့မူးတာ</item>
+        <item>ေကာ့ထမၼလိန္းေလး</item>
+        <item>ခေလာက္ဖလိုး</item>
+        <item>ေတာင္စြန္း</item>
+        <item>ေကာ့ေထာ္ (႐ြာသစ္)</item>
+        <item>ေတာင္ကေလး</item>
+        <item>အိမ္တိုင္ကုန္း</item>
+        <item>မေလး</item>
+        <item>သစ္ျဖဴ</item>
+        <item>ဝါးေတာ</item>
+        <item>ကရစ္က်ဲ</item>
+        <item>​ေ႐ႊလူ</item>
+        <item>ဘန့္ေဘြးကုန္း</item>
+        <item>ေတာ္သေလးခို</item>
+        <item>ပ်ဥ္းကတိုးကုန္း</item>
+        <item>ဝင္းဒရယ္ (႐ြာေလး)</item>
+        <item>ေက်ာက္တလုံး (႐ြာေလး)</item>
+        <item>ေနာရကုန္း</item>
+        <item>ဝင္းဒရယ္</item>
+        <item>ေက်ာက္တလုံး</item>
+        <item>ေနာ္ဖါးဒို</item>
+        <item>သစ္ျဖဴဆိပ္</item>
+        <item>ကံခရဲ</item>
+        <item>ကြၽန္းႀကီး</item>
+        <item>ေကာ္ဟဲေက်ာင္း႐ြာ</item>
+        <item>ျမတ္ေလး</item>
+        <item>တလိုင္းကရင္</item>
+        <item>မဲသဲ</item>
+        <item>ၾကာအင္း</item>
+        <item>ေကြးေလး</item>
+        <item>က်ဳံေထာ္</item>
+        <item>ေ႐ႊအုပ္</item>
+        <item>ေနာင္ပတုပ္</item>
+        <item>ခရဲေတာင္ေပၚ႐ြာ</item>
+        <item>ခရဲေတာင္သူ</item>
+        <item>ခရဲ (ကမ္းနား)</item>
+        <item>ဒူရိန္</item>
+        <item>ခယား (အျပင္)</item>
+        <item>ခယား (အတြင္း)</item>
+        <item>ေကာ့ယကၡ</item>
+        <item>ကမ္းကေလး</item>
+        <item>ေတာင္ၾကား</item>
+        <item>က်ဳံပိုက္</item>
+        <item>ခဲေတာက္</item>
+        <item>ခေလာက္ေထာင္</item>
+        <item>ဂ်ိဳင္း</item>
+        <item>ရိုးမဟာ</item>
+        <item>ေကာ့သာဆူး</item>
+        <item>စံဖရီး</item>
+        <item>စံပံႏုံ</item>
+        <item>ကိုဝီလာ</item>
+        <item>က်ဳံဖရဲ ျမန္မာစု</item>
+        <item>သက္ကယ္ကုန္း</item>
+        <item>ဆင္းက်ဳံး (႐ြာေလး)</item>
+        <item>ဆင္းက်ဳံး</item>
+        <item>ေတာႀကီးကုန္း</item>
+        <item>ဇာသျပင္ (ေရွ႕)</item>
+        <item>က်ဳံကရင္စု</item>
+        <item>ဇာသျပင္ (ေနာက္)</item>
+        <item>ေကာ့က်ိဳက္</item>
+        <item>ေကာ့က်ိဳက္ပြန္</item>
+        <item>ကတြန္းတာ</item>
+        <item>ေနာင္ဒိုင္း</item>
+        <item>ေကာ့စံပလဲ</item>
+        <item>ေကာ့ေနာင္ဖိုင္</item>
+        <item>တ႐ုပ္လွ (႐ြာသစ္)</item>
+        <item>တ႐ုပ္လွ (ကြၽန္း)</item>
+        <item>တ႐ုပ္လွ</item>
+        <item>ေကာ့က်ိဳက္</item>
+        <item>ထမေလာက္</item>
+        <item>ေကာ့မရမ္း</item>
+        <item>ေကာ္ခါဒီး</item>
+        <item>ေကာ့သပုတ္</item>
+        <item>လွိုင္</item>
+        <item>ေတာ္ပုံ</item>
+        <item>ဂ်ိဳ႕ပင္ဆိပ္</item>
+        <item>ဝဲပ်ံေခ်ာင္းဝ</item>
+        <item>ၿမိဳင္</item>
+        <item>စိမ့္ေခ်ာင္း (ကုလားစု)</item>
+        <item>မီးပုန္း</item>
+        <item>ကုန္းတန္းႀကီး</item>
+        <item>စိမ့္ေခ်ာင္း</item>
+        <item>ထီးဖိုးနက္</item>
+        <item>စြယ္ပါကုန္း</item>
+        <item>ေဘာသျပဳ</item>
+        <item>လက္ပံတန္း</item>
+        <item>မဲလန္</item>
+        <item>မဲလန္ေခ်ာင္းဝ</item>
+        <item>ေနာ္သေရး</item>
+        <item>ေနာကြား</item>
+        <item>တေကာင္ဘိုး</item>
+        <item>ထီးမယ္ေဘာ</item>
+        <item>အလယ္</item>
+        <item>ခြီးသေခါ့</item>
+        <item>က်ဳံခနတ္</item>
+        <item>ေရွာက္ကုန္း</item>
+        <item>က်ခတ္ေခ်ာင္း</item>
+        <item>တံတားဦး</item>
+        <item>တေဂးေလာင္း</item>
+        <item>မင္းေစာ</item>
+        <item>ကေမာ့စိုင္</item>
+        <item>ထီးေက်ာ္ခီး</item>
+        <item>ထီးၾကဴ</item>
+        <item>မဲသန</item>
+        <item>ထုံးအိုင္ (အထက္႐ြာ)</item>
+        <item>ကြၽန္းကေလး</item>
+        <item>ထုံးအိုင္ (ေအာက္႐ြာ)</item>
+        <item>​ေထာင္ဝိ</item>
+        <item>ေ႐ႊကင္း</item>
+        <item>ပန္းစိန္</item>
+        <item>ကေမာ့ေညာ</item>
+        <item>ေကာ့ေထး</item>
+        <item>ေထာင္ကလပ္</item>
+        <item>ေနာင္တကံ</item>
+        <item>ေနာင္ထလုံး</item>
+        <item>မူးကဝါ</item>
+        <item>ေနာင္ဘို</item>
+        <item>ေကာ့ဒိုက္ျပင္</item>
+        <item>ဖာလင္ေတာင္သူ</item>
+        <item>ေကာ့မူေသြ</item>
+        <item>ဖာလင္ကရင္</item>
+        <item>ေနာင္ကၿမိဳင္</item>
+        <item>ကြီဇလြန္</item>
+        <item>ေကာ့မံ</item>
+        <item>ေနာင္လွ</item>
+        <item>ႏွစ္ျခား</item>
+        <item>သစ္တိုကုန္း</item>
+        <item>ပိန္နဲကုန္း</item>
+        <item>ဘုရားကုန္း</item>
+        <item>သခြါးကုန္း</item>
+        <item>ကုလားကုန္း</item>
+        <item>ေနာင္က်န္</item>
+        <item>ေကာ့မုသီး</item>
+        <item>လမ္းမႀကီး</item>
+        <item>ေက်ာင္း႐ြာ</item>
+        <item>႐ြာသစ္ကုန္း</item>
+        <item>ေကာ့ပေနာ</item>
+        <item>ဘင္လွိုင္</item>
+        <item>ေနာင္အိမ္ဆိုင္</item>
+        <item>ေနာင္လုံ (ရွမ္းစု)</item>
+        <item>လုံးနိုင္</item>
+        <item>ေနာင္လုံ (ကုလားစု)</item>
+        <item>ေနာင္လုံ (ေနာက္)</item>
+        <item>ေကာ့သင္းရႉး</item>
+        <item>ေကာ့မကယ္</item>
+        <item>ေနာင္လုံ (ေစ်းတန္း)</item>
+        <item>ေနာင္လုံ (ေျမာက္)</item>
+        <item>ျမျပည္</item>
+        <item>ေက်ာ့႐ြာ</item>
+        <item>ေနာင္ကုန္း</item>
+        <item>ေကာ့ပလံ </item>
+        <item>ေကာ့ပလုံ</item>
+        <item>ရွမ္းကုန္း</item>
+        <item>ေနာင္ကုန္း (႐ြာသစ္)</item>
+        <item>ေနာင္သရန္း</item>
+        <item>ဩဘာကုန္း</item>
+        <item>ဝဲကရင္</item>
+        <item>ၾကာအင္း</item>
+        <item>ကိုင္ေလာင္ဆယ္</item>
+        <item>တေမာစိန္</item>
+        <item>ေနာင္တုတ္</item>
+        <item>လဆန္း</item>
+        <item>နတ္ကြၽန္း (ကမ္းနား)</item>
+        <item>ေခြးေလွာ္ေဖာ္</item>
+        <item>နတ္ကြၽန္း</item>
+        <item>တံတားဦး</item>
+        <item>ငုတ္တို</item>
+        <item>လွိုင္းေထာင္</item>
+        <item>ေနာင္ဖါလဲ</item>
+        <item>ပါရာ</item>
+        <item>ေနာင္သရ</item>
+        <item>ေနာင္ပလိန္</item>
+        <item>ေနာင္ထိုးဒီး</item>
+        <item>ဆိုက္လံေတာင္</item>
+        <item>ေညာင္ပင္စု</item>
+        <item>ဇီးကုန္း</item>
+        <item>ေကာ့လံစု</item>
+        <item>မင္းဇီေတာင္သူ</item>
+        <item>ေပါ့ေထာ္</item>
+        <item>မင္းဇီေတာင္သူ (႐ြာသစ္)</item>
+        <item>က်ဳံဖရဲကရင္စု</item>
+        <item>ေကာ့ပတိုင္</item>
+        <item>ေဒါပလိန္</item>
+        <item>ထုံးဘိုေကြ႕</item>
+        <item>င/နက္ျပာ</item>
+        <item>ပန္းကုန္း</item>
+        <item>က်ေသာင္းဆိပ္</item>
+        <item>သဲျဖဴေခ်ာင္း</item>
+        <item>ကာမထ</item>
+        <item>ကြီးေလး</item>
+        <item>နို႔ဘယ္ေဘာ</item>
+        <item>ပ်ဥ္းမပင္ဆိပ္</item>
+        <item>ဖဲကတာ</item>
+        <item>ဖအြံ</item>
+        <item>မိန္မလွကြၽန္း</item>
+        <item>ဗ်ကၡ</item>
+        <item>ဗ်ကၡ (အလယ္)</item>
+        <item>နန္းမဘုံ</item>
+        <item>ေရတြင္းကုန္း</item>
+        <item>ဘားကပ္</item>
+        <item>ကြမ္သင္</item>
+        <item>ေတာႀကီးကုန္း</item>
+        <item>ဘင္ခ်ီ</item>
+        <item>ဘင္ခ်ီ (႐ြာေလး)</item>
+        <item>မိဇံ</item>
+        <item>ေတာင္နားစု</item>
+        <item>လွိုင္ၿခဳံစု</item>
+        <item>ေ႐ႊကင္း႐ြာစု</item>
+        <item>ကုလားစု</item>
+        <item>ကေမာ့ေတာ့/ကေတာ့ေမာ့</item>
+        <item>သိုက္ေတာ</item>
+        <item>မင္းဇီဂတၱဲ</item>
+        <item>ေကာ့ဖန္ရ</item>
+        <item>စာျဖဴစု</item>
+        <item>မွိုင္းကံ</item>
+        <item>ထီဖိုးကလုံ</item>
+        <item>ေကာ့သေရာ္</item>
+        <item>ေတာင္နား</item>
+        <item>မွိုင္းကံေခ်ာင္းဝ</item>
+        <item>မိကရင္</item>
+        <item>ၾကာအင္း (႐ြာႀကီး)</item>
+        <item>ၾကာအင္း (႐ြာေလး)</item>
+        <item>မုကၠဒီ</item>
+        <item>ဖါးႏြဲ႕ကြၽန္း</item>
+        <item>ကန္းႀကီး</item>
+        <item>မႏၲေလးကုန္း</item>
+        <item>ပဲကုန္း</item>
+        <item>က်ခတ္ကုန္း</item>
+        <item>ေရေက်ာ္</item>
+        <item>ၿမိဳင္ကေလးေက်ာင္း (ေအာက္)</item>
+        <item>ၿမိဳင္ကေလးေက်ာင္း (ထက္)</item>
+        <item>ၿမိဳင္ကေလး (႐ြာေလး)</item>
+        <item>ၿမိဳင္ကေလး (႐ြာႀကီး)</item>
+        <item>ဝင္းစိန္ (႐ြာႀကီး)</item>
+        <item>ေနာက္ေဘာက္</item>
+        <item>ေကာ့စပလု</item>
+        <item>ဝင္းစိန္ (ေျမာက္)</item>
+        <item>ေ႐ႊကဲ</item>
+        <item>ကြၽန္း႐ြာ</item>
+        <item>ဝင္းပုတ္</item>
+        <item>မိသေရာင္</item>
+        <item>ေနာင္ထီးလား</item>
+        <item>ေပပင္ဆိပ္</item>
+        <item>ဖါးေပါင္</item>
+        <item>ဖါးေပါင္ (႐ြာေလး)</item>
+        <item>ဝဲျပန္ကုန္းတန္း</item>
+        <item>တုတ္ႀကီး</item>
+        <item>မိတၳီလာ</item>
+        <item>ဘုရားဆိပ္</item>
+        <item>ဝဲျပန္</item>
+        <item>မီးဇိုင္း</item>
+        <item>မီးဇိုင္း (ေတာင္ေျခ)</item>
+        <item>နတ္ကြၽန္း</item>
+        <item>ေကာ့အီမိုက္</item>
+        <item>ေကာ့ပရံ</item>
+        <item>ေကာ့လုံးစိန္</item>
+        <item>ေ႐ႊေတာ</item>
+        <item>ကေမာ့ကစင္</item>
+        <item>ေနာင္ခရိုင္</item>
+        <item>ကေမာ့ကစင္ (႐ြာသစ္)</item>
+        <item>ခရစ္</item>
+        <item>ေကာ့ကူး</item>
+        <item>လွိုင္႐ြာ</item>
+        <item>ရဲသာ</item>
+        <item>ဂဝံကုန္း</item>
+        <item>နတ္ကုန္း</item>
+        <item>ရေသ့ပ်ံ (႐ြာႀကီး)</item>
+        <item>ေရေက်ာ္ကေလး</item>
+        <item>မက်ီးကြၽန္း</item>
+        <item>ေရေက်ာ္ႀကီး</item>
+        <item>ေကာ့ဒို</item>
+        <item>မီးမန္း႐ြာ</item>
+        <item>တဝန္တာ (အထက္)</item>
+        <item>ေကာ့ဒန္</item>
+        <item>ေကာ့နန္းသာ</item>
+        <item>ေကာ့မူးႏုတ္</item>
+        <item>ေကာ့သိုက္</item>
+        <item>လွိုင္ကဘာ</item>
+        <item>ကုန္းကေလး</item>
+        <item>လွာကာ</item>
+        <item>ကူးဆိပ္</item>
+        <item>မမဲေတာင္</item>
+        <item>ဇရပ္ျဖဴ</item>
+        <item>ကုလားကုန္း</item>
+        <item>လွိုင္ဘုံ</item>
+        <item>မဂၤလာ႐ြာသစ္</item>
+        <item>ေတာင္နား</item>
+        <item>ႏွိုင္းၾကာ</item>
+        <item>လွိုင္ဝါး</item>
+        <item>ရသေဝါ</item>
+        <item>ႏြားၿခံကုန္း</item>
+        <item>ေနာင္ရေဖ</item>
+        <item>မိန္းမရွာ</item>
+        <item>ထားဝယ္အံ</item>
+        <item>ေစ်းမသြယ္</item>
+        <item>သာႏႈံး</item>
+        <item>မဲေဘာင္</item>
+        <item>ပတဲေကာ</item>
+        <item>ပါရို</item>
+        <item>လွာကျမင္</item>
+        <item>ပိႏၷဲေတာ</item>
+        <item>တဝန္သံ</item>
+        <item>ေကာ့ဖ်ာ</item>
+        <item>အိမ္သုံးလုံး</item>
+        <item>မုကၠဒူး</item>
+        <item>လကၡဏ</item>
+        <item>လြန္းည</item>
+        <item>ခနိမ္းဒို</item>
+        <item>ေကာ့ေခ</item>
+        <item>ဝဲႀကီး</item>
+        <item>ဌာနီကုန္း</item>
+        <item>ဝင္းက်န္</item>
+        <item>ေကာ့ကရက္ေထာ္</item>
+        <item>တံတားဦး</item>
+        <item>ေတာႀကီး</item>
+        <item>ဖာလင္ေက်ာက္တန္း</item>
+        <item>ကုန္းကေလး</item>
+        <item>ေကာ့ၿဖိဳင္</item>
+        <item>ထုံးေတာင္</item>
+        <item>ေရေပၚေသာင္</item>
+        <item>ဝတ္ႀကီး</item>
+        <item>သုံးအိမ္</item>
+        <item>သံလွယ္</item>
+        <item>ေကာ့ပေနာ</item>
+        <item>ေကာ့သုန္</item>
+        <item>သာယာကုန္း</item>
+        <item>ေနာင္ေ႐ႊ (ေတာင္)</item>
+        <item>ေနာင္ေ႐ႊ (ေျမာက္)</item>
+        <item>နို႔ေအာ္လာ</item>
+        <item>ေရေအး (ေလး)</item>
+        <item>ေရေအး (ႀကီး)</item>
+        <item>က်ဳံစိန္ (႐ြာေလး)</item>
+        <item>က်ဳံစိန္ (႐ြာႀကီး)</item>
+        <item>ဟတၱလိုက္</item>
+        <item>ဖေလာင္ေတာင္</item>
+        <item>ေကာ့ခါးဒီး</item>
+        <item>သစ္ခ်</item>
+        <item>ေကာ့ကေသာင္</item>
+        <item>အုန္းတပင္</item>
+        <item>မလရား</item>
+        <item>အိႏၵဲ</item>
+        <item>ဖ်ားလုံ</item>
+        <item>ေကာ့ခမိတ္</item>
+        <item>ကမံ</item>
+        <item>ေနာင္လုံ (ရွမ္းစု)</item>
+        <item>ေနာင္လုံ (ကုလားစု)</item>
+        <item>အိႏၵဳ</item>
+        <item>မူးကို</item>
+        <item>ဝဲကနင္</item>
+        <item>လိပ္ေခ်ာင္း</item>
+        <item>က်ဳံစိန္ (႐ြာသစ္)</item>
+        <item>နို႔ေနာ္ဝါး</item>
+        <item>အီဟယ္ (႐ြာကေလး)</item>
+        <item>အီဟယ္</item>
+        <item>လွိုင္ကဒတ္</item>
+        <item>သာမည</item>
+    </string-array>
+
+    <string-array name="village_1_2">
+        <item>--select one--</item>
+        <item>ဖာပြန္</item>
+        <item>ကေမာ့ကခ်ဴး</item>
+        <item>ေကာ့ဝန္း</item>
+        <item>ေတာင္ေျခရင္း</item>
+        <item>မဲေလာင္းေလး</item>
+        <item>သုံးအိမ္စု</item>
+        <item>မရမ္းအူကြင္း</item>
+        <item>ေကာ့လွိုင္း</item>
+        <item>မရမ္းအူကုန္း</item>
+        <item>ဝင္းစိန္</item>
+        <item>ဘုရားငုတၱိဳ</item>
+        <item>ကြမ္ဖ်ာ</item>
+        <item>ခဒါ</item>
+        <item>ပုလူးခီး</item>
+        <item>ခုဘိုင္း</item>
+        <item>ကေလာင္ေက်ာ္</item>
+        <item>မဲဆမိတ္</item>
+        <item>ေနာင္တိုင္</item>
+        <item>႐ြာကိုင္းေကာင္း</item>
+        <item>ကြမ္ဘီ</item>
+        <item>မဲသိမ္႐ြာ</item>
+        <item>ပိႏၷဲေတာ</item>
+        <item>စည္းစိမ္ကုန္း</item>
+        <item>ကြမ္တာ</item>
+        <item>ကမာၻးနီ</item>
+        <item>လဝါ</item>
+        <item>ထီးဖိုးခီး</item>
+        <item>ကြမ္တာကုန္း</item>
+        <item>ကြၽန္းကုန္း</item>
+        <item>သဒီခို</item>
+        <item>ရွမ္း႐ြာ</item>
+        <item>ပုတိန္ကုန္း</item>
+        <item>ကိုဧည့္သည္</item>
+        <item>ဒိုင္းျပကမ္းနား</item>
+        <item>ဒိုင္းျပကုန္း</item>
+        <item>ကရင္စု</item>
+        <item>ဆိတ္ဖူးကုန္း</item>
+        <item>နိုထေဘာင္</item>
+        <item>ကိုေမာင္</item>
+        <item>ပိႏၷဲေတာ</item>
+        <item>ၿမိဳင္သာယာ</item>
+        <item>ဆင္ကူး</item>
+        <item>ေ႐ႊေအာင္</item>
+        <item>ထီေသာခယ္ခီး</item>
+        <item>အထက္ေရပူ</item>
+        <item>ေက်ာင္းေရပူ</item>
+        <item>မီးေသြးဖို</item>
+        <item>ဘုရားကုန္း</item>
+        <item>ေတာင္သရက္ကုန္း</item>
+        <item>ကိုတာဟိုး</item>
+        <item>ကိုသက္ေဝ</item>
+        <item>ေအာက္ေရပူ</item>
+        <item>႐ြာသစ္</item>
+        <item>ပ်ဥ္းကတိုးကုန္း</item>
+        <item>ကုလားကုန္း</item>
+        <item>ထီလုံ</item>
+        <item>ေျမနီကုန္း</item>
+        <item>ဒညင္းကုန္း</item>
+        <item>သမာၻန္</item>
+        <item>သမာၻန္ကႏၷား</item>
+        <item>ေနာင္သငဲ့</item>
+        <item>ကြၽန္းႀကီးကုန္း</item>
+        <item>ရွမ္းကုန္း</item>
+        <item>သပုတို</item>
+        <item>က်ဳံေကာ္</item>
+        <item>ေက်ာက္ေတာင္</item>
+        <item>ေကာ့ဖ်ာ</item>
+        <item>တာေပါင္ကႏၷား</item>
+        <item>ေနာင္တိုင္</item>
+        <item>တာေပါင္ကုန္း</item>
+        <item>ေကာ့ေပါ</item>
+        <item>ထန္းေတာ</item>
+        <item>ကတီကံ</item>
+        <item>လွိုင္ေကာ့ဖ်ာ</item>
+        <item>ေနာင္လေမာင္း</item>
+        <item>ေကာ့ျမတ္ႀကီး</item>
+        <item>ကတီကံ (ေအာက္)</item>
+        <item>ေက်ာင္းကုန္း</item>
+        <item>မဲေလာင္ႀကီး</item>
+        <item>ခိုေရာ</item>
+        <item>ကုံးကေလး႐ြာသစ္</item>
+        <item>ကုံးကေလး</item>
+        <item>ေကာ့ဝါးမီး</item>
+        <item>ပါတ္ပ်ိဳး</item>
+        <item>ဆင္ေသကုန္း</item>
+        <item>ပါတ္ေက်ာ႐ြာႀကီး</item>
+        <item>ပါတ္ေက်ာ႐ြာေလး</item>
+        <item>ထီးဖိုးထ</item>
+        <item>ဖါးထကေလာ့</item>
+        <item>ညဗလီးခီး</item>
+        <item>ပေလာညာသီ</item>
+        <item>ေက်ာ္မီးခိုး</item>
+        <item>မဲေလာခီး</item>
+        <item>ေစာဖိုးခီး</item>
+        <item>ထီးမို႔ခီး</item>
+        <item>ထီးဖါးရက္</item>
+        <item>ဝါးမီကုလား</item>
+        <item>ထီးမဲေပါ</item>
+        <item>ထီးကနဲ</item>
+        <item>ထီးခလိုးေသာ</item>
+        <item>မဲေပါ</item>
+        <item>ထီးၾကားရ</item>
+        <item>မဲကေတာခီး</item>
+        <item>ရွမ္း႐ြာသစ္</item>
+        <item>မဲသမူ</item>
+        <item>ထီးပလိုထ</item>
+        <item>တရီးဖိုးကြီး</item>
+        <item>ေက်ာ္တလိခို</item>
+        <item>ေဘာေဘာခီး</item>
+        <item>ေကာ့ေကတာ</item>
+        <item>ကမားထ</item>
+        <item>ကြီးေလး</item>
+        <item>ကြမ္းေတာ</item>
+        <item>႐ြာကေလး</item>
+        <item>ၾကာအင္း</item>
+        <item>ဝိုင္းေထာ္</item>
+        <item>ကြီးေလာဖလိုး</item>
+        <item>မဲကရက္</item>
+        <item>ထီးစရား</item>
+        <item>ကူနီႀကိဳး</item>
+        <item>ထီးေသာခီး</item>
+        <item>ကူးဆိပ္</item>
+        <item>မဲကတူး</item>
+        <item>ေက်ာင္းမ</item>
+        <item>ရင္းဘိုင္း</item>
+        <item>ကလူးေထာ္</item>
+        <item>ကေမာ့ဖိုး</item>
+        <item>ထီးတပလူ</item>
+        <item>ေပါထိခိုး</item>
+        <item>ခြဒီမိ</item>
+        <item>ကေမာသို႔</item>
+        <item>ဦးမိုးခြီး</item>
+        <item>ေကာ့္ထီးဖါးခို</item>
+        <item>စားလူထု</item>
+        <item>နို႔ေဒး</item>
+        <item>မိုးခြီးခိုး</item>
+        <item>ေရတံခြန္</item>
+        <item>ထိဖိုးမူေနာ္</item>
+        <item>ကေမာ့လဲ (ေက်ာင္း)</item>
+        <item>ေတာင္စြန္း</item>
+        <item>မဲလေရာ</item>
+        <item>ထီးခိခို</item>
+        <item>ထီးကေလာ</item>
+        <item>ထီးေနာထ</item>
+        <item>မဲေဖာ</item>
+        <item>ထီးကနဲ</item>
+        <item>ထီးကလိုေသာ</item>
+        <item>ငွက္ေပ်ာေတာ</item>
+        <item>ထီးစထ</item>
+        <item>မအဲ</item>
+        <item>ကေမာ့လဲကမ္းနား</item>
+        <item>ဝါးခုတ္ေတာ</item>
+        <item>ေကာ့ကရစ္ကြၽန္း</item>
+        <item>ေ႐ႊဂြန္း</item>
+        <item>ကမ္းနီ</item>
+        <item>ေအာက္ေတာ</item>
+        <item>တကူဆိပ္</item>
+        <item>ေကာ့စိန္ (အလယ္)</item>
+        <item>ခရမ္းကြၽတ္</item>
+        <item>ေ႐ႊေက်ာ္</item>
+        <item>ေကာ့စိန္ (အထက္)</item>
+        <item>ကိုေမာင္ (ရွမ္းစု)</item>
+        <item>ေကာ့စိန္ေခ်ာင္းဝ</item>
+        <item>ကြၽန္းမီး</item>
+        <item>အလန္း</item>
+        <item>ကြၽန္းထိပ္႐ြာေလး</item>
+        <item>႐ြာသာေအး</item>
+        <item>ကြၽန္းထိပ္႐ြာႀကီး (ျမေလး)</item>
+        <item>ေထာ္႐ြဲ</item>
+        <item>စိႏၲာ</item>
+        <item>ေထာ္႐ြဲကမ္းနား</item>
+        <item>အင္းနို</item>
+        <item>ကြၽန္းေတာ</item>
+        <item>တဝန္ဖန္ရ</item>
+        <item>ေကာ့လန္စု</item>
+        <item>ေနာင္ေန</item>
+        <item>နားဒိုက္</item>
+        <item>က်ဳံပကို</item>
+        <item>က်ဳံပကို႐ြာသစ္</item>
+        <item>ေညာင္ပင္</item>
+        <item>ရာမီးကုန္း</item>
+        <item>ေနာပနာမိန္</item>
+        <item>ဂ်ိဳ႕ေခ်ာင္း</item>
+        <item>ဥေဒါင္း</item>
+        <item>လွကဇိုင္း</item>
+        <item>နန္သာအုံး</item>
+        <item>တခင္းလုံး</item>
+        <item>သာယာကုန္း</item>
+        <item>႐ြံ႕ဗြက္</item>
+        <item>ကပၸလီ (ေအာက္)</item>
+        <item>အဝင္ဝ</item>
+        <item>လက္ပန္ကုန္း</item>
+        <item>ဝါးခုတ္ေတာ</item>
+        <item>ကုလားကုံး</item>
+        <item>ကပၸလီ</item>
+        <item>လက္ခတ္</item>
+        <item>သေျပကုန္း</item>
+        <item>ဘုရားငုတ္တို</item>
+        <item>ေနာေကာ</item>
+        <item>တခြက္ဖိုး</item>
+        <item>ပန္းေတာမီး</item>
+        <item>တခြက္ဖိုးကႏၷား</item>
+        <item>ထသိန္ႀကိဳးဝိုင္း</item>
+        <item>ဝင္းကေမာ့</item>
+        <item>ရေသ့ကုန္း</item>
+        <item>ကမာခိုကုန္း</item>
+        <item>ထမာခို</item>
+        <item>ကစို</item>
+        <item>ငွက္ေပ်ာေတာ</item>
+        <item>ေနာင္ခလုံး</item>
+        <item>ပညာပလီ</item>
+        <item>နိုးဖိုးခီး</item>
+        <item>ကြီးေသာခယ္</item>
+        <item>ဖါးကပ္</item>
+        <item>ညာမေရာ</item>
+        <item>မိုးနိုင္းဘုရားေျခရင္း</item>
+        <item>မိုးနိုင္း (ေတာင္ကုလားစု)</item>
+        <item>ေလာ္ေစာေဒး</item>
+        <item>မဲသ</item>
+        <item>မိုးနိုင္း (ေတာင္)</item>
+        <item>မိုးနိုင္းေအာက္</item>
+        <item>မိုးနိုင္းႀကီး</item>
+        <item>ဝင္းဖရ</item>
+        <item>ကုန္းကေလး</item>
+        <item>ေခ်ာင္းဝ</item>
+        <item>ကရဲေထာ္</item>
+        <item>ေတာင္ပေလာင္</item>
+        <item>ေနာင္ဘိုးႀကီး</item>
+        <item>ေ႐ႊျပည္ကုန္း</item>
+        <item>သုံးအိမ္စု</item>
+        <item>ေကာ့ဆံမိန့္</item>
+        <item>႐ြာကိုင္းေကာင္း</item>
+        <item>ေကာ့စီးစို</item>
+        <item>ေကာ့ဖားေထာ္</item>
+        <item>႐ြာသစ္</item>
+        <item>​ေကာ့ႏြဲ႕</item>
+        <item>ကဇိုင္း</item>
+        <item>က်ဳံကဒြန္း</item>
+        <item>႐ြာေဟာင္း</item>
+        <item>ေနာနိုင္က်ဳံ</item>
+        <item>ေနာင္ျမလြဲ</item>
+        <item>သုံးအိမ္စု</item>
+        <item>ေကာ့ဖမြတ္</item>
+        <item>သာယာကုန္း</item>
+        <item>ေကာ့ကစြယ္</item>
+        <item>ေတာင္ကေလး</item>
+        <item>လွကမန္း</item>
+        <item>ႀကိမ္ကြၽန္း</item>
+        <item>က်ိဳက္ေပါင္</item>
+        <item>ေကာ့မရိုင္း</item>
+        <item>အလယ္႐ြာ</item>
+        <item>ေအာက္ေဒၚလမ္း</item>
+        <item>ထိန္ကြၽန္း</item>
+        <item>ကြမ္ေဖာ္</item>
+        <item>ေကာ့ခမ္</item>
+        <item>ေဒၚလမ္း</item>
+        <item>ပတ</item>
+        <item>ကုလားစု</item>
+        <item>ေကာ့စူးကုန္း</item>
+        <item>ေကာ္ဒိုး</item>
+        <item>ခဝဲဘန္</item>
+        <item>က်ဳံစိန္</item>
+        <item>ကရင္စု</item>
+        <item>ဗမာစု</item>
+        <item>ေၾကာင္ေတာ</item>
+        <item>ေနာင္တိုင္</item>
+        <item>အာကုကေရာင္း</item>
+        <item>႐ြာမ-ေနာင္ခြီး</item>
+        <item>ေနာင္ခရိန္</item>
+        <item>ေကာ့ထေရာင္း</item>
+        <item>ထိုင္ဘုတ္</item>
+        <item>တိုက္ေက်ာင္းေနာင္ဘို</item>
+        <item>ဘီစကတ္ေတာင္စြန္း</item>
+        <item>ေနာင္ဘို</item>
+        <item>ဂန္အိပ္</item>
+        <item>ေ႐ႊအိပ္</item>
+        <item>ေနာင္တိုင္</item>
+        <item>နီးဖ</item>
+        <item>တာကရား (အလယ္)</item>
+        <item>တာကရား (အေနာက္)</item>
+        <item>ေနာင္ခရိုင္</item>
+        <item>တညင္းကုန္း</item>
+        <item>႐ြာသစ္</item>
+        <item>ထီးကိုင္ေကာင္း</item>
+        <item>က်ဳံမတီ</item>
+        <item>ထီဖိုးကိန္</item>
+        <item>ကန္းကေလး</item>
+        <item>ေပါေလာက္</item>
+        <item>ဗမာစု</item>
+        <item>မဲလမ႐ြာ</item>
+        <item>ကုန္းကေလး</item>
+        <item>ေျမာက္ကုန္း</item>
+        <item>အလယ္႐ြာ</item>
+        <item>႐ြာႀကီး</item>
+        <item>ကလူးစု</item>
+        <item>အေပါဗမာစု</item>
+        <item>ငွက္ေပ်ာေတာ</item>
+        <item>ကြၽန္းစု</item>
+        <item>ဘုရားကုန္း</item>
+        <item>ထီဖိုးခြီး</item>
+        <item>ေကာ့ၾကား</item>
+        <item>ရစ</item>
+        <item>ယာကီ</item>
+        <item>ေတာင္သူစု</item>
+        <item>ေထာက္ကယား</item>
+        <item>ေပါေလာက္</item>
+        <item>ေတာင္ကေလး</item>
+        <item>ထန္းတပင္</item>
+        <item>ယာခိေဘာင္</item>
+        <item>ေကာ့ထရဲ</item>
+        <item>မဲသပုံ</item>
+        <item>မဲပရ (အထက္)</item>
+        <item>မဲပရ (ေအာက္)</item>
+        <item>​ေစာခီးခို႔</item>
+        <item>သနင္သေရာ</item>
+        <item>မဲသဖုံ (အထက္)</item>
+        <item>မဲသဖုံ (ေအာက္)</item>
+        <item>ခါထ</item>
+        <item>ေဒေလာ္ဖြား</item>
+        <item>သစ္ေမာ္ကူး</item>
+        <item>တာလယ္</item>
+        <item>သက္ခထ</item>
+        <item>ကေလးမိုးခီး</item>
+        <item>ဝင္းေစာ</item>
+        <item>ဝါးမီးကလား</item>
+        <item>မဲကရယ္</item>
+        <item>ထီးကေဟာ</item>
+        <item>နယ္ဖိုးခီး</item>
+        <item>မဲတံ</item>
+        <item>မဲလအား</item>
+        <item>ေလာ္ေကာ္</item>
+        <item>တေငါ</item>
+        <item>ထီးဖိုးကပ္</item>
+        <item>နတ္ႀကီး</item>
+        <item>သေရထ</item>
+        <item>တညင္းကုန္း</item>
+        <item>ထီးဝါးမီ</item>
+        <item>ေတာင္မိုးလာထ</item>
+        <item>မိေၾကာင္</item>
+        <item>ေတာင္မိုးလာခီး</item>
+        <item>ေတာ္ေအးေဖာ္</item>
+        <item>စားပ်က္</item>
+        <item>ထကီးခို</item>
+        <item>ဖါေကြးခြီး</item>
+        <item>ေနာ္ရီ</item>
+        <item>ေမာ္ခီး</item>
+        <item>ထီးပါ</item>
+        <item>ေရာထ</item>
+        <item>အိုလာကလိုး</item>
+        <item>ဝါကလူခို႔</item>
+        <item>ဖာအီး</item>
+        <item>စူးထ</item>
+        <item>သမို</item>
+        <item>စေလာခီး</item>
+        <item>​ေပါင္</item>
+        <item>ကုလား</item>
+        <item>ပထလာပ</item>
+        <item>မဲ့တပူးခီး</item>
+        <item>အထက္ေတာကစ</item>
+        <item>ေအာက္ေတာကစ</item>
+        <item>ထီးေထာ္ဗာခီး</item>
+        <item>ထားခရီခီး</item>
+        <item>လားေကာခို</item>
+        <item>ခေလာခါခီး</item>
+        <item>ခလယ္ေဒး</item>
+        <item>ေမာဖိုးခလိုး</item>
+    </string-array>
+
+    <string-array name="village_1_3">
+        <item>--select one--</item>
+        <item>ေသာက္ပိန္</item>
+        <item>တခြန္တိုင္</item>
+        <item>သရက္ေတာ</item>
+        <item>ေထာ္ရီ</item>
+        <item>ၾကာအင္း</item>
+        <item>ေခ်ာင္းဝိုင္း</item>
+        <item>ေသာက္ပိန္</item>
+        <item>သာယာကုန္း</item>
+        <item>ထိစေကာ</item>
+        <item>ဘုရားငုတ္တို</item>
+        <item>ဝဲလစ္</item>
+        <item>ေညာင္ကုန္း</item>
+        <item>ထီဆြမ္</item>
+        <item>ဝဲကင္းအံ</item>
+        <item>ဒဝယ္လာ</item>
+        <item>ေနာင္တမံ</item>
+        <item>အင္းရွည္</item>
+        <item>ေတာင္နား</item>
+        <item>ေနာင္ဟင္ (ရွမ္းစု)</item>
+        <item>ေကာ့ပလံ</item>
+        <item>ခနိမ္းေဖာ္</item>
+        <item>ေနာင္ဟင္ (ကရင္စု)</item>
+        <item>ေကာ့က်ိဳက္</item>
+        <item>ဘုရားကုန္း</item>
+        <item>နဘူးႏွစ္ခ်ား</item>
+        <item>နန္းေကာ္ေတး</item>
+        <item>ကန္းနားစု</item>
+        <item>ေနာင္ဟင္ (ရွမ္းစု)</item>
+        <item>ကမ္းနား (ပိုတာေဝါ)</item>
+        <item>နို႔ထီးလယ္</item>
+        <item>နို႔ေပၚဟဲ</item>
+        <item>ဒါဝယ္ဒန္</item>
+        <item>ေကာ့ညိုင္း</item>
+        <item>နဘူးတံခြန္တိုင္</item>
+        <item>ေထာ့ေကာ္ကိုး</item>
+        <item>နန္းဆန္ရစ္</item>
+        <item>ေကာ့ဆန္ဖြန္းရပ္</item>
+        <item>ေကာ့ကေလာင္</item>
+        <item>ထီးဝါးဆူးခီးရပ္</item>
+        <item>ေကာ့ခ်ဳံရပ္</item>
+        <item>ေကာ့မွန္ရပ္</item>
+        <item>ထီးကေလး</item>
+        <item>ေမာ့ခလိန္</item>
+        <item>သၾကား</item>
+        <item>ေကာ့ထိုး</item>
+        <item>ေနာင္ကိုင္း</item>
+        <item>ေ႐ႊလူကုန္း</item>
+        <item>မိပါလဲ</item>
+        <item>ေစာ႐ူး (အ႐ူး)</item>
+        <item>သီခါးပူ</item>
+        <item>ေကာ့ေဖာင္</item>
+        <item>ေနာင္ထြတ္တာ</item>
+        <item>ကြီေမာင္တိုင္</item>
+        <item>ထိဖိုးဇံ</item>
+        <item>ေကာ့သာစု</item>
+        <item>ျမပတိုင္နိုင္</item>
+        <item>ေနာင္ထပၸံ</item>
+        <item>ထီးဝါစူး</item>
+        <item>ေခါေဝါ</item>
+        <item>ေကာ့ဆူး</item>
+        <item>ေနာင္လံလုံ</item>
+        <item>တံတား</item>
+        <item>ေကာ့ကေလာင္</item>
+        <item>ေနာင္မိ</item>
+        <item>ေနာင္အီခက္</item>
+        <item>ေကာ့လဘို</item>
+        <item>ေကာ့တိုင္းေျပ</item>
+        <item>ျမပတိုင္</item>
+        <item>လန္းခိုဘိုင္း</item>
+        <item>သုံးအိမ္စု</item>
+        <item>ေကာ့ေဒးခ်ိန္</item>
+        <item>ေနာင္လီ</item>
+        <item>ေညာင္ကုန္း</item>
+        <item>ေကာ့သာစူး</item>
+        <item>ေကာ့ဒိုင္</item>
+        <item>ေကာ့လဘို</item>
+        <item>ၾကာအင္းစု</item>
+        <item>နိုင္းခေလာင္</item>
+        <item>ေဒါဖ်ာ (မြန္စု)</item>
+        <item>ေဒါဖ်ာ (ကရင္စု)</item>
+        <item>ေကာ့ကမာ</item>
+        <item>ေကာ့ေဘာ္</item>
+        <item>ေကာ့သံခါ</item>
+        <item>ေတာင္စြန္း</item>
+        <item>ေကာ့ဖလြတ္</item>
+        <item>ေကာ့ခမိ</item>
+        <item>ေတာင္သုံးလုံး</item>
+        <item>ေနာင္နိုင္း</item>
+        <item>ဆိပ္ဖူးကုန္း</item>
+        <item>ကမၼရာ</item>
+        <item>ရန္ကုတ္</item>
+        <item>လွိုင္တန္း</item>
+        <item>တကံကူး</item>
+        <item>႐ြာသစ္</item>
+        <item>နန္းေတာ္တိုး</item>
+        <item>အံကေလာ္</item>
+        <item>ေရလယ္ကုန္း</item>
+        <item>ေကာ့ႏြဲ</item>
+        <item>ၿမိဳ႕ေဟာင္း</item>
+        <item>ေက်ာက္စရစ္ကုန္း</item>
+        <item>ေျမာက္ၾကာအင္း</item>
+        <item>ဝိဇၨာကုန္း</item>
+        <item>ဝင္းပုတ္</item>
+        <item>ဖန္းခါးကုန္း</item>
+        <item>လွိုင္ဝ</item>
+        <item>သာယာကုန္း</item>
+        <item>ေၾကာင္ရွာကုန္း</item>
+        <item>ေမာင္းမ႐ြာသစ္</item>
+        <item>ေရေက်ာ္ေလး</item>
+        <item>ေရေက်ာ္ႀကီး</item>
+        <item>တံတားက်ိဳး</item>
+        <item>ကမိုင္ (ကမာအင္း) ကုန္း</item>
+        <item>ေဟာင္သေရာ</item>
+        <item>ေဟာင္သေရာ (သ/မ)</item>
+        <item>႐ြာတန္းရွည္</item>
+        <item>သရက္ေတာ</item>
+        <item>အံဖႀကီး</item>
+        <item>ၾကာအင္းကုန္း</item>
+        <item>ေနာင္နိုင္း</item>
+        <item>အံဖေလး</item>
+        <item>ေညာင္ပင္</item>
+        <item>ကတိုးထ</item>
+        <item>စကၠဝက္</item>
+        <item>႐ြာသစ္</item>
+        <item>ေအာင္လွိုင္</item>
+        <item>ေဘာ့ဒိုင္း</item>
+        <item>လွေက်ာ္ကုန္း (နန္းေ႐ႊမႈံ)</item>
+        <item>ေဒါက္ပလန္</item>
+        <item>သုံးဆယ့္သုံးဆူ</item>
+        <item>က်ိဳက္သလိုက္</item>
+        <item>က်ဳံဒိုးေခ်ာင္းဖ်ား</item>
+        <item>ေကာ့ကေသာင္</item>
+        <item>အုန္းတပင္႐ြာသစ္</item>
+        <item>ႏြားၿခံကုန္း</item>
+        <item>အင္းႀကီး</item>
+        <item>ဝင္းျပႆဒ္</item>
+        <item>ပိေတာက္ကုန္း</item>
+        <item>တံတားဦး</item>
+        <item>သာယာကုန္း</item>
+        <item>ေကာ့ေထာခို</item>
+        <item>ေကာ့ဝါလဲ</item>
+        <item>ေနာင္တမံ</item>
+        <item>ငါးတိုင္</item>
+        <item>ေလးတိုင္႐ြာသစ္</item>
+        <item>လွိုင္ကြယ္</item>
+        <item>ေရပူႀကီး</item>
+        <item>ေျမာက္ကမၼရိုက္</item>
+        <item>ငွက္ေပ်ာေတာ</item>
+        <item>သလႊဲေထာ္</item>
+        <item>ေကာ့ပတူး</item>
+        <item>မာလာကုန္း</item>
+        <item>သမၺာန္ေခ်ာင္း</item>
+        <item>ေတာင္ကမၼရိုက္</item>
+        <item>ထိခါးသီ</item>
+        <item>ခူနီ</item>
+        <item>ကမၼရိုက္ကေလး</item>
+        <item>သမိန္ဒြတ္</item>
+        <item>ဝင္းက</item>
+        <item>တီဆူး</item>
+        <item>အုံဆူေခ်ာင္းဖ်ား</item>
+        <item>ေအာက္႐ြာ</item>
+        <item>႐ြာကေလး</item>
+        <item>ထီဟူးသံ</item>
+        <item>ေတာင္ၾကာအင္း</item>
+        <item>ကြၽန္းေတာ</item>
+        <item>တဖုံးနိုင္</item>
+        <item>ေလာင္းကိုင္</item>
+        <item>ဖားက်</item>
+        <item>ေနာင္တလာ</item>
+        <item>မိတလန္းနိုင္</item>
+        <item>ကေမာ့ကတူ</item>
+        <item>ေကာ့ေဖာင္</item>
+        <item>အံေကာင္</item>
+        <item>လွိုင္တန္း</item>
+        <item>မိဖညား</item>
+        <item>ေကာ့ဆင္ကုန္း</item>
+        <item>သိမ္ပလိန္</item>
+        <item>မိထမုန္း</item>
+        <item>တရိတေခါင္း</item>
+        <item>တေနကြီး (ေအာင္ဒြီး)</item>
+        <item>သျပဳ</item>
+        <item>ေသးခိ</item>
+        <item>ကုလားေခ်ာ</item>
+        <item>ေက်ာက္တန္း</item>
+        <item>လွိုင္းဒြယ္</item>
+        <item>အေနာက္ဘက္ကမ္း</item>
+        <item>သရက္ေတာ</item>
+        <item>ကမ္းနီ</item>
+        <item>ေကာ့ကာ</item>
+        <item>မိကလုံ</item>
+        <item>က်ိဳက္ဇင္း</item>
+        <item>သမၼံေခ်ာင္း</item>
+        <item>ကုလားေက်ာက္ဖ်ာ</item>
+        <item>ေျမနီကုန္း</item>
+        <item>မဲဇလီ</item>
+        <item>ငါးအိမ္စု</item>
+        <item>႐ြာကေလး</item>
+        <item>ေကာ့ထိုကီး</item>
+        <item>ကရင္ေက်ာက္ဖ်ာ</item>
+        <item>ေကာ့က်ိဳက္</item>
+        <item>ေကာ့လွ်မ္း</item>
+        <item>ေကာ့ခိုက္</item>
+        <item>ေကာ့ဟလတ္</item>
+        <item>ဖါးဘုတ္</item>
+        <item>ငွက္ေပ်ာေတာ</item>
+        <item>ကြၽဲျဖဴအင္း</item>
+        <item>ေကာ့ဝါရႉး</item>
+        <item>ပတဲေကာ</item>
+        <item>႐ြာေစာင္းကြၽန္း</item>
+        <item>လာလွ်ပ္</item>
+        <item>ၾကာရိုးကုန္း</item>
+        <item>ထီဖိုးကေလာင္</item>
+        <item>႐ြာတန္းရွည္</item>
+        <item>အီဘိုင္း</item>
+        <item>ေရေက်ာ္</item>
+        <item>ပိေတာက္ကုန္း</item>
+        <item>ကညင္ကတိုက္</item>
+        <item>ပကၠရာ</item>
+        <item>ပကၠရာေလး</item>
+        <item>ေက်ာက္တန္း</item>
+        <item>ႏြားၿခံကုန္း</item>
+        <item>က်ိဳက္ခဘင္</item>
+        <item>ေက်ာက္ေရတြင္း</item>
+        <item>ေကာ့ဟေသာ္</item>
+        <item>ခရစ္</item>
+        <item>မြန္လွိုင္</item>
+        <item>ေပၚၾကဴကုန္း</item>
+        <item>ေကာ့ဂူ</item>
+        <item>ေကာ့ငွင့္</item>
+        <item>ေကာ့က႐ြတ္</item>
+        <item>လိေမၼာ္ကုန္း</item>
+        <item>ေနာင္ခစ္</item>
+        <item>မင္း႐ြာ</item>
+        <item>ဘုရားႀကီးေတာင္</item>
+        <item>ေကာ့ေပါက္</item>
+        <item>ဘုရားႀကီးကုန္း</item>
+        <item>ေကာ့ဒုံ</item>
+        <item>ေကာ့ငွင့္</item>
+        <item>ဝဲရိတ္</item>
+        <item>ေကာ့က႐ြပ္</item>
+        <item>ေကာ့ပလိုင္</item>
+        <item>ေကာ့မိ</item>
+        <item>ေကာ့ဘိန္း</item>
+        <item>ေကာ့တာ</item>
+        <item>ေကာ့ဂိုး</item>
+        <item>ပိုင္ရပ္</item>
+        <item>မုတ္ဆိတ္ကုန္း</item>
+        <item>မမဲကုန္း</item>
+        <item>ခြတ္ကေလာင္</item>
+        <item>လွိုင္လာဘ</item>
+        <item>ဝင္းဒဝယ္</item>
+        <item>ဝင္းပုတ္</item>
+        <item>မိုက္တလနိုင္</item>
+        <item>အလယ္ကြၽန္း</item>
+        <item>တကုံးက</item>
+        <item>ခရင္း</item>
+        <item>ထီမိုးေဖာ္</item>
+        <item>ဝင္းဒလြဲ</item>
+        <item>မိုးဝါ</item>
+    </string-array>
+
+    <string-array name="village_1_4">
+        <item>--select one--</item>
+        <item>ေျမာက္ကြင္းျဖဴ</item>
+        <item>ကန္းပါးေစာက္</item>
+        <item>ေပ်ာ္ရာကုန္း</item>
+        <item>ဆယ္အိမ္စု</item>
+        <item>ေဘာက္ရႈးကုန္း</item>
+        <item>ေ႐ႊေတာင္ဘို</item>
+        <item>ထီးေပါ့ကလိုး</item>
+        <item>ၾကာအင္း</item>
+        <item>ဖားအံကုန္း</item>
+        <item>ခုတ္ခြား</item>
+        <item>နို႔တပလား</item>
+        <item>မီးေလာင္ေခ်ာင္း</item>
+        <item>ေက်ာက္ခဲကုန္း</item>
+        <item>ဦးခြၽန္ကုန္း</item>
+        <item>သုံးတိုင္</item>
+        <item>မက္ကေတာ</item>
+        <item>ေ႐ႊဒိုး</item>
+        <item>တေဂး</item>
+        <item>ေ႐ႊလင္း</item>
+        <item>နန္းဖားေပါ့</item>
+        <item>သံပုရာကမ္းနား</item>
+        <item>သံပုရာကုန္း</item>
+        <item>ကေမာ့</item>
+        <item>ပိေတာက္</item>
+        <item>သံပုရာ</item>
+        <item>မရိကလ</item>
+        <item>ေကာ့ကမာ</item>
+        <item>ပိန္းနဲဆိပ္</item>
+        <item>အကေလာ</item>
+        <item>ဒါလီ</item>
+        <item>တုေလ့ကုန္း</item>
+        <item>ရွမ္းကုန္း (အုံးတပင္)</item>
+        <item>က်ခတ္ေခ်ာင္း</item>
+        <item>ဘုရားေလးဆိပ္</item>
+        <item>ေဝသာလီ (အေနာက္)</item>
+        <item>ၾကက္တူေ႐ြးေသာင္</item>
+        <item>ေဝသာလီ (အေရွ႕)</item>
+        <item>ေက်ာက္ပုံ</item>
+        <item>ေဗဒါရီ</item>
+        <item>ဂုမၻိ</item>
+        <item>နတ္ေခ်ာင္းကန္းနား</item>
+        <item>ထားဝယ္ေပါက္</item>
+        <item>နတ္ေခ်ာင္းဖ်ား</item>
+        <item>ထီးဖိုးဖဲ့</item>
+        <item>မီးအုပ္</item>
+        <item>တံတားဦး</item>
+        <item>ထီးဖိုးလေဝၚ</item>
+        <item>ဆင္ထိုးကြင္း</item>
+        <item>အလယ္႐ြာ</item>
+        <item>သမိန္လစ္</item>
+        <item>ရေသ့</item>
+        <item>မဲ့တလား</item>
+        <item>ဘီစခတ္</item>
+        <item>ဆင္ေခါင္း</item>
+        <item>ကြမ္းသီးၿခံ</item>
+        <item>သာယာကုန္း</item>
+        <item>ထီပတ္လည္</item>
+        <item>ေရလဲ</item>
+        <item>ဆီဆုံ</item>
+        <item>ဓနိုး</item>
+        <item>ဘုရားငုတ္တို</item>
+        <item>ခရိုင္းေထာ္</item>
+        <item>က်ဳံစိန္ (အေပၚ)</item>
+        <item>ထိခိုင္</item>
+        <item>ကစပ္</item>
+        <item>က်ဳံစိန္ (အလယ္)</item>
+        <item>ကစပ္ (အေပၚ)</item>
+        <item>ကစပ္ (ေအာက္)</item>
+        <item>ဝင္းက</item>
+        <item>ေကာ့လုံ</item>
+        <item>ဒရယ္ကြင္း</item>
+        <item>ဖါးတလယ္</item>
+        <item>ကြမ္ကေသာင္</item>
+        <item>သရက္ကုန္း</item>
+        <item>ကတြန္စု</item>
+        <item>ငွက္ေပ်ာေတာ</item>
+        <item>ေက်ာင္းကုန္း</item>
+        <item>ေႏွာင္ပေရ႕</item>
+        <item>မွ်င္ဝါးကုန္း</item>
+        <item>ေပါေလာကုန္း</item>
+        <item>ေနာင္ေပါက္</item>
+        <item>တံတားျပတ္</item>
+        <item>လွာကဒါ</item>
+        <item>ဆိပ္ကေလး</item>
+        <item>ခြိကြ</item>
+        <item>ဗိုလ္ကေတာ္</item>
+        <item>ေတာင္ေပါက္</item>
+        <item>ဝဲကလြန္</item>
+        <item>လက္ဝါးဆိပ္</item>
+        <item>လွိုင္ကနီ</item>
+        <item>ဖါကပို</item>
+        <item>ေ႐ႊေမာင္စခန္း</item>
+        <item>ႏွစ္အိမ္</item>
+        <item>ဝင္းပုတ္</item>
+        <item>ေတာင္ကေလး</item>
+        <item>ခလယ္ေစာ</item>
+        <item>မအူ</item>
+        <item>ေနာင္ပုလိန္</item>
+        <item>ေခြးသိုးဆိပ္</item>
+        <item>မုန့္လုံးေတာင္</item>
+        <item>မိပလန္</item>
+        <item>ဝင္းေရာ္ဆိပ္ႀကီး</item>
+        <item>ေတာင္ဒီး</item>
+        <item>ထီဖိုးနိုင္း</item>
+        <item>ဒိုင္းလြတ္</item>
+        <item>နန္းသိုင္းထြန္</item>
+        <item>ကေမာ့ဝမ္း</item>
+        <item>ထီဖိုးနိုင္း</item>
+        <item>ထီမန္ထို</item>
+        <item>တံခြန္တိုင္</item>
+        <item>ပုလိန္</item>
+        <item>ေနာင္းေဒ့</item>
+        <item>ခလယ္</item>
+        <item>ၿမိဳ႕ေဟာင္း</item>
+        <item>ဘုရားငါးဆူ</item>
+        <item>ခလယ္႐ြာေလး</item>
+        <item>မဲဇလီ</item>
+        <item>သဒိန္</item>
+        <item>အပလုံ</item>
+        <item>ေျပာင္မထိမ္</item>
+        <item>မဲ့တဘြီး</item>
+        <item>ထိဆုံ</item>
+        <item>ကြၽန္းေခ်ာင္း</item>
+        <item>သဲျဖဴေခ်ာင္း</item>
+        <item>ပုံေခၚ</item>
+        <item>မီးအုပ္</item>
+        <item>ခဲဝီ</item>
+        <item>ေဖါနမူး</item>
+        <item>ကြမ္သစ္တာ</item>
+        <item>မာလာကုန္း</item>
+        <item>သဲျဖဴေခ်ာင္း</item>
+        <item>ထိပါဒု</item>
+        <item>ေ႐ႊပိုးဟပ္႐ြာသစ္</item>
+        <item>ကန္းနီ</item>
+        <item>မိစကစ္</item>
+        <item>ဒုံပေလာင္</item>
+        <item>ကိုးမား</item>
+        <item>ေ႐ႊပိုးဟပ္႐ြာေဟာင္း</item>
+        <item>ကိုဒူကြဲ</item>
+        <item>ေလးကေတး</item>
+        <item>လႊတ္ရွမ္း</item>
+        <item>လက္ေဖာ</item>
+        <item>ထီကြက္ကြက္</item>
+        <item>ပို႔ေတာ</item>
+        <item>အနန္းကြင္း</item>
+        <item>ေခါရဝါး</item>
+        <item>လုံစီ</item>
+        <item>ေက်ာက္ဘီလူး</item>
+        <item>မဲကဝါ</item>
+        <item>ေတာင္စြန္း</item>
+        <item>ဆင္ေျပး</item>
+        <item>ဆယ္အိမ္စု</item>
+        <item>ခုံခံ</item>
+        <item>သံပုရာ</item>
+        <item>ဝင္းခန</item>
+        <item>ဝင္းခန႐ြာကေလး</item>
+        <item>ပန္းေအာင္</item>
+        <item>ဖါးျပ</item>
+        <item>သေျပကုန္း</item>
+        <item>ေျမနီကုန္း</item>
+        <item>ဖါရာဖူးဇာ</item>
+        <item>က်ားႀကီးဖါရာ</item>
+        <item>ငါးခူးဖါရာ</item>
+        <item>ကညင္</item>
+        <item>မြန္႐ြာသစ္</item>
+        <item>ဆိပ္ဖူးကုန္း</item>
+        <item>ၿမိဳင္ကုန္း</item>
+        <item>တံတားဦး</item>
+        <item>ဝင္းေထာင္း</item>
+        <item>က်ဳံခဝန္</item>
+        <item>နန္းခြီး</item>
+        <item>ဆန္ဖလား</item>
+        <item>မိပလိုင္</item>
+        <item>မိပလိုင္ေခ်ာင္းဖ်ား</item>
+        <item>ခုဒုံ</item>
+        <item>သိန္ပလိန္း (အေရွ႕)</item>
+        <item>ပိန္းနဲကုန္း</item>
+        <item>မီးေနာင္ေသာင္</item>
+        <item>အစြန္းကန္းနား</item>
+        <item>ေကာ့ကေသာင္</item>
+        <item>အစြန္း</item>
+        <item>ပတ</item>
+        <item>မဲတေလာ</item>
+        <item>ဖိုးဆက္</item>
+        <item>တိတသူ</item>
+        <item>တို႔ဆီးပူး</item>
+        <item>ခြိကလုံ</item>
+        <item>ေတာ္ဝါေလာ္</item>
+        <item>ေခ်ာင္းဖ်ား</item>
+        <item>လန္းဖါး</item>
+        <item>မီးေနာ္ဒတ္တား</item>
+        <item>ေကာ့ဆိုင္</item>
+        <item>ပိန္းနဲဆိပ္</item>
+        <item>ေကာ့တာ</item>
+        <item>အုပ္ခိုး</item>
+        <item>ေအာဘူတား</item>
+        <item>သဃၤန္းပင္ဆိပ္</item>
+        <item>ကိုင္းေတာ</item>
+        <item>ပိုင္ကလာဒုံ</item>
+        <item>မီးကသြတ္ေခ်ာင္း</item>
+        <item>မီးကသြတ္ေခ်ာင္းဖ်ား</item>
+        <item>အုပ္ပုံ</item>
+        <item>ပိုင္ကလာဒုံ (ေအာက္)</item>
+        <item>ကြင္းကေလး</item>
+        <item>ကူမီးမီး</item>
+        <item>က်ိတ္ေခ်ာင္းဖ်ား</item>
+        <item>ဒါးႀကိဳက္</item>
+        <item>က်ိတ္႐ြာ</item>
+        <item>ေမာ္ခဲခီး</item>
+        <item>ထိေပါက္ေတာ</item>
+        <item>ေတာ္သေလးခို</item>
+        <item>ေခ်ာင္းဖ်ား</item>
+        <item>ေမာင္႐ြာ</item>
+        <item>ေက်ာင္းအတက္</item>
+        <item>ပူေရ</item>
+        <item>ၾကက္ေတာင္ရိုး</item>
+        <item>မိတန္</item>
+        <item>က်ားမနိုင္</item>
+        <item>ထီးေနာ္ခို</item>
+        <item>ဖေအာင္</item>
+        <item>ကြိတေခ</item>
+        <item>ရွိုတ</item>
+        <item>မလိုင္း႐ြာ</item>
+        <item>သာကထ</item>
+        <item>ထီးလာသယ္ထ</item>
+        <item>ေဖာေနာ္မီး</item>
+        <item>ထီဝါကလူး</item>
+        <item>ကီကေဘာ္</item>
+        <item>ကေမာ့ကရ</item>
+        <item>မီးေနာ္အစီး</item>
+        <item>ထိဖိုးေမာ္</item>
+        <item>ဖါးကေလာင္စီ</item>
+        <item>မိနအ</item>
+        <item>မီကြီး</item>
+        <item>ထီးယိုးစီး</item>
+        <item>လုံမာကို</item>
+        <item>ဘုရားငုတ္တို</item>
+        <item>မဲတတ္</item>
+        <item>ေတာတေနာင္မီး</item>
+        <item>ဖါကြီး</item>
+        <item>ေက်းကေတာ္</item>
+        <item>တာေမာင္ႀကီး</item>
+        <item>အဇင္း</item>
+        <item>ခြိကလုံ</item>
+        <item>ဖားေလာင္ေခ်ာင္း</item>
+        <item>ထိလုံေဖာင္</item>
+        <item>ထီလုံကိုင္း</item>
+        <item>ခြိလုံကိုင္း</item>
+        <item>ကိုးခမ္း</item>
+        <item>နန္းေကာ္ေတး</item>
+        <item>ကိုက္ေဝါ</item>
+        <item>ေမာတရန္</item>
+        <item>ခရိုင္းသယ္</item>
+        <item>သျပဳ</item>
+        <item>ေတာင္ကေလး</item>
+        <item>ေက်ာက္ခြဲ</item>
+        <item>သာယာကုန္း</item>
+        <item>ခြါေဟး</item>
+        <item>လယ္ေတာႀကီး</item>
+        <item>႐ြာသစ္</item>
+        <item>မဲတေခါ</item>
+        <item>ခို႔ခလိုေတး</item>
+        <item>သာယာကုန္း</item>
+        <item>မီးစကစ္</item>
+        <item>ေကာ့ႏြဲ႕</item>
+        <item>ညခအီး</item>
+        <item>မိုးတဲ</item>
+        <item>ဝင္းလုံ</item>
+        <item>ခြီကနဲေခါ</item>
+        <item>တိုခီး</item>
+        <item>ေကာ့ဝါကေလး</item>
+        <item>ကေမာ့သဲေခ်ာင္းဖ်ား</item>
+        <item>တီနန္းဘိုး</item>
+        <item>ေတာင္ဝိုင္း</item>
+        <item>မဲ့ကြာခီး</item>
+        <item>မဲေနာ္န</item>
+        <item>မဲ့တခက္</item>
+        <item>ထီပႏြဲ</item>
+        <item>ထီေလာ္ပုလဲ</item>
+        <item>ဒုံကပ္</item>
+        <item>ဘုရားေတာင္</item>
+        <item>ဝက္တခုံ</item>
+        <item>ဝက္ဒုံ</item>
+        <item>ေနာင္တမံ</item>
+        <item>ေနာင္တခို</item>
+        <item>ေက်ာင္းဆင္းကြင္း</item>
+    </string-array>
+
+    <string-array name="village_2_1">
+        <item>--select one--</item>
+        <item>႐ြာလြတ္</item>
+        <item>႐ြာသစ္</item>
+        <item>ဒရယ္</item>
+        <item>ကလြီ</item>
+        <item>ကမာမို</item>
+        <item>ေညာင္လမ္း</item>
+        <item>ႀကံခင္း</item>
+        <item>တကာက်ိဳက္</item>
+        <item>ေတာ္ကနာ</item>
+        <item>ကြန္ဒိုင္း</item>
+        <item>ႏွီးမႈတ္</item>
+        <item>ေကာ့ဒြတ္</item>
+        <item>ဆယ္ပလာ</item>
+        <item>ဇီးကုန္း</item>
+        <item>မုရစ္ႀကီး</item>
+        <item>ေတာ္ပြန္</item>
+        <item>ေတာ္ကမာ</item>
+        <item>ကရင္ဝင္းစိန္</item>
+        <item>ဝဲကူး</item>
+        <item>မူဆလင္စု</item>
+        <item>မုကြဲ</item>
+        <item>ကေလာ့</item>
+        <item>အၿပိဳင္</item>
+        <item>ကြမ္ရိုက္</item>
+        <item>ကြမ္တကဲ</item>
+        <item>ကဒါ</item>
+        <item>ပိုင္ကဒါး ရွမ္းစု</item>
+        <item>ကမနင္း</item>
+        <item>ပိုင္ကဒါး ကုလားစု</item>
+        <item>ပိုင္ကဒါး</item>
+        <item>မုခနီး</item>
+        <item>ေစာ္ကဲ</item>
+        <item>ခရိုက္ဒူး</item>
+        <item>ေရတြင္းကုန္း</item>
+        <item>တကူဟအြီး</item>
+        <item>႐ြာသစ္</item>
+        <item>ေကာ့ကဒဲ့</item>
+        <item>တကူတာ</item>
+        <item>မုရစ္ကေလး</item>
+        <item>ကုန္းကေလး</item>
+        <item>ဖံဖ</item>
+        <item>ထန္းပင္ကုန္း</item>
+        <item>တကူပတီ</item>
+        <item>ေတာ္ေပါင္း</item>
+        <item>ကုလားတို႔</item>
+        <item>ခေလာ့ကနိုင္း</item>
+        <item>ခရိုက္သစ္</item>
+        <item>ကြမ္သဲ</item>
+        <item>မရမ္း</item>
+        <item>ကုလားဘီ</item>
+        <item>ဝယ္လမ္း</item>
+        <item>ဟသၤာကြၽန္း</item>
+        <item>ေကာ့ကဒိုက္</item>
+        <item>အဘစ္</item>
+        <item>ႏွီးမႈတ္</item>
+        <item>ကြမ္လွာ</item>
+        <item>ေကာ့ရမၼာ</item>
+        <item>ေတာ္ကပူး</item>
+        <item>ကမာေကး</item>
+        <item>ခရိုက္ႏွီးဟု</item>
+        <item>ကြင္းကလိန္</item>
+        <item>ေတာ္ပေကာက္</item>
+        <item>ကြမ္လမိုင္း</item>
+        <item>သေကၠာ</item>
+        <item>မုနိုင္း</item>
+        <item>႐ြာသစ္</item>
+        <item>ေတာင္စြန္း</item>
+        <item>​ေဒါင္းရပ္ (အေနာက္)</item>
+        <item>ေဒါင္းရပ္ (အေရွ႕)</item>
+        <item>ေကာ့မုပြန္</item>
+        <item>ကုလားစု</item>
+        <item>ကေတာင္စိန္</item>
+        <item>ေကာ့႐ြဲ</item>
+        <item>ကေညွာ္</item>
+        <item>ဘိုးနက္</item>
+        <item>မုဒူး</item>
+        <item>နတ္ေမွာ္႐ြာေဟာင္း</item>
+        <item>နတ္ေမွာ္႐ြာသစ္</item>
+        <item>ေဒါင္းဥ</item>
+    </string-array>
+
+    <string-array name="village_2_2">
+        <item>--select one--</item>
+        <item>ဓမင္းဆိပ္ေလး</item>
+        <item>အစင္</item>
+        <item>ဓမင္းဆိပ္ႀကီး</item>
+        <item>ဇီးျဖဴေသာင္</item>
+        <item>အေဘာ္</item>
+        <item>ပလိုင္ကီး</item>
+        <item>ပလစ္</item>
+        <item>က်ဳံေလာင္း႐ြာသစ္</item>
+        <item>ေ႐ႊျပည္သာ</item>
+        <item>ေပါ့ေထာ္</item>
+        <item>တူးေျမာင္း</item>
+        <item>ပုတ္ပ၀တီ</item>
+        <item>က်ဳံေပါ</item>
+        <item>ရစ္ေခ်ာင္း</item>
+        <item>ေစာ္ကဲ</item>
+        <item>အဒိန္းၿခံစု</item>
+        <item>ကိုင္းေတာ</item>
+        <item>ဝါးရဟိုင္း</item>
+        <item>အေဗ်ာ့</item>
+        <item>ကင္ပြန္း</item>
+        <item>လိပ္ပုတ္</item>
+        <item>ေက်ာက္တိုင္</item>
+        <item>ငါးကေလးေခ်ာင္း</item>
+        <item>အကန္း</item>
+        <item>နတ္ႀကီး</item>
+        <item>ေက်ာင္း႐ြာ</item>
+        <item>အိုင္ရွည္</item>
+        <item>စုံပ​ေရာက္</item>
+        <item>ဖားႀကီး</item>
+        <item>ေအာက္႐ြာ</item>
+        <item>ပိႏၷဲေတာ</item>
+        <item>ကန္းနီ</item>
+        <item>ျမင္းတေျပး</item>
+        <item>ကံလွ</item>
+        <item>ဖလံေခ်ာင္း၀</item>
+        <item>ႏွစ္တ႐ုပ္</item>
+        <item>ႏွီးႏႉး</item>
+        <item>ပလိုင္သိမ္</item>
+        <item>သာကရံ</item>
+        <item>ဓမင္းဆိပ္</item>
+        <item>အံဒင္</item>
+        <item>ကေလာ့</item>
+        <item>က်ဳံေလာင္း</item>
+        <item>ေက်ာက္မိေခ်ာင္း (ေျမာက္)</item>
+        <item>ကြင္းရွည္</item>
+        <item>ဝယ္ေပါင္</item>
+        <item>ေက်ာက္မိေက်ာင္း</item>
+        <item>ဖလံ</item>
+        <item>၀ယ္ဇင္</item>
+        <item>တံတားဦး</item>
+        <item>ေခ်ာင္းေတာင္</item>
+        <item>ဝဲရက္</item>
+        <item>ကေလာ့ေလး</item>
+        <item>ၿမိဳ႕ေဟာင္းကုန္း</item>
+        <item>ဒူးယား</item>
+        <item>ဝူကေတာ</item>
+        <item>ေခ်ာင္ပရန္</item>
+        <item>သာယာကုန္း</item>
+        <item>ဝဲကဘမ္း</item>
+        <item>ဇြန္းတလင္း</item>
+        <item>ေလးအိမ္စု</item>
+        <item>ပိုင္ဝမ္း</item>
+        <item>ပရန္ေမာ္</item>
+        <item>ေတာင္ကမာ</item>
+        <item>သဃၤန္းကြၽန္း</item>
+        <item>ပလိုင္ကီးၿခံစု</item>
+        <item>စိန္ႀကီး</item>
+        <item>႐ြာကေလး</item>
+        <item>႐ြာသစ္</item>
+        <item>​ေတာင္စြန္း</item>
+        <item>ခန္းသင္း</item>
+        <item>အဝိုင္း</item>
+        <item>ဆက္တြဲ</item>
+        <item>အပလြိုင္</item>
+        <item>စုံနံ႕သာ</item>
+        <item>ပရိကေတာ</item>
+        <item>အာယုေတာင္</item>
+        <item>မွန္စိန္</item>
+        <item>ဟံဂံ</item>
+        <item>ဝယ္က်န္</item>
+        <item>ဘေရာင္း</item>
+        <item>ေမာ့ကနင္</item>
+        <item>႐ြာသစ္</item>
+        <item>ၿမိဳ႕ေဟာင္း</item>
+        <item>ဒုံဖီ</item>
+        <item>ခ႐ြန္း</item>
+        <item>ေဘးကလြဲ</item>
+        <item>ဝါေဘာ္</item>
+        <item>ဒူလယ္</item>
+        <item>စံျပ</item>
+        <item>ေကာ့ဒြတ္</item>
+        <item>ကူးတို႔ဆိပ္</item>
+        <item>လားကုတ္ (ေအာက္ဆိပ္)</item>
+        <item>လားကုတ္ (အလယ္ဆိပ္)</item>
+        <item>လားကုတ္ (အထက္ဆိပ္)</item>
+        <item>ဘုရားကုန္း</item>
+        <item>လယ္ဖူး</item>
+        <item>ေအာင္သေျပ</item>
+        <item>ေအာင္သာယာ</item>
+        <item>ဝါခို</item>
+        <item>ဝါခိုေခ်ာင္းဖ်ား</item>
+        <item>လိေမၼာ္ၿခံ</item>
+        <item>ေကာ့ပြန္</item>
+        <item>သာကရံ</item>
+        <item>ပဒိုက္</item>
+        <item>ေဘးလမိုင္း</item>
+        <item>ကြမ္ဒိုင္</item>
+        <item>ေသာင္ျပင္</item>
+        <item>ႏွစ္ကရင္</item>
+        <item>ကားဆိပ္</item>
+        <item>ဓမင္းဆိပ္</item>
+        <item>သေျပ႐ြာ</item>
+        <item>ဝယ္ဖယ္</item>
+        <item>ဘူတာကုန္း</item>
+        <item>ဝက္စြယ္ျဖဴ</item>
+        <item>တပါေထာ္</item>
+        <item>ဘဲလမု</item>
+        <item>သူေတာ္</item>
+        <item>ဘေရာင္း</item>
+        <item>ဝယ္ပသဲ</item>
+        <item>ကနင္ကေမာ့</item>
+        <item>ပလန္သာ</item>
+        <item>သံကဒိုက္</item>
+        <item>တီတယ္</item>
+        <item>ဝယ္ဒလ</item>
+        <item>ေသာေစာ</item>
+        <item>ဘီစိုင္</item>
+        <item>မင္းလွ</item>
+        <item>တပင္တိုင္</item>
+        <item>​ေတာင္ကြဲ</item>
+        <item>ကြမ္ဒူး</item>
+        <item>ကလိတ္ထုတ္ (ေအာက္)</item>
+        <item>ကလိတ္ထုတ္ (အထက္)</item>
+        <item>ေခ်ာင္းႏွစ္ခြ</item>
+        <item>ႏွင္းစုံ</item>
+        <item>ကြမ္းသီးေတာ</item>
+        <item>ဝယ္ႏြတ္</item>
+        <item>ေက်ာက္တန္း</item>
+        <item>စာကလယ္</item>
+        <item>ေတာင္ဘုံ</item>
+        <item>မန္ေအာင္</item>
+        <item>ကိုးမိုင္</item>
+        <item>တိုးတက္႐ြာသစ္</item>
+        <item>စုံပေရာက္</item>
+        <item>သဲခုံ</item>
+        <item>ေမာ့ကေလာ့</item>
+        <item>ေကာ့လွိုင္</item>
+        <item>ဆင္ကူး</item>
+        <item>ကဗ်ာ</item>
+        <item>ကဗ်ာဝ</item>
+        <item>ေ႐ႊဟသၤာ</item>
+        <item>ဓနိၾကာ</item>
+        <item>မႀကီး</item>
+        <item>မက်ီးေခ်ာင္း၀</item>
+        <item>မိေထာလာႀကီး</item>
+        <item>မိေထာလာေလး</item>
+        <item>ရင္းရယ္</item>
+        <item>ရင္းဒိန္း</item>
+        <item>ရင္းဒိန္းဝ</item>
+        <item>ေက်ာက္အိုင္</item>
+        <item>ေခါဇာေခ်ာင္းဝ</item>
+        <item>မီးတိုင္တတ္</item>
+        <item>တ႐ုတ္ေထာက္</item>
+        <item>က်ဳံညဲ</item>
+    </string-array>
+
+    <string-array name="village_2_3">
+        <item>--select one--</item>
+        <item>ေတာင္ၾကားေအာက္႐ြာ</item>
+        <item>႐ြာၾကား</item>
+        <item>ေစာ္ကဲစု</item>
+        <item>လက္ပံကုန္း</item>
+        <item>ေတာင္ပူစာ</item>
+        <item>ေက်ာက္တန္း</item>
+        <item>ေတာင္ၾကား႐ြာႀကီး</item>
+        <item>ဒညင္းကုန္း</item>
+        <item>တိမ္ေလးစု</item>
+        <item>ဝင္းပ႐ြာႀကီး</item>
+        <item>ေရတြင္းျဖဴ</item>
+        <item>ဗရင္ဂ်ီကုန္း</item>
+        <item>ေကာ့လွိုင္း႐ြာႀကီး</item>
+        <item>ေကာ့လွိုင္း႐ြာေလး</item>
+        <item>ေကာ့လွိုင္းေခ်ာင္</item>
+        <item>ေကာ့လွိုင္း (က်ဳံမွိန္)</item>
+        <item>ေခ်ာင္းေဇာက္႐ြာႀကီး</item>
+        <item>ေခ်ာင္းေဇာက႐ြာေလး</item>
+        <item>ဝီေယာ္႐ြာႀကီး</item>
+        <item>ကုလားကုန္း</item>
+        <item>သုံးအိမ္စု</item>
+        <item>ထုံးဘိုကေလး</item>
+        <item>ထုံးဘိုႀကီး</item>
+        <item>ပိႏၷဲေတာ (အထက္)</item>
+        <item>ပရစ္ခို</item>
+        <item>ကုလားစု</item>
+        <item>ေတာင္သူစု</item>
+        <item>ပန္းသာ</item>
+        <item>အင္း႐ြာ</item>
+        <item>ဝမ္းဘဲအင္း</item>
+        <item>မင္းလြင္ အလယ္႐ြာ</item>
+        <item>ပိႏၷဲေတာ (ေအာက္)</item>
+        <item>ေက်ာင္း႐ြာ</item>
+        <item>မင္းလြင္ ႐ြာႀကီး</item>
+        <item>ညာထားဝယ္</item>
+        <item>မရမ္း</item>
+        <item>ဒရိုး</item>
+        <item>ဓႏု</item>
+        <item>သဲကုန္း</item>
+        <item>ဝင္းဖုန္း</item>
+        <item>မတ္ခ်</item>
+        <item>ဆီဆုံ</item>
+        <item>ဖားပိန္</item>
+        <item>ေနာင္ကတုတ္</item>
+        <item>ေက်ာက္ေတာင္</item>
+        <item>အင္း႐ြာ</item>
+        <item>ေစာ္ကဲ</item>
+        <item>သိမ္ဆိပ္</item>
+        <item>ေ႐ႊေလွတန္း</item>
+        <item>မင္းတဲစု</item>
+        <item>ေ႐ႊဟသၤာ</item>
+        <item>ဘူတာလမ္း</item>
+        <item>ေလသာကုန္း</item>
+        <item>မင္းတန္း</item>
+        <item>ေညာင္ကုန္း</item>
+        <item>ငါးႀကီးအင္း</item>
+        <item>ပဲခူးစု</item>
+        <item>တမံႀကီး</item>
+        <item>လမၼတန္းတိုင္ေကာက္</item>
+        <item>ေအာက္က်င္း</item>
+        <item>က်ိဳေကၠာ္</item>
+        <item>အေပၚတန္း</item>
+        <item>ႏွမ္းေတာင္း</item>
+        <item>တံတားဦး</item>
+        <item>ငုတၱိဳစု</item>
+        <item>ထီတမူ</item>
+        <item>ငါးေျပမ</item>
+        <item>ဒဂၤါးဆိပ္</item>
+        <item>ကင္မြန္းခ်ဳံ</item>
+        <item>ကြၽန္းကေလး</item>
+        <item>ကလိကြၽန္း</item>
+        <item>ပုတိမ္ရိုး</item>
+        <item>ေဖာ္ဖ</item>
+        <item>မိုးေကာင္း</item>
+        <item>ကရင္ေလးဆိပ္</item>
+        <item>ေရေဝ႐ြာႀကီး</item>
+        <item>ဇရပ္ကြၽန္း</item>
+        <item>ကြၽဲကုန္း</item>
+        <item>ဒုံဝန္း</item>
+        <item>ကမာစိုင္</item>
+        <item>ေရေဝ႐ြာေလး</item>
+        <item>ကတိုက္ကေလး</item>
+        <item>ကတိုက္ႀကီး</item>
+        <item>ျမန္မာစု</item>
+        <item>ကရင္စု</item>
+        <item>ဓႏုကတိုက္</item>
+        <item>ဆိပ္ကြၽန္း (ေျမာက္)</item>
+        <item>ဆိပ္ကြၽန္း (ေတာင္)</item>
+        <item>ေတာႀကီး</item>
+        <item>ေသာင္ႀကီး</item>
+        <item>ထီဝိုင္</item>
+        <item>ေက်ာင္းဇရပ္</item>
+        <item>အလယ္ကုန္း</item>
+        <item>အလံတရာ ဗုဒၶသစၥာ</item>
+        <item>အလံတရာ ျဗဟၼာ</item>
+        <item>အလံတရာ ဝိဇၨာ</item>
+        <item>အလံတရာ ဘိုးဘိုးေအာင္</item>
+        <item>သင္းေထာ္</item>
+        <item>ေလသာကုန္း</item>
+        <item>သာယာကုန္း</item>
+        <item>ဇရစ္ေခ်ာင္</item>
+        <item>အလံတရာ ေဘာဂ</item>
+        <item>အလံတရာ ဘိုးသိၾကား</item>
+        <item>ေျမနီကုန္း</item>
+        <item>ဇရစ္ေခ်ာင္</item>
+        <item>ေတာစြန္း</item>
+        <item>အဓမၼကုန္း</item>
+        <item>ဆင္ျဖဴကြၽန္း</item>
+        <item>ေနာင္ဘို (ေျမာက္)</item>
+        <item>ကႆဖကြင္းစပ္</item>
+        <item>မဝိုင္းစု</item>
+        <item>ဥသွ်စ္ကုန္း</item>
+        <item>ကႆဖေတာင္႐ြာႀကီး (တ႐ုတ္တန္း)</item>
+        <item>ေဒါင္း႐ြာ</item>
+        <item>ေနာင္ဘို (ေတာင္)</item>
+        <item>ေနာင္ဘိုကြင္းစပ္</item>
+        <item>ေနာင္ဘိုေခ်ာင္းဝ</item>
+        <item>ဂ်ိဳင္း႐ြာ</item>
+        <item>ေပၚေတာ္မူ႐ြာႀကီး</item>
+        <item>ျမန္မာစု</item>
+        <item>ေက်ာက္တန္း</item>
+        <item>ဘူဒင္းေခ်ာင္ (ေအး႐ြာ-႐ြာသစ္)</item>
+        <item>တံခြန္တိုင္</item>
+        <item>မရမ္းကုန္း (ေတာင္ပိုင္း)</item>
+        <item>မွန္ကူကုန္း</item>
+        <item>သရက္ေတာ (ေတာပိုင္း)</item>
+        <item>ဘုရားပိုင္း</item>
+        <item>စက္ပိုင္း (ကရင္စု)</item>
+        <item>ဂ်ိဳးျဖဴကုန္း</item>
+        <item>ဇိုကၠရဲ</item>
+        <item>​ေအာင္ကန္သာ</item>
+        <item>ထိန္ပင္</item>
+        <item>႐ြာႀကီး</item>
+        <item>ရွမ္း႐ြာ</item>
+        <item>အလယ္႐ြာ</item>
+        <item>ပုတိမ္႐ြာ</item>
+        <item>ေဒးဗရိမ္း</item>
+        <item>သရက္ေတာ</item>
+        <item>ေတာင္ပိုင္း</item>
+        <item>ေျမာက္ပိုင္း</item>
+        <item>အလယ္ပိုင္း</item>
+        <item>ေတာင္စြန္း</item>
+        <item>အုပၹိဳေခ်ာင္</item>
+        <item>ေခြးမားေခ်ာင္</item>
+        <item>သုံးအိမ္စု</item>
+        <item>သင္ေတာ</item>
+        <item>ကမာေပါင္</item>
+        <item>ေက်ာက္တန္း</item>
+        <item>တန္ဘိေခ်ာင္</item>
+        <item>က်ဳံပါ</item>
+        <item>ေနာင္ဘို</item>
+        <item>ေဂါ့႐ြာႀကီး</item>
+        <item>ေဂါ့ေတာရ</item>
+        <item>အလယ္ပိုင္း</item>
+        <item>ေတာင္ပိုင္း</item>
+        <item>ဂ်ိဳင္း႐ြာ</item>
+        <item>ကရင္စု</item>
+        <item>ကရင္စု</item>
+        <item>အလယ္ပိုင္း</item>
+        <item>ေျမာက္ပိုင္း</item>
+        <item>ေတာင္ပိုင္း</item>
+        <item>ကဇိုင္း</item>
+        <item>ေနာင္က်န္</item>
+        <item>ဆူးအင္း</item>
+        <item>မာလာဖူး</item>
+        <item>ၾကာဘန္း</item>
+        <item>ဒူးရင္းဆိပ္</item>
+        <item>အင္းရွည္</item>
+        <item>သမာၻန္</item>
+        <item>ျမတ္စံ</item>
+        <item>ေနာင္က်န္</item>
+        <item>ပဒဲေကာ</item>
+        <item>အင္းနီ</item>
+        <item>တံတားဦး</item>
+        <item>႐ြာတန္းရွည္</item>
+        <item>ေထာင္မႉး</item>
+        <item>ေလးတိုင္</item>
+        <item>ဆင္က်ဳံး</item>
+        <item>ေ႐ႊေဘာ္ကုန္း</item>
+        <item>ေနာင္က်န္</item>
+        <item>ပိႏၷဲကုန္း</item>
+        <item>ေက်ာင္းပိုင္း</item>
+        <item>လမၼတန္း</item>
+        <item>သိမ္ကုန္း</item>
+        <item>ေတာင္သူစု</item>
+        <item>အင္းဝိုင္းႀကီး</item>
+        <item>အင္းဝိုင္းေလး</item>
+        <item>ေနာင္ရပ္</item>
+        <item>ေတာင္ၾကား</item>
+        <item>စခန္းႀကီး</item>
+        <item>ေညာင္ေခ်ာင္း</item>
+        <item>ဖားပိုင္</item>
+        <item>အနန္းပင္</item>
+        <item>အင္းကြဲ</item>
+        <item>ၾကက္တူေ႐ြးေသာင္</item>
+        <item>ရွမ္းစု</item>
+        <item>ဒလပန္း</item>
+        <item>ဝါးခုတ္ေတာ</item>
+    </string-array>
+
+    <string-array name="village_2_4">
+        <item>--select one--</item>
+        <item>ႏွင္းပုလဲ</item>
+        <item>ဘူတာကုန္း</item>
+        <item>ေရျဖဴကန္</item>
+        <item>ေ႐ႊေလွ</item>
+        <item>ေက်ာင္း႐ြာ</item>
+        <item>ေညာင္ပလင္</item>
+        <item>ေညာင္လမ္း</item>
+        <item>သံပုရာပင္ဆိပ္</item>
+        <item>လိပ္ခုန္း</item>
+        <item>လိပ္ခုန္း႐ြာေလး</item>
+        <item>တဘက္ဆြဲ</item>
+        <item>အနိုင္းပြန္</item>
+        <item>သစ္တိုကြၽန္း</item>
+        <item>ကဘဲ့အုတ္ဖို</item>
+        <item>ေတာင္ကေလး</item>
+        <item>အင္းဗ်ား</item>
+        <item>သာယာကုန္း</item>
+        <item>ဝိုင္းပတ္</item>
+        <item>႐ြာေလးပိုင္း</item>
+        <item>မုသင္</item>
+        <item>ဇြဲကလာ</item>
+        <item>ဇုတ္သုတ္႐ြာႀကီး</item>
+        <item>ဇုတ္သုတ္႐ြာေလး</item>
+        <item>ဇုကၠလိ</item>
+        <item>သိန္ေခ်ာင္း</item>
+        <item>သေျပကုန္း</item>
+        <item>ေကာ့ကဒြတ္</item>
+        <item>သင္ေတာႀကီး</item>
+        <item>ေကာ့ကမယ္</item>
+        <item>ကကတဲ</item>
+        <item>အနန္းကုန္း</item>
+        <item>ယြန္းဒလင္းကုန္း</item>
+        <item>ေကသဝတီ</item>
+        <item>အင္းဖေလာင္း</item>
+        <item>ကရင္စု</item>
+        <item>ဆပ္သြား</item>
+        <item>က်ီးပင္</item>
+        <item>ေညာင္သာယာ</item>
+        <item>ေတာင္စြန္း</item>
+        <item>ဆင္အင္း</item>
+        <item>ေပါက္ေတာ</item>
+        <item>က်ဳံကမိစု</item>
+        <item>ကတိုးဆိပ္</item>
+        <item>ေက်ာက္တလုံး</item>
+        <item>ေပါက္ကြဲ</item>
+        <item>ရွမ္းေခ်ာင္း</item>
+        <item>ကင္း႐ြာ</item>
+        <item>ေတာင္ႀကီး</item>
+        <item>ေက်ာက္တလုံး</item>
+        <item>ဝင္းက</item>
+        <item>ေက်ာက္လုံးႀကီး</item>
+        <item>အရက္သီမ</item>
+        <item>အလယ္႐ြာ</item>
+        <item>မရမ္းကုန္း</item>
+        <item>မရမ္းကုန္းၿခံ</item>
+        <item>တာလမ္း</item>
+        <item>ကုရင္ေခ်ာင္</item>
+        <item>ကံႀကီးပိုင္း</item>
+        <item>႐ြာတန္းရွည္</item>
+        <item>ႀကိမ္ဖန္</item>
+        <item>ပိုင္ဒံႀကီး</item>
+        <item>ငါးဘတ္ေခ်ာင္</item>
+        <item>ပိုင္ဒံေလး</item>
+        <item>သိန္ငူ</item>
+        <item>သဲျဖဴေခ်ာင္း</item>
+        <item>က်ိဳက္တဲ</item>
+        <item>သေျပနီ</item>
+        <item>ဝါးျဖဴကုန္း</item>
+        <item>အေနာက္႐ြာေလး</item>
+        <item>အေရွ႕႐ြာကေလး</item>
+        <item>အလူးအေနာက္႐ြာႀကီး</item>
+        <item>အလယ္႐ြာ</item>
+        <item>အေရွ႕႐ြာႀကီး</item>
+        <item>ဝင္းျပန္</item>
+        <item>ဝင္းျပန္႐ြာသစ္</item>
+        <item>ဝါးတံငါ</item>
+        <item>ေက်ာက္ေရတြင္းၿခံ</item>
+        <item>ကံနီ</item>
+        <item>ဝဲႀကီး</item>
+        <item>ဆင္စု</item>
+        <item>ေက်ာက္ေရတြင္း</item>
+        <item>ေညာင္ေထာက္</item>
+        <item>ရွမ္းစု</item>
+        <item>ဖိုးဝါးသိမ္</item>
+        <item>ဂုံညင္းႏြယ္</item>
+        <item>အလူးႀကီး</item>
+        <item>ဝင္းေသာင္</item>
+        <item>ကရေဝးဆိပ္ (အထက္)</item>
+        <item>ကရေဝးဆိပ္ (ေအာက္)</item>
+        <item>ကရေဝးဆိပ္ (အလယ္)</item>
+        <item>​ေခ်ာင္းေကြ႕</item>
+        <item>ေက်ာက္လုံးႀကီး</item>
+        <item>ေက်ာက္ပုံ</item>
+        <item>ကဒီပု</item>
+        <item>ကဒီပုကုန္း</item>
+        <item>ေအာက္႐ြာ</item>
+        <item>ကရင္႐ြာ</item>
+        <item>ဘီးလင္းႀကိဳး</item>
+        <item>ပန္တိကုန္း</item>
+        <item>သစ္ခ်ေတာင္</item>
+        <item>ၾကက္ေျခခတ္</item>
+        <item>ဝါးေဖာ့ကုန္း</item>
+        <item>ေမာင္ေအး (အထက္)</item>
+        <item>ခဲေမာက္</item>
+        <item>ေမာင္ေအး (ေအာက္)</item>
+        <item>ေတာင္ေလး</item>
+        <item>ေဒါက္ရပ္</item>
+        <item>ေ႐ႊအင္ဒုံ</item>
+        <item>တက္တူကုန္း</item>
+        <item>ေ႐ႊေရာင္ျပ</item>
+        <item>မရမ္းကုန္း႐ြာႀကီး</item>
+        <item>မရမ္းကုန္း႐ြာေလး</item>
+        <item>အဝန္းႀကီး</item>
+        <item>ခေလာက္အင္း</item>
+        <item>ဇီးဝန္း</item>
+        <item>မိေခ်ာင္းအိုင္</item>
+        <item>အုန္းေတာ</item>
+        <item>​ေျမာက္႐ြာ</item>
+        <item>ဝင္းဇလုပ္႐ြာသစ္</item>
+        <item>ေနာင္ကတုတ္</item>
+        <item>က်ခတ္ေခ်ာင္း</item>
+        <item>ရွမ္းကေလး</item>
+        <item>ေရတြင္းျဖဴ</item>
+        <item>ဖခီး</item>
+        <item>တညင္းကုန္း</item>
+        <item>ဘုရား႐ြာ</item>
+        <item>အေနာက္ဘုရားဆိပ္</item>
+        <item>မာလိကာ</item>
+        <item>ကဇိုင္း</item>
+        <item>ေခ်ာင္းျပန့္</item>
+        <item>ဘန့္ေဘြးကုန္း</item>
+        <item>ေရဇလုပ္</item>
+        <item>ရင္းအုံ</item>
+        <item>နယ္ျခား</item>
+        <item>မဲလံဖားကဒူး</item>
+        <item>မဲလံေက်ာင္း</item>
+        <item>မဲလံေအာက္</item>
+        <item>ျပင္သာ</item>
+        <item>သံျပေခ်ာင္း</item>
+        <item>တညင္းပင္</item>
+        <item>လယ္ေစာ့ေလာ့</item>
+        <item>မဲလံေဂါင္း</item>
+        <item>ကြင္းကေလး</item>
+        <item>ဓနိႀကီး</item>
+        <item>ဖိုးႀကီးဆိပ္</item>
+        <item>ေက်ာက္ေဆာင္</item>
+        <item>ကြင္းကေလး</item>
+        <item>အင္းဝိုင္းကုန္း</item>
+        <item>အလယ္ကုန္းေအာက္႐ြာ</item>
+        <item>အဟုံးဝ</item>
+        <item>ေတာင္သူေဌးကုန္း</item>
+        <item>ေျမာက္သူေဌးကုန္း</item>
+        <item>ကဒိုင္စိန္</item>
+        <item>ဝမ္းဆြဲ</item>
+        <item>႐ြာသစ္</item>
+        <item>ဘုရားဆိပ္</item>
+        <item>ေ႐ႊေလာင္းအင္း</item>
+        <item>ျပင္သာ</item>
+        <item>ကရင္စု</item>
+        <item>ရွမ္းစု</item>
+        <item>နတ္ႀကီး</item>
+        <item>ဝီရဆိပ္</item>
+        <item>ကြက္သစ္</item>
+        <item>ဘဲလင္းနို႔</item>
+        <item>ေခၚတိခီး</item>
+        <item>ေ႐ႊေအာင္</item>
+        <item>ေပၚခီး</item>
+        <item>ထြီးေက်ာ္လွ</item>
+        <item>ေဒးေလာ္ခီး</item>
+        <item>ပ်ဥ္းမ</item>
+        <item>ဖခူးဖ</item>
+        <item>ေတာ့ဖိုးတ</item>
+        <item>ေခ်ာင္းဖ်ား</item>
+        <item>နို႔ခဲ</item>
+        <item>မဲနသန္</item>
+        <item>တလိမ္</item>
+        <item>ေတာင္ေလး</item>
+        <item>ဝင္းကေလး (အထက္)</item>
+        <item>ဝင္းကေလး (ေအာက္)</item>
+        <item>မဲပလီ</item>
+        <item>ညာစူးဝ</item>
+        <item>မဲပလီ (အထက္)</item>
+        <item>ဇီးကုန္း</item>
+        <item>မဲပလီ (ေအာက္)</item>
+        <item>ပီတိ</item>
+        <item>ဖိုးေကာ္ေထာ</item>
+        <item>ေတာင္ထိပ္</item>
+        <item>ေဘာေနာခီး</item>
+        <item>ကြီးေလး</item>
+        <item>ကေလာထ</item>
+        <item>တိုတယ္ခီး</item>
+        <item>ထီးေမာ္ခီး</item>
+        <item>ေမာခီး</item>
+        <item>ေပၚခီး</item>
+        <item>တာအုပ္ခီး</item>
+        <item>ကြင္းကေလး</item>
+        <item>ေဒါ့ဇံ</item>
+        <item>အစူးေခ်ာင္း</item>
+        <item>ႏြယ္ေတာ</item>
+        <item>က်ေသာင္းေတာ</item>
+        <item>ဝင္းတာပန္</item>
+        <item>ဝင္းတာပန္ (ေအာက္)</item>
+        <item>ဝင္းတာပန္ (အထက္)</item>
+        <item>ကံမဲ့</item>
+        <item>ေလးေက</item>
+        <item>ညာဖိုးခီး</item>
+        <item>ထီးေလးခို</item>
+        <item>ေလဘာေဟး</item>
+        <item>သူခါပီး</item>
+        <item>ေက်ာက္ဖ်ာ</item>
+        <item>ပ်ဥ္းမပင္ဆိပ္</item>
+        <item>က်ေသာင္းဆိပ္</item>
+        <item>ျမစ္က်ိဳး</item>
+        <item>ေက်ာက္ေတာင္ေလး</item>
+        <item>ႀကိဳးဝိုင္း</item>
+        <item>ေဘာ္ေနာ္ခီး</item>
+        <item>ပိုင္ဒဝယ္ေအာက္</item>
+        <item>ဓႏုေတာင္</item>
+        <item>ပိုင္ဒ၀ယ္အေနာက္႐ြာေလး</item>
+        <item>သရက္ကုန္းကြက္သစ္</item>
+        <item>ေက်ာင္း႐ြာလက္ပံကုန္း</item>
+        <item>ပိုင္ဒဝယ္</item>
+        <item>အဟုံးဝအေနာက္</item>
+        <item>ဘုရားဆိပ္</item>
+        <item>သုံးအိမ္စု</item>
+        <item>မရမ္းေခ်ာင္</item>
+        <item>က်ားကြင္း</item>
+        <item>မာလိကာ</item>
+        <item>ေရေကာက္ေခ်ာင္း</item>
+        <item>ေက်ာက္လုံးႀကီး</item>
+        <item>သက္ကယ္က်င္း</item>
+        <item>အထက္မင္းေလာင္း</item>
+        <item>ေအာက္မင္းေလာင္း</item>
+    </string-array>
+
+    <string-array name="q4">
+        <item>--select one--</item>
+        <item>သီးႏွံစိုက္ပ်ိဳးေရး</item>
+        <item>သစ္ေတာလုပ္ငန္း	</item>
+        <item>ငါးေမြးျမဴေရး/ ေရလုပ္ငန္း</item>
+        <item>စက္မႈလုပ္ငန္း/ ကုန္ထုတ္လုပ္ငန္း</item>
+        <item>လက္မႈလုပ္ငန္း</item>
+        <item>ေဆာက္လုပ္ေရး</item>
+        <item>ကုန္သြယ္ျခင္း</item>
+        <item>အစိုးရဝန္ထမ္း</item>
+        <item>သယ္ယူပို႔ေဆာင္ေရးႏွင့္ အျခားဝန္ေဆာင္မႈမ်ား</item>
+        <item>အျခား (ေဖာ္ျပပါ)</item>
+    </string-array>
+
+    <string-array name="q3b">
+        <item>--select one--</item>
+        <item>ဗမာ</item>
+        <item>မြန္</item>
+        <item>ကရင္ (စေကာ)</item>
+        <item>ကရင္ (ပိုး)</item>
+        <item>ပအို႔</item>
+        <item>အျခားတိုင္းရင္းသား လူမ်ိဳးစုမ်ား</item>
+    </string-array>
+
+</resources>

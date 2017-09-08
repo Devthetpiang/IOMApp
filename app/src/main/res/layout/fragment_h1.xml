@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_h1"
+        android:text="H1.  ျမန္မာႏိုင္ငံအတြင္းရွိ အျခားျပည္နယ္/တိုင္း (သို႔) ထိုင္းႏိုင္ငံ (သို႔) အျခားႏိုင္ငံမ်ားတြင္ ေနထိုင္ေသာ သားသမီး ဘယ္ႏွေယာက္သည္ သင္ႏွင့္ အတူေန ေျမးမ်ား၏ မိဘျဖစ္ပါသလဲ။(မရွိပါက Section I သို႔သြားပါ) "/>
+
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_h1"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/q_h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="number" />
+</RelativeLayout>
+</ScrollView>

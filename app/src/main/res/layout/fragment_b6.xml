@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_b6"
+        android:text="သင္၏ လက္ရွိ အိမ္ေထာင္ေရး အေျခအေနကို ေဖာ္ျပပါ။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_b6"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_b6">
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b6_1"
+            android:text="လက္ရွိတြင္ အိမ္ေထာင္ရွိသည္။ အိမ္ေထာင္ဖက္ႏွင့္ အတူေနသည္။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b6_2"
+            android:text="လက္ရွိတြင္ အိမ္ေထာင္ရွိသည္။ အိမ္ေထာင္ဖက္ႏွင့္ အတူမေနပါ။" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b6_3"
+            android:text="ကြဲေနသည္ သို႔မဟုတ္ ကြာရွင္းထားသည္" />
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_b6_4"
+            android:text="မုဆိုးဖို/မုဆိုးမ" />
+    </RadioGroup>
+</RelativeLayout>
+</ScrollView>

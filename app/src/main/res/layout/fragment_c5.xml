@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_c5"
+        android:text="သင္၏ အိမ္တြင္ သို႔မဟုတ္ ဝင္းထဲတြင္ ရွိိေသာ အိ္မ္သာ အမ်ိဳးအစားကို ေဖာ္ျပပါ။
+(အေျဖတစ္ခုထက္ပိုေရြးခြင့္ျပဳသည္ - သက္ဆိုင္ေသာ အေျဖမ်ားအားလံုးကို ဝိုင္းပါ။)"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q_c5"
+        android:paddingLeft="20dp"
+        android:id="@+id/rg_c5">
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c5_1"
+            android:text="ေရဆြဲအိမ္သာ (Flush)႕" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c5_2"
+            android:text="ေရေလာင္းအိမ္သာ" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c5_3"
+            android:text="ယင္လံုအိမ္သာ" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c5_4"
+            android:text="တြင္းအိမ္သာ" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c5_5"
+            android:text="အျခား" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_c5_6"
+            android:text="အိမ္သာမရွိပါ။" />
+    </RadioGroup>
+</RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_sc"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sc_a"
+        android:text="A. သင္၏အိမ္တြင္ သင္ႏွင့္အတူေနေသာ ေျမးတစ္ဦး သို႔မဟုတ္ တစ္ဦးထက္ပို၍ ရွိပါသလား။"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/rg_sc_a"
+        >
+    <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_a_1"
+            android:text="ရွိပါသည္။ -> B သုိ႔သြားပါ။"/>
+        <com.xavey.proto.control.ProtoRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_sc_a_2"
+            android:text="မရွိပါ။ -> ဆက္လက္လုပ္ေဆာင္၍ မရပါ။ အျခားေျဖဆိုသူမ်ားကို ရွာေဖြပါ။"/>
+    </RadioGroup>
+</LinearLayout>
+</ScrollView>

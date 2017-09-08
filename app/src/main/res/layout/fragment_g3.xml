@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_g3"
+        android:text="သင္ႏွင့္အတူေနေသာ အသက္ ၁၅ ႏွစ္ေအာက္ ေျမး(မ်ား)ထဲမွ အနည္းဆံုး မိဘတစ္ေယာက္မရွိေသာ ေျမးငယ္ ဘယ္ႏွဦး ရွိပါသလဲ။"/>
+
+    <com.xavey.proto.control.ProtoEditText
+        android:id="@+id/et_g3"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/q_g3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="number only" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:layout_alignBaseline="@+id/et_g3"
+        android:layout_toRightOf="@+id/et_g3"
+        android:text="ဦး"/>
+</RelativeLayout>
+</ScrollView>

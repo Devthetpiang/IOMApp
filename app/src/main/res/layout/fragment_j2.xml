@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_j2"
+        android:text="J2. ရွိပါက မည္သူရွိေနပါသလဲ။ (သက္ဆိုင္သည့္အေျဖမ်ားကို ဝိုင္းပါ)"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/q_j2"
+        android:paddingLeft="20dp">
+             <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_j2_1_1"
+            android:text="အိမ္ေထာင္ဖက္" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rg_j2_1_1"
+            android:id="@+id/rg_j2_2_1"
+            android:text="သား၊သမီး(မ်ား) သို႔မဟုတ္ သားမက္၊ေခၽြးမ" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_j2_3_1"
+            android:layout_below="@id/rg_j2_2_1"
+            android:text="ေျမး(မ်ား)" />
+        <com.xavey.proto.control.ProtoCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rg_j2_3_1"
+            android:id="@+id/rg_j2_4_1"
+            android:text="အျခား" />
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

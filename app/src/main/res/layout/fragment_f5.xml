@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_f5"
+        android:text="အတူေန ေျမး(မ်ား) အေၾကာင္းကို စဥ္းစား၍ ေျမး(မ်ား)အား ေစာင့္ေရွာက္မႈႏွင့္ သက္ဆိုင္သည့္ ေအာက္ပါအခ်က္မ်ားသည္ သင္(ႏွင့္/သို႔မဟုတ္) သင့္အိမ္ေထာင္ဖက္အတြက္ ဝန္ထုပ္ဝန္ပိုးျဖစ္ေစတယ္လို႔ ဘယ္ႏွႀကိမ္ေလာက္ စဥ္စားမိပါသလဲ။"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/q_f5"
+        android:rowCount="16"
+        android:columnCount="5"
+        >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text=""/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="လံုးဝမရွိပါ သို႔မဟုတ္ မရွိသေလာက္"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="တစ္ခါတစ္ရံ"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="အၿမဲတမ္း"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="၎ကို မျပဳလုပ္ပါ။"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="ေျမး(မ်ား)၏ ေန႔စဥ္ လိုအပ္မႈမ်ားအတြက္ ေငြေၾကး ေထာက္ပံ့ရျခင္း (ဥပမာ - အစားအေသာက္)သည္ ဘယ္ႏွႀကိမ္ေလာက္ ဝန္ထုပ္ဝန္ပိုး ျဖစ္ေစပါသလဲ။"/>
+        <RadioGroup
+            android:id="@+id/rg_f5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="ေျမး(မ်ား)၏ ပညာေရးအတြက္ ေငြေၾကးေထာက္ပံ့ရျခင္း (ဥပမာ - ေက်ာင္းလခ)သည္ ဘယ္ႏွႀကိမ္ေလာက္ ဝန္ထုပ္ဝန္ပိုး ျဖစ္ေစပါသလဲ။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_f5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="ပုဂၢိဳလ္ေရးရာ ေစာင့္ေရွာက္မႈ ေပးရျခင္း (ဥပမာ - ေရးခ်ိဳးေပးျခင္း၊ အစားအစာေကၽြးျခင္း)သည္ ဘယ္ႏွႀကိမ္ေလာက္ ဝန္ထုပ္ဝန္ပိုး ျဖစ္ေစပါသလဲ။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_f5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="စိတ္ပို္င္းဆိုင္ရာ ေထာက္ပံ့မႈႏွင့္ ႏွစ္သိမ့္မႈ ေပးရျခင္း သည္ ဘယ္ႏွႀကိမ္ေလာက္ ဝန္ထုပ္ဝန္ပိုး ျဖစ္ေစပါသလဲ။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_f5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="ေျမး(မ်ား) ဆိုးရြားစြာ ျပဳမူေသာ အခါတြင္ ဆံုးမျပဳျပင္ရျခင္းသည္ ဘယ္ႏွႀကိမ္ေလာက္ ဝန္ထုပ္ဝန္ပိုး ျဖစ္ေစပါသလဲ။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_f5_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="ေျမး(မ်ား)၏ အိမ္စာ သို႔မဟုတ္ အျခား ပညာေရးႏွင့္ ပတ္သက္သည့္ ကိစၥရပ္မ်ားတြင္ အႀကံဥာဏ္ေပးျခင္း ႏွင့္ ကူညီရျခင္းသည္ ဘယ္ႏွႀကိမ္ေလာက္ ဝန္ထုပ္ဝန္ပိုး ျဖစ္ေစပါသလဲ။"/>
+
+        <RadioGroup
+            android:id="@+id/rg_f5_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            >
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_6_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"/>
+            <com.xavey.proto.control.ProtoRadioButton
+                android:id="@+id/rg_f5_6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+    </GridLayout>
+
+
+</RelativeLayout>
+</ScrollView>

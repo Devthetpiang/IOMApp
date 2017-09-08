@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/q_q3b"
+            android:text="Q3b. ေက်းရြာ/ ရပ္ကြက္ထဲတြင္ ေနထိုင္သူမ်ားေသာ တိုင္းရင္းသားလူမ်ိဳးစု သံုးမ်ိဳးကို ေျပာျပပါ။ (တိုင္းရင္းသား Code ကို မွတ္သားပါ။ အမ်ားဆံုးမွ အနည္းဆံုးသို႔ အစဥ္လိုက္ ခ်ေရးပါ။)"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/q_q3b"
+            android:rowCount="16"
+            android:columnCount="3"
+            >
+
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text=""/>
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:text="Code"/>
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:text=""/>
+
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:text="Q3b1. ပထမ အမ်ားဆံုး တိုင္းရင္းသား"/>
+            <com.xavey.proto.control.ProtoSpinner
+                android:id="@+id/sp_q3b1"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/q3b" />
+            <com.xavey.proto.control.ProtoEditText
+                android:id="@+id/et_q3b1_other"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:hint="ေဖာ္ျပပါ" />
+
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:text="Q3b2. ဒုတိယ အမ်ားဆံုး တိုင္းရင္းသား"/>
+            <com.xavey.proto.control.ProtoSpinner
+                android:id="@+id/sp_q3b2"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/q3b" />
+            <com.xavey.proto.control.ProtoEditText
+                android:id="@+id/et_q3b2_other"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ေဖာ္ျပပါ" />
+
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:text="Q3b3. တတိယ အမ်ားဆံုး တိုင္းရင္းသား"/>
+            <com.xavey.proto.control.ProtoSpinner
+                android:id="@+id/sp_q3b3"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/q3b" />
+            <com.xavey.proto.control.ProtoEditText
+                android:id="@+id/et_q3b3_other"
+                android:layout_row="3"
+                android:layout_column="2"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ေဖာ္ျပပါ" />
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>
